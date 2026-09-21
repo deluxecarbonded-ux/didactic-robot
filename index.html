@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark" data-route="/">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+<meta name="theme-color" content="#000000" />
+<meta name="color-scheme" content="dark light" />
+<title>Exotic — Guess The Password</title>
+<meta name="description" content="Exotic is a brain-teaser password game. Crack a four digit cipher with riddles, trivia, math and science. Single player runs and real-time multiplayer duels." />
+
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet" />
+
+<link rel="stylesheet" href="assets/css/tokens.css" />
+<link rel="stylesheet" href="assets/css/base.css" />
+<link rel="stylesheet" href="assets/css/components.css" />
+<link rel="stylesheet" href="assets/css/views.css" />
+<link rel="stylesheet" href="assets/css/motion.css" />
+
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%23000'/%3E%3Ctext x='16' y='23' font-size='19' font-family='monospace' fill='%23fff' text-anchor='middle'%3E%E2%97%88%3C/text%3E%3C/svg%3E" />
+</head>
+<body class="is-booting">
+
+  <canvas id="field-canvas" aria-hidden="true"></canvas>
+  <canvas id="fx-canvas" aria-hidden="true"></canvas>
+  <div class="grain" aria-hidden="true"></div>
+
+  <a class="skip-link" href="#app-root">Skip to content</a>
+
+  <header id="app-header" class="app-header"></header>
+
+  <main id="app-root" class="app-main" tabindex="-1"></main>
+
+  <footer id="app-footer" class="app-footer"></footer>
+
+  <div id="layer-root" class="layer-root"></div>
+  <div id="modal-root" class="modal-root"></div>
+  <div id="toast-root" class="toast-root" role="status" aria-live="polite"></div>
+
+  <div id="boot-screen" class="boot-screen">
+    <div class="boot-mark" aria-hidden="true">
+      <span class="boot-glyph">◈</span>
+      <span class="boot-ring"></span>
+    </div>
+    <p class="boot-title">EXOTIC</p>
+    <p class="boot-sub mono" id="boot-status">booting cipher core…</p>
+  </div>
+
+  <script src="assets/js/core/emitter.js"></script>
+  <script src="assets/js/core/util.js"></script>
+  <script src="assets/js/core/dom.js"></script>
+  <script src="assets/js/core/store.js"></script>
+  <script src="assets/js/core/audio.js"></script>
+  <script src="assets/js/core/icons.js"></script>
+  <script src="assets/js/core/config.js"></script>
+  <script src="assets/js/core/router.js"></script>
+
+  <script src="assets/js/fx/field.js"></script>
+  <script src="assets/js/fx/burst.js"></script>
+  <script src="assets/js/fx/lock.js"></script>
+
+  <script src="assets/js/net/supabase-client.js"></script>
+  <script src="assets/js/net/ai.js"></script>
+  <script src="assets/js/net/realtime.js"></script>
+  <script src="assets/js/net/cloud.js"></script>
+
+  <script src="assets/js/data/puzzles.js"></script>
+  <script src="assets/js/data/catalog.js"></script>
+  <script src="assets/js/data/badges.js"></script>
+
+  <script src="assets/js/game/puzzle-engine.js"></script>
+  <script src="assets/js/game/scoring.js"></script>
+  <script src="assets/js/game/profile.js"></script>
+  <script src="assets/js/game/session.js"></script>
+  <script src="assets/js/game/single-player.js"></script>
+  <script src="assets/js/game/multiplayer.js"></script>
+
+  <script src="assets/js/ui/toast.js"></script>
+  <script src="assets/js/ui/modal.js"></script>
+  <script src="assets/js/ui/widgets.js"></script>
+  <script src="assets/js/ui/keypad.js"></script>
+
+  <script src="assets/js/views/home.js"></script>
+  <script src="assets/js/views/auth.js"></script>
+  <script src="assets/js/views/board.js"></script>
+  <script src="assets/js/views/single-play.js"></script>
+  <script src="assets/js/views/multi-lobby.js"></script>
+  <script src="assets/js/views/multi-room.js"></script>
+  <script src="assets/js/views/shop.js"></script>
+  <script src="assets/js/views/profile.js"></script>
+  <script src="assets/js/views/leaderboard.js"></script>
+  <script src="assets/js/views/settings.js"></script>
+  <script src="assets/js/views/guide.js"></script>
+  <script src="assets/js/views/notfound.js"></script>
+
+  <script src="assets/js/app.js"></script>
+</body>
+</html>

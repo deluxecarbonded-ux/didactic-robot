@@ -1,0 +1,441 @@
+=== app.js (313 lines) ===
+exp  setTheme = se
+exp  closeDrawer = cl
+exp  Router = ro
+exp  Router = ro
+
+=== core\audio.js (180 lines) ===
+mt   Audio._ensure()
+mt   Audio.unlock()
+mt   Audio.setEnabled()
+mt   Audio.setVolume()
+mt   Audio._voice()
+mt   Audio._noise()
+mt   Audio.key()
+mt   Audio.erase()
+mt   Audio.hover()
+mt   Audio.correct()
+mt   Audio.wrong()
+mt   Audio.unlockCue()
+mt   Audio.crack()
+mt   Audio.fail()
+mt   Audio.tick()
+mt   Audio.warn()
+mt   Audio.coin()
+mt   Audio.purchase()
+mt   Audio.denied()
+mt   Audio.whoosh()
+mt   Audio.reveal()
+mt   Audio.power()
+mt   Audio.message()
+mt   Audio.join()
+mt   Audio.leave()
+exp  audio = ne
+
+=== core\config.js (306 lines) ===
+exp  config = co
+exp  TIERS = TI
+exp  AI_MODELS = AI
+
+=== core\dom.js (160 lines) ===
+exp  dom = do
+
+=== core\emitter.js (74 lines) ===
+mt   Emitter.on()
+mt   Emitter.once()
+mt   Emitter.off()
+mt   Emitter.emit()
+mt   Emitter.listeners()
+mt   Emitter.clear()
+
+=== core\icons.js (223 lines) ===
+  (no X.* exports / prototypes)
+
+=== core\router.js (231 lines) ===
+mt   Router.register()
+mt   Router.registerAll()
+mt   Router.resolve()
+mt   Router.start()
+mt   Router._onHash()
+mt   Router.go()
+mt   Router._go()
+mt   Router.reload()
+mt   Router._teardownBindings()
+mt   Router.bind()
+mt   Router.is()
+mt   Router.href()
+mt   Router.link()
+exp  Router = Ro
+exp  parseHash = pa
+exp  matchRoute = ma
+exp  buildHref = bu
+
+=== core\store.js (132 lines) ===
+mt   Store.get()
+mt   Store.set()
+mt   Store.update()
+mt   Store.toggle()
+mt   Store.push()
+mt   Store.remove()
+mt   Store.reset()
+mt   Store.batch()
+mt   Store._queue()
+mt   Store._flush()
+exp  Store = St
+exp  getPath = ge
+exp  setPath = se
+
+=== core\util.js (315 lines) ===
+exp  util = ut
+
+=== data\badges.js (138 lines) ===
+exp  Badges = { obj }
+
+=== data\catalog.js (227 lines) ===
+exp  Shop = Sh
+
+=== data\puzzles.js (256 lines) ===
+exp  Puzzles = ba
+
+=== fx\burst.js (316 lines) ===
+mt   Burst.init()
+mt   Burst._readInk()
+mt   Burst._resize()
+mt   Burst._spawn()
+mt   Burst._frame()
+mt   Burst._step()
+mt   Burst._draw()
+mt   Burst.confetti()
+mt   Burst.sparks()
+mt   Burst.ring()
+mt   Burst.shatter()
+mt   Burst.floatText()
+mt   Burst.rain()
+mt   Burst.clear()
+mt   Burst.destroy()
+exp  Burst = Bu
+exp  fxShake = sh
+
+=== fx\field.js (328 lines) ===
+mt   Field.init()
+mt   Field._readInk()
+mt   Field._seed()
+mt   Field._makeGlyph()
+mt   Field._onMove()
+mt   Field._onLeave()
+mt   Field._onVisibility()
+mt   Field.mood()
+mt   Field.pulse()
+mt   Field._frame()
+mt   Field._update()
+mt   Field._draw()
+mt   Field.setOpacity()
+mt   Field.destroy()
+exp  Field = Fi
+
+=== fx\lock.js (314 lines) ===
+mt   VaultDial.init()
+mt   VaultDial._readInk()
+mt   VaultDial._resize()
+mt   VaultDial.setState()
+mt   VaultDial.reveal()
+mt   VaultDial.reset()
+mt   VaultDial.crackOpen()
+mt   VaultDial._frame()
+mt   VaultDial._draw()
+mt   VaultDial.destroy()
+exp  VaultDial = Va
+exp  cipherRain = ci
+
+=== game\multiplayer.js (516 lines) ===
+mt   Multiplayer.available()
+mt   Multiplayer.online()
+mt   Multiplayer.profileId()
+mt   Multiplayer.myName()
+mt   Multiplayer.wallet()
+mt   Multiplayer.inRoom()
+mt   Multiplayer.isHost()
+mt   Multiplayer.roomCode()
+mt   Multiplayer.mode()
+mt   Multiplayer.listRooms()
+mt   Multiplayer.createRoom()
+mt   Multiplayer.joinByCode()
+mt   Multiplayer.joinById()
+mt   Multiplayer._enter()
+mt   Multiplayer._subscribe()
+mt   Multiplayer._onRoom()
+mt   Multiplayer._onPlayer()
+mt   Multiplayer._onEvent()
+mt   Multiplayer._onRivalProgress()
+mt   Multiplayer._onRivalFinish()
+mt   Multiplayer._onChat()
+mt   Multiplayer.start()
+mt   Multiplayer._begin()
+mt   Multiplayer._placement()
+mt   Multiplayer._onLocalEnd()
+mt   Multiplayer.say()
+mt   Multiplayer.emote()
+mt   Multiplayer.leave()
+mt   Multiplayer.startHotseat()
+mt   Multiplayer.hotseatPlay()
+mt   Multiplayer._hotseatPlacement()
+mt   Multiplayer.hotseatStandings()
+mt   Multiplayer.hotseatNext()
+exp  Multiplayer = ne
+
+=== game\profile.js (311 lines) ===
+exp  Profile = { obj }
+
+=== game\puzzle-engine.js (624 lines) ===
+exp  Engine = { obj }
+
+=== game\scoring.js (171 lines) ===
+exp  Scoring = { obj }
+
+=== game\session.js (295 lines) ===
+mt   Session.prepare()
+mt   Session.start()
+mt   Session.stop()
+mt   Session.destroy()
+mt   Session.tick()
+mt   Session.answer()
+mt   Session.commit()
+mt   Session._checkReady()
+mt   Session.guess()
+mt   Session.unlock()
+mt   Session.canUnlock()
+mt   Session.hint()
+mt   Session.useItem()
+mt   Session.end()
+mt   Session.abandon()
+mt   Session.snapshot()
+mt   Session.save()
+mt   Session.clearSaved()
+mt   Session.progress()
+exp  Session = Se
+
+=== game\single-player.js (126 lines) ===
+mt   SinglePlayer.active()
+mt   SinglePlayer.build()
+mt   SinglePlayer.create()
+mt   SinglePlayer.daily()
+mt   SinglePlayer.dailyDone()
+mt   SinglePlayer._adopt()
+mt   SinglePlayer.resume()
+mt   SinglePlayer.hasSaved()
+mt   SinglePlayer.save()
+mt   SinglePlayer.abandon()
+mt   SinglePlayer.wallet()
+exp  SinglePlayer = ne
+
+=== net\ai.js (392 lines) ===
+mt   Oracle.enabled()
+mt   Oracle._available()
+mt   Oracle._cool()
+mt   Oracle.ask()
+mt   Oracle._request()
+mt   Oracle.forgePuzzle()
+mt   Oracle.explain()
+mt   Oracle.coach()
+mt   Oracle.summarise()
+mt   Oracle.clearCache()
+mt   Oracle.clearCooldowns()
+mt   Oracle.status()
+exp  Oracle = ne
+exp  extractJson = ex
+
+=== net\cloud.js (696 lines) ===
+mt   Realm.client()
+mt   Realm.online()
+mt   Realm.local()
+mt   Realm.offline()
+mt   Realm.table()
+mt   Realm.me()
+mt   Realm.userId()
+mt   Realm.init()
+mt   Realm._loadLocalProfile()
+mt   Realm.persist()
+mt   Realm.refresh()
+mt   Realm._adopt()
+mt   Realm._createRemote()
+mt   Realm.ensure()
+mt   Realm.patch()
+mt   Realm.touch()
+mt   Realm.bump()
+mt   Realm.balance()
+mt   Realm._balanceField()
+mt   Realm.grant()
+mt   Realm.spend()
+mt   Realm.loadInventory()
+mt   Realm.addToInventory()
+mt   Realm.quantityOf()
+mt   Realm.hasItem()
+mt   Realm.consume()
+mt   Realm.purchase()
+mt   Realm.equip()
+mt   Realm.loadHistory()
+mt   Realm.record()
+mt   Realm.saveRun()
+mt   Realm.loadRun()
+mt   Realm.clearRun()
+mt   Realm.leaderboard()
+mt   Realm.myPosition()
+mt   Realm.signUp()
+mt   Realm.signIn()
+mt   Realm.signOut()
+mt   Realm.isSignedIn()
+mt   Realm.accountLabel()
+exp  Cloud = CL
+exp  Realm = Re
+
+=== net\realtime.js (229 lines) ===
+mt   Realtime.available()
+mt   Realtime._track()
+mt   Realtime.closeAll()
+mt   Realtime.room()
+mt   Realtime.roomAction()
+mt   Realtime.lobby()
+mt   Realtime.profile()
+mt   Realtime.inventory()
+mt   Realtime.leaderboard()
+mt   Realtime.shop()
+mt   Realtime.run()
+mt   Realtime.ping()
+exp  Realtime = ne
+
+=== net\supabase-client.js (615 lines) ===
+mt   Client.configure()
+mt   Client.isReady()
+mt   Client._saveSession()
+mt   Client.user()
+mt   Client.isSignedIn()
+mt   Client._tokenFresh()
+mt   Client.ensureToken()
+mt   Client._authFetch()
+mt   Client.signUp()
+mt   Client.signIn()
+mt   Client.signInWithOtp()
+mt   Client.verifyOtp()
+mt   Client.resetPassword()
+mt   Client.signOut()
+mt   Client.updateUser()
+mt   Query._add()
+mt   Query.select()
+mt   Query.insert()
+mt   Query.upsert()
+mt   Query.update()
+mt   Query.delete()
+mt   Query.eq()
+mt   Query.neq()
+mt   Query.gt()
+mt   Query.gte()
+mt   Query.lt()
+mt   Query.lte()
+mt   Query.like()
+mt   Query.ilike()
+mt   Query.is()
+mt   Query.in()
+mt   Query.contains()
+mt   Query.order()
+mt   Query.limit()
+mt   Query.range()
+mt   Query.count()
+mt   Query.single()
+mt   Query.maybeSingle()
+mt   Query._url()
+mt   Query.then()
+mt   Query.catch()
+mt   Query.finally()
+mt   Query._run()
+mt   Client.from()
+mt   Client.rpc()
+mt   Client.invoke()
+mt   Channel.on()
+mt   Channel.onPostgres()
+mt   Channel.onBroadcast()
+mt   Channel.onPresence()
+mt   Channel._sendJoin()
+mt   Channel.send()
+mt   Channel.track()
+mt   Channel.untrack()
+mt   Channel._onMessage()
+mt   Channel._parsePresence()
+mt   Channel.subscribe()
+mt   Channel.unsubscribe()
+mt   Client.channel()
+mt   Client.removeAllChannels()
+exp  SB = si
+exp  SBm = mu
+exp  SBfor = SB
+exp  SupabaseError = Ht
+
+=== ui\keypad.js (138 lines) ===
+mt   Keypad._build()
+mt   Keypad.focus()
+mt   Keypad.blur()
+mt   Keypad.set()
+mt   Keypad.clear()
+mt   Keypad.press()
+mt   Keypad._notify()
+mt   Keypad.destroy()
+exp  Keypad = Ke
+
+=== ui\modal.js (211 lines) ===
+  (no X.* exports / prototypes)
+
+=== ui\toast.js (96 lines) ===
+exp  Toast = { obj }
+
+=== ui\widgets.js (373 lines) ===
+exp  Widgets = { obj }
+
+=== views\auth.js (167 lines) ===
+exp  views = X
+
+=== views\board.js (450 lines) ===
+mt   Board.mount()
+mt   Board.guess()
+mt   Board._on()
+mt   Board.destroy()
+mt   Board._hud()
+mt   Board._timePct()
+mt   Board._hudTick()
+mt   Board._slotsRow()
+mt   Board._codePanel()
+mt   Board._renderAttempts()
+mt   Board._puzzleCard()
+mt   Board._pickAnswer()
+mt   Board._markWrong()
+mt   Board._powerups()
+mt   Board._refresh()
+exp  Board = Bo
+
+=== views\guide.js (115 lines) ===
+exp  views = X
+
+=== views\home.js (159 lines) ===
+exp  views = X
+
+=== views\leaderboard.js (165 lines) ===
+exp  views = X
+
+=== views\multi-lobby.js (308 lines) ===
+exp  views = X
+
+=== views\multi-room.js (865 lines) ===
+exp  views = X
+
+=== views\notfound.js (32 lines) ===
+exp  views = X
+
+=== views\profile.js (210 lines) ===
+exp  views = X
+
+=== views\settings.js (216 lines) ===
+exp  views = X
+
+=== views\shop.js (172 lines) ===
+exp  views = X
+
+=== views\single-play.js (455 lines) ===
+exp  views = X

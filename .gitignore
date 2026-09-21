@@ -1,0 +1,23 @@
+# OS cruft
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor / IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Local config & secrets (never commit keys)
+.env
+.env.local
+*.local
+
+# Node tooling (none used at runtime, but keep clean anyway)
+node_modules/
+npm-debug.log*
+
+# Supabase local runtime
+supabase/.temp/
+supabase/.branches/

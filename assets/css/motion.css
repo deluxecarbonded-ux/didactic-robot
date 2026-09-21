@@ -1,0 +1,114 @@
+/* ==========================================================================
+   Exotic — motion library
+   Every keyframe used across the app lives here so timing stays consistent.
+   ========================================================================== */
+
+@keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
+@keyframes fadeUp { from { opacity: 0; transform: translateY(14px); } to { opacity: 1; transform: none; } }
+@keyframes fadeDown { from { opacity: 0; transform: translateY(-14px); } to { opacity: 1; transform: none; } }
+@keyframes fadeScale { from { opacity: 0; transform: scale(0.96); } to { opacity: 1; transform: none; } }
+@keyframes modalIn { from { opacity: 0; transform: translateY(26px) scale(0.97); } to { opacity: 1; transform: none; } }
+@keyframes toastIn { from { opacity: 0; transform: translateY(16px) scale(0.96); } to { opacity: 1; transform: none; } }
+@keyframes toastOut { to { opacity: 0; transform: translateX(28px); } }
+
+@keyframes slotPop {
+  0% { transform: scale(1); }
+  38% { transform: scale(1.16); }
+  100% { transform: scale(1); }
+}
+
+@keyframes shake {
+  10%, 90% { transform: translateX(-2px); }
+  20%, 80% { transform: translateX(4px); }
+  30%, 50%, 70% { transform: translateX(-7px); }
+  40%, 60% { transform: translateX(7px); }
+}
+
+@keyframes blink { 50% { opacity: 0.25; } }
+
+@keyframes shimmer {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.45; }
+}
+
+@keyframes dotPulse {
+  0%, 100% { opacity: 1; transform: scale(1); }
+  50% { opacity: 0.3; transform: scale(0.7); }
+}
+
+@keyframes marquee {
+  from { transform: translateX(0); }
+  to { transform: translateX(-50%); }
+}
+
+@keyframes floatY {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-9px); }
+}
+
+@keyframes spinSlow { to { transform: rotate(360deg); } }
+
+@keyframes glitchIn {
+  0% { opacity: 0; clip-path: inset(44% 0 44% 0); transform: translateX(-8px); }
+  40% { opacity: 1; clip-path: inset(8% 0 62% 0); transform: translateX(5px); }
+  70% { clip-path: inset(62% 0 6% 0); transform: translateX(-3px); }
+  100% { opacity: 1; clip-path: inset(0 0 0 0); transform: none; }
+}
+
+@keyframes sweep {
+  from { transform: translateX(-110%); }
+  to { transform: translateX(210%); }
+}
+
+@keyframes pulseRing {
+  0% { box-shadow: 0 0 0 0 var(--ink-ghost); }
+  70% { box-shadow: 0 0 0 16px transparent; }
+  100% { box-shadow: 0 0 0 0 transparent; }
+}
+
+/* entrance choreography -------------------------------------------------- */
+
+.anim-in { animation: fadeUp var(--t-slow) var(--ease-out) both; }
+.anim-scale { animation: fadeScale var(--t-slow) var(--ease-out) both; }
+.anim-glitch { animation: glitchIn var(--t-slow) var(--ease-out) both; }
+
+.stagger > * { animation: fadeUp var(--t-slow) var(--ease-out) both; }
+.stagger > *:nth-child(1) { animation-delay: 40ms; }
+.stagger > *:nth-child(2) { animation-delay: 90ms; }
+.stagger > *:nth-child(3) { animation-delay: 140ms; }
+.stagger > *:nth-child(4) { animation-delay: 190ms; }
+.stagger > *:nth-child(5) { animation-delay: 240ms; }
+.stagger > *:nth-child(6) { animation-delay: 290ms; }
+.stagger > *:nth-child(7) { animation-delay: 340ms; }
+.stagger > *:nth-child(8) { animation-delay: 390ms; }
+.stagger > *:nth-child(n+9) { animation-delay: 430ms; }
+
+/* route transit ----------------------------------------------------------- */
+
+.view-enter { animation: fadeUp var(--t-slow) var(--ease-out) both; }
+.view-leave { animation: fadeIn var(--t-fast) var(--ease-out) reverse both; }
+
+.marquee-track { display: flex; width: max-content; animation: marquee 34s linear infinite; }
+.marquee:hover .marquee-track { animation-play-state: paused; }
+
+.float { animation: floatY 5s var(--ease-in-out) infinite; }
+.spin-slow { animation: spinSlow 14s linear infinite; }
+
+.sweep { position: relative; overflow: hidden; }
+.sweep::before {
+  content: "";
+  position: absolute;
+  top: 0; bottom: 0;
+  width: 42%;
+  background: color-mix(in srgb, var(--ink) 8%, transparent);
+  animation: sweep 2.8s var(--ease-in-out) infinite;
+  pointer-events: none;
+}
+
+.pulse-ring { animation: pulseRing 2.2s var(--ease-out) infinite; }
+
+.press-fx { transition: transform var(--t-fast) var(--ease-out); }
+.press-fx:active { transform: scale(0.96); }
+
+.lift { transition: transform var(--t-base) var(--ease-out), background-color var(--t-base) var(--ease-out); }
+.lift:hover { transform: translateY(-3px); }

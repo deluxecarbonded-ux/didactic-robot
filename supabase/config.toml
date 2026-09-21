@@ -1,0 +1,65 @@
+# Exotic — Supabase project configuration
+# Used by `supabase start` (local) and `supabase link` + `supabase db push` (hosted).
+# The client never hardcodes project secrets: you paste URL + anon key in the
+# Settings view, or leave them empty and the whole game runs on localStorage.
+
+project_id = "exotic"
+
+[api]
+enabled = true
+port = 54321
+schemas = ["public", "graphql_public"]
+extra_search_path = ["public", "extensions"]
+max_rows = 1000
+
+[db]
+port = 54322
+major_version = 15
+
+[studio]
+enabled = true
+port = 54323
+
+[inbucket]
+enabled = true
+port = 54324
+
+[storage]
+enabled = false
+
+[edge_runtime]
+enabled = true
+policy = "oneshot" # the oracle and puzzle functions are stateless proxies
+
+[analytics]
+enabled = false
+
+[auth]
+enabled = true
+site_url = "http://127.0.0.1:5500"
+additional_redirect_urls = ["http://localhost:5500", "http://127.0.0.1:8531"]
+jwt_expiry = 3600
+enable_signup = true
+enable_confirmations = false
+
+[auth.email]
+enable_signup = true
+double_confirm_changes = false
+enable_confirmations = false
+
+[realtime]
+enabled = true
+
+# Edge functions -----------------------------------------------------------
+# All three are stateless and gate themselves (they check the caller's JWT by
+# hand), so verify_jwt is off: the browser calls them with the anon key + a
+# user bearer token exactly like the Supabase client does for tables/RPCs.
+
+[functions.oracle]
+verify_jwt = false
+
+[functions.puzzle-serve]
+verify_jwt = false
+
+[functions.puzzle-verify]
+verify_jwt = false
