@@ -65,10 +65,18 @@ async function sourceStrings() {
     }
   };
   await walk(path.join(root, "assets", "js"));
+  const html = await readFile(path.join(root, "index.html"), "utf8");
   return Promise.all(files.map((file) => readFile(file, "utf8"))).then((contents) => {
     const found = new Set();
     const seeded = ["Home", "Play", "Multi", "Shop", "Profile", "Rankings", "Settings", "How to play", "Language and direction", "Interface language", "Language updated."];
     seeded.forEach((value) => found.add(value));
+    for (const match of html.matchAll(/>([^<>\n\r]+)</g)) {
+      const value = match[1].replace(/\s+/g, " ").trim();
+      if (value && /[A-Za-z]{2}/.test(value)) found.add(value);
+    }
+    for (const match of html.matchAll(/(?:title|aria-label|placeholder|alt|content)="([^"]+)"/g)) {
+      if (match[1] && /[A-Za-z]{2}/.test(match[1])) found.add(match[1]);
+    }
     for (const content of contents) {
       for (const match of content.matchAll(/(['"])([^\n\r\\]{2,})\1/g)) {
         const value = match[2].trim();
@@ -91,7 +99,7 @@ const strings = await sourceStrings();
 await mkdir(outDir, { recursive: true });
 const messages = Object.fromEntries(strings.map((source) => [source, { key: source.toLowerCase().replace(/[^a-z0-9]+/g, ".").replace(/^\.|\.$/g, ""), value: source }]));
 const index = selectedLocales.map(([code, name]) => ({ code, name, dir: isRtl(code) ? "rtl" : "ltr", file: `${code}.json` }));
-await writeFile(path.join(outDir, "index.json"), JSON.stringify({ source: "en", locales: index, sourceStrings: strings.length, messages }, null, 2) + "\n");
+await writeFile(path.join(outDir, "index.json"), JSON.stringify({ source: "en", locales: index, sourceStrings: strings.length, references: strings, messages }, null, 2) + "\n");
 for (const [code, name] of selectedLocales) {
   const translations = Object.fromEntries(strings.map((source) => [source, source]));
   const messageKeys = Object.fromEntries(strings.map((source) => [messages[source].key, source]));

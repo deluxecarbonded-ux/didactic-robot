@@ -204,6 +204,12 @@ python tools/translate-locales.py
 The locale manifest exposes stable normalized `t` keys for all extracted
 strings, while the runtime accepts the original source text as the fallback.
 
+Check that every scanned UI reference exists in every locale pack:
+
+```sh
+node tools/check-i18n-coverage.mjs
+```
+
 Smoke-tested flows (headless browser, zero console errors): boot & home, all 11
 routes, a full solo run (solve → unlock → dial → Shards credited), save/resume,
 hints and power-ups, the shop and live wallet updates, settings switches and
