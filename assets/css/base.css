@@ -275,3 +275,17 @@ svg { fill: none; stroke: currentColor; }
     scroll-behavior: auto !important;
   }
 }
+
+/* Arabic locale packs opt into RTL at the document root. Keep the handful of
+  older physical offsets aligned with the rest of the logical layout. */
+html[data-rtl] { direction: rtl; }
+html[data-rtl] .skip-link { left: auto; right: 12px; }
+html[data-rtl] .avatar-stack .avatar { margin-left: 0; margin-right: -10px; }
+html[data-rtl] .avatar-stack .avatar:first-child { margin-right: 0; }
+html[data-rtl] .slot-idx { left: auto; right: 9px; }
+html[data-rtl] .toast-root { left: auto; right: var(--sp-5); }
+html[data-rtl] .mastery-val,
+html[data-rtl] .history-num { text-align: left; }
+html[data-rtl] .puzzle-answer-row,
+html[data-rtl] .btn-row,
+html[data-rtl] .nav-actions { direction: rtl; }

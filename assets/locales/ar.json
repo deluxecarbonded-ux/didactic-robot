@@ -1,0 +1,7 @@
+{
+  "locale": "ar",
+  "name": "Arabic",
+  "dir": "rtl",
+  "fallback": "en",
+  "translations": {}
+}

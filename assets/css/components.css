@@ -223,6 +223,105 @@ textarea.input { height: auto; min-height: 110px; padding: var(--sp-4); resize: 
 }
 .select:focus { background: var(--surface-3); box-shadow: 0 0 0 2px var(--ink); }
 
+/* ---------- locale menu -------------------------------------------------- */
+
+.locale-menu { position: relative; width: 100%; z-index: 4; }
+.locale-trigger {
+  display: flex;
+  align-items: center;
+  gap: var(--sp-3);
+  width: 100%;
+  min-height: 46px;
+  padding: 0 var(--sp-4);
+  background: var(--surface-2);
+  color: var(--ink);
+  border-radius: var(--r-md);
+  text-align: start;
+  transition: background-color var(--t-base) var(--ease-out), box-shadow var(--t-base) var(--ease-out);
+}
+.locale-trigger:hover,
+.locale-menu.is-open .locale-trigger { background: var(--surface-3); }
+.locale-trigger:focus-visible { box-shadow: 0 0 0 2px var(--ink); }
+.locale-trigger:disabled { opacity: 0.55; cursor: wait; }
+.locale-trigger > svg,
+.locale-trigger .locale-chevron { margin-inline-start: auto; color: var(--ink-faint); flex: none; display: inline-flex; }
+.locale-current-name { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.locale-current-code { color: var(--ink-faint); font-size: var(--fs-2xs); text-transform: uppercase; }
+.locale-list {
+  position: absolute;
+  inset-inline: 0;
+  top: calc(100% + 8px);
+  display: none;
+  grid-template-columns: 1fr;
+  gap: 3px;
+  max-height: 320px;
+  padding: 6px;
+  overflow-y: auto;
+  background: var(--surface-1);
+  border-radius: var(--r-lg);
+  box-shadow: var(--shadow-2);
+}
+.locale-menu.is-open .locale-list { display: grid; }
+.locale-option {
+  display: flex;
+  align-items: center;
+  gap: var(--sp-3);
+  width: 100%;
+  min-height: 44px;
+  padding: 7px 10px;
+  border-radius: var(--r-sm);
+  color: var(--ink);
+  text-align: start;
+}
+.locale-option:hover,
+.locale-option:focus-visible,
+.locale-option.is-selected { background: var(--surface-3); }
+.locale-option > svg { margin-inline-start: auto; flex: none; }
+.locale-option-copy { display: flex; flex: 1; min-width: 0; flex-direction: column; gap: 1px; }
+.locale-option-copy strong { font-size: var(--fs-sm); font-weight: 600; }
+.locale-option-copy small { color: var(--ink-faint); font-size: var(--fs-2xs); text-transform: uppercase; }
+.locale-flag {
+  position: relative;
+  display: inline-block;
+  width: 25px;
+  height: 18px;
+  flex: none;
+  overflow: hidden;
+  border-radius: 3px;
+  background: linear-gradient(135deg, var(--ink-soft), var(--surface-3));
+  box-shadow: 0 0 0 1px color-mix(in srgb, var(--ink) 12%, transparent);
+  transform-origin: 10% 50%;
+}
+.locale-menu.is-open .locale-flag { animation: localeFlagWave 1.8s var(--ease-in-out) infinite; }
+.locale-flag::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(105deg, transparent 28%, rgba(255,255,255,0.34) 48%, transparent 68%);
+  transform: translateX(-130%);
+  animation: localeFlagShine 1.8s ease-in-out infinite;
+}
+.locale-flag[data-flag="us"] { background: repeating-linear-gradient(to bottom, #c94747 0 2px, #fff 2px 4px); }
+.locale-flag[data-flag="gb"] { background: linear-gradient(33deg, transparent 42%, #fff 43% 48%, #c53b4a 49% 53%, #fff 54% 59%, transparent 60%), linear-gradient(-33deg, transparent 42%, #fff 43% 48%, #c53b4a 49% 53%, #fff 54% 59%, transparent 60%), #263d79; }
+.locale-flag[data-flag="fr"] { background: linear-gradient(to right, #284b9b 0 33%, #fff 33% 66%, #d64a53 66%); }
+.locale-flag[data-flag="de"] { background: linear-gradient(#1c1c1c 0 33%, #c64242 33% 66%, #e0b34b 66%); }
+.locale-flag[data-flag="it"] { background: linear-gradient(to right, #3e8c5a 0 33%, #fff 33% 66%, #d45c5c 66%); }
+.locale-flag[data-flag="es"] { background: linear-gradient(#c74b4b 0 25%, #e7c35c 25% 75%, #c74b4b 75%); }
+.locale-flag[data-flag="ar"], .locale-flag[data-flag="sa"] { background: linear-gradient(#296c4a 0 100%); }
+.locale-flag[data-flag="jp"] { background: radial-gradient(circle, #c74b4b 0 28%, transparent 30%), #fff; }
+.locale-flag[data-flag="cn"] { background: #c94a4a; }
+.locale-flag[data-flag="in"] { background: linear-gradient(#e08b43 0 33%, #fff 33% 66%, #5a9968 66%); }
+
+@keyframes localeFlagWave {
+  0%, 100% { transform: perspective(100px) rotateY(0deg) skewY(0deg); }
+  35% { transform: perspective(100px) rotateY(-12deg) skewY(2deg); }
+  70% { transform: perspective(100px) rotateY(10deg) skewY(-2deg); }
+}
+@keyframes localeFlagShine {
+  0%, 30% { transform: translateX(-130%); }
+  65%, 100% { transform: translateX(130%); }
+}
+
 .hint { font-size: var(--fs-xs); color: var(--ink-faint); }
 .error-text { font-size: var(--fs-xs); color: var(--ink); font-weight: 600; }
 

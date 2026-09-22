@@ -1,0 +1,906 @@
+{
+  "source": "en",
+  "locales": [
+    {
+      "code": "en",
+      "name": "English",
+      "dir": "ltr",
+      "file": "en.json"
+    },
+    {
+      "code": "es",
+      "name": "Spanish",
+      "dir": "ltr",
+      "file": "es.json"
+    },
+    {
+      "code": "fr",
+      "name": "French",
+      "dir": "ltr",
+      "file": "fr.json"
+    },
+    {
+      "code": "de",
+      "name": "German",
+      "dir": "ltr",
+      "file": "de.json"
+    },
+    {
+      "code": "it",
+      "name": "Italian",
+      "dir": "ltr",
+      "file": "it.json"
+    },
+    {
+      "code": "pt",
+      "name": "Portuguese",
+      "dir": "ltr",
+      "file": "pt.json"
+    },
+    {
+      "code": "pt-BR",
+      "name": "Portuguese (Brazil)",
+      "dir": "ltr",
+      "file": "pt-BR.json"
+    },
+    {
+      "code": "pt-PT",
+      "name": "Portuguese (Portugal)",
+      "dir": "ltr",
+      "file": "pt-PT.json"
+    },
+    {
+      "code": "ru",
+      "name": "Russian",
+      "dir": "ltr",
+      "file": "ru.json"
+    },
+    {
+      "code": "uk",
+      "name": "Ukrainian",
+      "dir": "ltr",
+      "file": "uk.json"
+    },
+    {
+      "code": "pl",
+      "name": "Polish",
+      "dir": "ltr",
+      "file": "pl.json"
+    },
+    {
+      "code": "nl",
+      "name": "Dutch",
+      "dir": "ltr",
+      "file": "nl.json"
+    },
+    {
+      "code": "sv",
+      "name": "Swedish",
+      "dir": "ltr",
+      "file": "sv.json"
+    },
+    {
+      "code": "no",
+      "name": "Norwegian",
+      "dir": "ltr",
+      "file": "no.json"
+    },
+    {
+      "code": "da",
+      "name": "Danish",
+      "dir": "ltr",
+      "file": "da.json"
+    },
+    {
+      "code": "fi",
+      "name": "Finnish",
+      "dir": "ltr",
+      "file": "fi.json"
+    },
+    {
+      "code": "cs",
+      "name": "Czech",
+      "dir": "ltr",
+      "file": "cs.json"
+    },
+    {
+      "code": "sk",
+      "name": "Slovak",
+      "dir": "ltr",
+      "file": "sk.json"
+    },
+    {
+      "code": "hu",
+      "name": "Hungarian",
+      "dir": "ltr",
+      "file": "hu.json"
+    },
+    {
+      "code": "ro",
+      "name": "Romanian",
+      "dir": "ltr",
+      "file": "ro.json"
+    },
+    {
+      "code": "bg",
+      "name": "Bulgarian",
+      "dir": "ltr",
+      "file": "bg.json"
+    },
+    {
+      "code": "el",
+      "name": "Greek",
+      "dir": "ltr",
+      "file": "el.json"
+    },
+    {
+      "code": "tr",
+      "name": "Turkish",
+      "dir": "ltr",
+      "file": "tr.json"
+    },
+    {
+      "code": "ar",
+      "name": "Arabic",
+      "dir": "rtl",
+      "file": "ar.json"
+    },
+    {
+      "code": "ar-EG",
+      "name": "Arabic (Egypt)",
+      "dir": "rtl",
+      "file": "ar-EG.json"
+    },
+    {
+      "code": "ar-SA",
+      "name": "Arabic (Saudi Arabia)",
+      "dir": "rtl",
+      "file": "ar-SA.json"
+    },
+    {
+      "code": "ar-AE",
+      "name": "Arabic (United Arab Emirates)",
+      "dir": "rtl",
+      "file": "ar-AE.json"
+    },
+    {
+      "code": "ar-MA",
+      "name": "Arabic (Morocco)",
+      "dir": "rtl",
+      "file": "ar-MA.json"
+    },
+    {
+      "code": "he",
+      "name": "Hebrew",
+      "dir": "ltr",
+      "file": "he.json"
+    },
+    {
+      "code": "fa",
+      "name": "Persian",
+      "dir": "ltr",
+      "file": "fa.json"
+    },
+    {
+      "code": "ur",
+      "name": "Urdu",
+      "dir": "ltr",
+      "file": "ur.json"
+    },
+    {
+      "code": "hi",
+      "name": "Hindi",
+      "dir": "ltr",
+      "file": "hi.json"
+    },
+    {
+      "code": "bn",
+      "name": "Bangla",
+      "dir": "ltr",
+      "file": "bn.json"
+    },
+    {
+      "code": "ta",
+      "name": "Tamil",
+      "dir": "ltr",
+      "file": "ta.json"
+    },
+    {
+      "code": "te",
+      "name": "Telugu",
+      "dir": "ltr",
+      "file": "te.json"
+    },
+    {
+      "code": "mr",
+      "name": "Marathi",
+      "dir": "ltr",
+      "file": "mr.json"
+    },
+    {
+      "code": "gu",
+      "name": "Gujarati",
+      "dir": "ltr",
+      "file": "gu.json"
+    },
+    {
+      "code": "kn",
+      "name": "Kannada",
+      "dir": "ltr",
+      "file": "kn.json"
+    },
+    {
+      "code": "ml",
+      "name": "Malayalam",
+      "dir": "ltr",
+      "file": "ml.json"
+    },
+    {
+      "code": "pa",
+      "name": "Punjabi",
+      "dir": "ltr",
+      "file": "pa.json"
+    },
+    {
+      "code": "th",
+      "name": "Thai",
+      "dir": "ltr",
+      "file": "th.json"
+    },
+    {
+      "code": "vi",
+      "name": "Vietnamese",
+      "dir": "ltr",
+      "file": "vi.json"
+    },
+    {
+      "code": "id",
+      "name": "Indonesian",
+      "dir": "ltr",
+      "file": "id.json"
+    },
+    {
+      "code": "ms",
+      "name": "Malay",
+      "dir": "ltr",
+      "file": "ms.json"
+    },
+    {
+      "code": "fil",
+      "name": "Filipino",
+      "dir": "ltr",
+      "file": "fil.json"
+    },
+    {
+      "code": "zh",
+      "name": "Chinese",
+      "dir": "ltr",
+      "file": "zh.json"
+    },
+    {
+      "code": "zh-CN",
+      "name": "Chinese (Simplified)",
+      "dir": "ltr",
+      "file": "zh-CN.json"
+    },
+    {
+      "code": "zh-TW",
+      "name": "Chinese (Traditional)",
+      "dir": "ltr",
+      "file": "zh-TW.json"
+    },
+    {
+      "code": "ja",
+      "name": "Japanese",
+      "dir": "ltr",
+      "file": "ja.json"
+    },
+    {
+      "code": "ko",
+      "name": "Korean",
+      "dir": "ltr",
+      "file": "ko.json"
+    },
+    {
+      "code": "sw",
+      "name": "Swahili",
+      "dir": "ltr",
+      "file": "sw.json"
+    },
+    {
+      "code": "am",
+      "name": "Amharic",
+      "dir": "ltr",
+      "file": "am.json"
+    },
+    {
+      "code": "zu",
+      "name": "Zulu",
+      "dir": "ltr",
+      "file": "zu.json"
+    },
+    {
+      "code": "xh",
+      "name": "Xhosa",
+      "dir": "ltr",
+      "file": "xh.json"
+    },
+    {
+      "code": "yo",
+      "name": "Yoruba",
+      "dir": "ltr",
+      "file": "yo.json"
+    },
+    {
+      "code": "ig",
+      "name": "Igbo",
+      "dir": "ltr",
+      "file": "ig.json"
+    },
+    {
+      "code": "ha",
+      "name": "Hausa",
+      "dir": "ltr",
+      "file": "ha.json"
+    },
+    {
+      "code": "af",
+      "name": "Afrikaans",
+      "dir": "ltr",
+      "file": "af.json"
+    },
+    {
+      "code": "sq",
+      "name": "Albanian",
+      "dir": "ltr",
+      "file": "sq.json"
+    },
+    {
+      "code": "eu",
+      "name": "Basque",
+      "dir": "ltr",
+      "file": "eu.json"
+    },
+    {
+      "code": "ca",
+      "name": "Catalan",
+      "dir": "ltr",
+      "file": "ca.json"
+    },
+    {
+      "code": "gl",
+      "name": "Galician",
+      "dir": "ltr",
+      "file": "gl.json"
+    },
+    {
+      "code": "is",
+      "name": "Icelandic",
+      "dir": "ltr",
+      "file": "is.json"
+    },
+    {
+      "code": "ga",
+      "name": "Irish",
+      "dir": "ltr",
+      "file": "ga.json"
+    },
+    {
+      "code": "cy",
+      "name": "Welsh",
+      "dir": "ltr",
+      "file": "cy.json"
+    },
+    {
+      "code": "et",
+      "name": "Estonian",
+      "dir": "ltr",
+      "file": "et.json"
+    },
+    {
+      "code": "lv",
+      "name": "Latvian",
+      "dir": "ltr",
+      "file": "lv.json"
+    },
+    {
+      "code": "lt",
+      "name": "Lithuanian",
+      "dir": "ltr",
+      "file": "lt.json"
+    },
+    {
+      "code": "sl",
+      "name": "Slovenian",
+      "dir": "ltr",
+      "file": "sl.json"
+    },
+    {
+      "code": "hr",
+      "name": "Croatian",
+      "dir": "ltr",
+      "file": "hr.json"
+    },
+    {
+      "code": "sr",
+      "name": "Serbian",
+      "dir": "ltr",
+      "file": "sr.json"
+    },
+    {
+      "code": "bs",
+      "name": "Bosnian",
+      "dir": "ltr",
+      "file": "bs.json"
+    },
+    {
+      "code": "mk",
+      "name": "Macedonian",
+      "dir": "ltr",
+      "file": "mk.json"
+    },
+    {
+      "code": "mt",
+      "name": "Maltese",
+      "dir": "ltr",
+      "file": "mt.json"
+    },
+    {
+      "code": "la",
+      "name": "Latin",
+      "dir": "ltr",
+      "file": "la.json"
+    },
+    {
+      "code": "eo",
+      "name": "Esperanto",
+      "dir": "ltr",
+      "file": "eo.json"
+    },
+    {
+      "code": "ka",
+      "name": "Georgian",
+      "dir": "ltr",
+      "file": "ka.json"
+    },
+    {
+      "code": "hy",
+      "name": "Armenian",
+      "dir": "ltr",
+      "file": "hy.json"
+    },
+    {
+      "code": "az",
+      "name": "Azerbaijani",
+      "dir": "ltr",
+      "file": "az.json"
+    },
+    {
+      "code": "kk",
+      "name": "Kazakh",
+      "dir": "ltr",
+      "file": "kk.json"
+    },
+    {
+      "code": "uz",
+      "name": "Uzbek",
+      "dir": "ltr",
+      "file": "uz.json"
+    },
+    {
+      "code": "mn",
+      "name": "Mongolian",
+      "dir": "ltr",
+      "file": "mn.json"
+    },
+    {
+      "code": "ne",
+      "name": "Nepali",
+      "dir": "ltr",
+      "file": "ne.json"
+    },
+    {
+      "code": "si",
+      "name": "Sinhala",
+      "dir": "ltr",
+      "file": "si.json"
+    },
+    {
+      "code": "km",
+      "name": "Khmer",
+      "dir": "ltr",
+      "file": "km.json"
+    },
+    {
+      "code": "lo",
+      "name": "Lao",
+      "dir": "ltr",
+      "file": "lo.json"
+    },
+    {
+      "code": "my",
+      "name": "Burmese",
+      "dir": "ltr",
+      "file": "my.json"
+    },
+    {
+      "code": "jv",
+      "name": "Javanese",
+      "dir": "ltr",
+      "file": "jv.json"
+    },
+    {
+      "code": "su",
+      "name": "Sundanese",
+      "dir": "ltr",
+      "file": "su.json"
+    },
+    {
+      "code": "ceb",
+      "name": "Cebuano",
+      "dir": "ltr",
+      "file": "ceb.json"
+    },
+    {
+      "code": "haw",
+      "name": "Hawaiian",
+      "dir": "ltr",
+      "file": "haw.json"
+    },
+    {
+      "code": "mi",
+      "name": "Maori",
+      "dir": "ltr",
+      "file": "mi.json"
+    },
+    {
+      "code": "sm",
+      "name": "Samoan",
+      "dir": "ltr",
+      "file": "sm.json"
+    },
+    {
+      "code": "to",
+      "name": "Tongan",
+      "dir": "ltr",
+      "file": "to.json"
+    },
+    {
+      "code": "fj",
+      "name": "Fijian",
+      "dir": "ltr",
+      "file": "fj.json"
+    },
+    {
+      "code": "mg",
+      "name": "Malagasy",
+      "dir": "ltr",
+      "file": "mg.json"
+    },
+    {
+      "code": "so",
+      "name": "Somali",
+      "dir": "ltr",
+      "file": "so.json"
+    },
+    {
+      "code": "rw",
+      "name": "Kinyarwanda",
+      "dir": "ltr",
+      "file": "rw.json"
+    },
+    {
+      "code": "st",
+      "name": "Southern Sotho",
+      "dir": "ltr",
+      "file": "st.json"
+    },
+    {
+      "code": "tn",
+      "name": "Tswana",
+      "dir": "ltr",
+      "file": "tn.json"
+    },
+    {
+      "code": "ts",
+      "name": "Tsonga",
+      "dir": "ltr",
+      "file": "ts.json"
+    },
+    {
+      "code": "ve",
+      "name": "Venda",
+      "dir": "ltr",
+      "file": "ve.json"
+    },
+    {
+      "code": "sn",
+      "name": "Shona",
+      "dir": "ltr",
+      "file": "sn.json"
+    },
+    {
+      "code": "ny",
+      "name": "Chichewa",
+      "dir": "ltr",
+      "file": "ny.json"
+    },
+    {
+      "code": "lg",
+      "name": "Ganda",
+      "dir": "ltr",
+      "file": "lg.json"
+    },
+    {
+      "code": "wo",
+      "name": "Wolof",
+      "dir": "ltr",
+      "file": "wo.json"
+    },
+    {
+      "code": "yo-NG",
+      "name": "Yoruba (Nigeria)",
+      "dir": "ltr",
+      "file": "yo-NG.json"
+    },
+    {
+      "code": "sw-KE",
+      "name": "Swahili (Kenya)",
+      "dir": "ltr",
+      "file": "sw-KE.json"
+    },
+    {
+      "code": "es-MX",
+      "name": "Spanish (Mexico)",
+      "dir": "ltr",
+      "file": "es-MX.json"
+    },
+    {
+      "code": "es-AR",
+      "name": "Spanish (Argentina)",
+      "dir": "ltr",
+      "file": "es-AR.json"
+    },
+    {
+      "code": "fr-CA",
+      "name": "French (Canada)",
+      "dir": "ltr",
+      "file": "fr-CA.json"
+    },
+    {
+      "code": "fr-FR",
+      "name": "French (France)",
+      "dir": "ltr",
+      "file": "fr-FR.json"
+    },
+    {
+      "code": "de-DE",
+      "name": "German (Germany)",
+      "dir": "ltr",
+      "file": "de-DE.json"
+    },
+    {
+      "code": "it-IT",
+      "name": "Italian (Italy)",
+      "dir": "ltr",
+      "file": "it-IT.json"
+    },
+    {
+      "code": "nl-NL",
+      "name": "Dutch (Netherlands)",
+      "dir": "ltr",
+      "file": "nl-NL.json"
+    },
+    {
+      "code": "pl-PL",
+      "name": "Polish (Poland)",
+      "dir": "ltr",
+      "file": "pl-PL.json"
+    },
+    {
+      "code": "ru-RU",
+      "name": "Russian (Russia)",
+      "dir": "ltr",
+      "file": "ru-RU.json"
+    },
+    {
+      "code": "ja-JP",
+      "name": "Japanese (Japan)",
+      "dir": "ltr",
+      "file": "ja-JP.json"
+    },
+    {
+      "code": "ko-KR",
+      "name": "Korean (South Korea)",
+      "dir": "ltr",
+      "file": "ko-KR.json"
+    },
+    {
+      "code": "tr-TR",
+      "name": "Turkish (Turkey)",
+      "dir": "ltr",
+      "file": "tr-TR.json"
+    },
+    {
+      "code": "hi-IN",
+      "name": "Hindi (India)",
+      "dir": "ltr",
+      "file": "hi-IN.json"
+    },
+    {
+      "code": "bn-BD",
+      "name": "Bangla (Bangladesh)",
+      "dir": "ltr",
+      "file": "bn-BD.json"
+    },
+    {
+      "code": "id-ID",
+      "name": "Indonesian (Indonesia)",
+      "dir": "ltr",
+      "file": "id-ID.json"
+    },
+    {
+      "code": "vi-VN",
+      "name": "Vietnamese (Vietnam)",
+      "dir": "ltr",
+      "file": "vi-VN.json"
+    },
+    {
+      "code": "zh-HK",
+      "name": "Chinese (Hong Kong)",
+      "dir": "ltr",
+      "file": "zh-HK.json"
+    },
+    {
+      "code": "zh-SG",
+      "name": "Chinese (Singapore)",
+      "dir": "ltr",
+      "file": "zh-SG.json"
+    },
+    {
+      "code": "en-GB",
+      "name": "English (United Kingdom)",
+      "dir": "ltr",
+      "file": "en-GB.json"
+    },
+    {
+      "code": "en-AU",
+      "name": "English (Australia)",
+      "dir": "ltr",
+      "file": "en-AU.json"
+    },
+    {
+      "code": "en-CA",
+      "name": "English (Canada)",
+      "dir": "ltr",
+      "file": "en-CA.json"
+    },
+    {
+      "code": "en-IN",
+      "name": "English (India)",
+      "dir": "ltr",
+      "file": "en-IN.json"
+    },
+    {
+      "code": "en-NZ",
+      "name": "English (New Zealand)",
+      "dir": "ltr",
+      "file": "en-NZ.json"
+    },
+    {
+      "code": "es-US",
+      "name": "Spanish (United States)",
+      "dir": "ltr",
+      "file": "es-US.json"
+    },
+    {
+      "code": "pt-AO",
+      "name": "Portuguese (Angola)",
+      "dir": "ltr",
+      "file": "pt-AO.json"
+    },
+    {
+      "code": "fr-BE",
+      "name": "French (Belgium)",
+      "dir": "ltr",
+      "file": "fr-BE.json"
+    },
+    {
+      "code": "de-AT",
+      "name": "German (Austria)",
+      "dir": "ltr",
+      "file": "de-AT.json"
+    },
+    {
+      "code": "de-CH",
+      "name": "German (Switzerland)",
+      "dir": "ltr",
+      "file": "de-CH.json"
+    },
+    {
+      "code": "it-CH",
+      "name": "Italian (Switzerland)",
+      "dir": "ltr",
+      "file": "it-CH.json"
+    },
+    {
+      "code": "ar-DZ",
+      "name": "Arabic (Algeria)",
+      "dir": "rtl",
+      "file": "ar-DZ.json"
+    },
+    {
+      "code": "ar-IQ",
+      "name": "Arabic (Iraq)",
+      "dir": "rtl",
+      "file": "ar-IQ.json"
+    },
+    {
+      "code": "ar-JO",
+      "name": "Arabic (Jordan)",
+      "dir": "rtl",
+      "file": "ar-JO.json"
+    },
+    {
+      "code": "ar-KW",
+      "name": "Arabic (Kuwait)",
+      "dir": "rtl",
+      "file": "ar-KW.json"
+    },
+    {
+      "code": "ar-LB",
+      "name": "Arabic (Lebanon)",
+      "dir": "rtl",
+      "file": "ar-LB.json"
+    },
+    {
+      "code": "ar-LY",
+      "name": "Arabic (Libya)",
+      "dir": "rtl",
+      "file": "ar-LY.json"
+    },
+    {
+      "code": "ar-OM",
+      "name": "Arabic (Oman)",
+      "dir": "rtl",
+      "file": "ar-OM.json"
+    },
+    {
+      "code": "ar-QA",
+      "name": "Arabic (Qatar)",
+      "dir": "rtl",
+      "file": "ar-QA.json"
+    },
+    {
+      "code": "ar-TN",
+      "name": "Arabic (Tunisia)",
+      "dir": "rtl",
+      "file": "ar-TN.json"
+    },
+    {
+      "code": "ar-YE",
+      "name": "Arabic (Yemen)",
+      "dir": "rtl",
+      "file": "ar-YE.json"
+    },
+    {
+      "code": "fa-AF",
+      "name": "Persian (Afghanistan)",
+      "dir": "ltr",
+      "file": "fa-AF.json"
+    },
+    {
+      "code": "ur-IN",
+      "name": "Urdu (India)",
+      "dir": "ltr",
+      "file": "ur-IN.json"
+    },
+    {
+      "code": "ur-PK",
+      "name": "Urdu (Pakistan)",
+      "dir": "ltr",
+      "file": "ur-PK.json"
+    }
+  ],
+  "sourceStrings": 1083
+}

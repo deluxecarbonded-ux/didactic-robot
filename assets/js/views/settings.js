@@ -81,6 +81,89 @@
     ]);
   }
 
+  function localization() {
+    var current = { code: X.i18n.locale, name: X.i18n.locale };
+    var trigger;
+    var list;
+    var wrapper = h("div", { class: "locale-menu", "data-role": "locale-menu" });
+
+    function flag(code) {
+      var value = String(code || "en").toLowerCase();
+      var region = value.indexOf("-") > -1 ? value.split("-")[1] : value;
+      var regions = { en: "US", es: "ES", fr: "FR", de: "DE", it: "IT", pt: "BR", ru: "RU", uk: "UA", pl: "PL", nl: "NL", sv: "SE", no: "NO", da: "DK", fi: "FI", ar: "SA", he: "IL", fa: "IR", ur: "PK", hi: "IN", bn: "BD", ja: "JP", ko: "KR", zh: "CN", tr: "TR", el: "GR", th: "TH", vi: "VN", id: "ID", ms: "MY", sw: "KE", af: "ZA" };
+      return h("span", { class: "locale-flag", "data-flag": (regions[value] || regions[region] || value).toLowerCase(), "aria-hidden": "true" }, "");
+    }
+
+    function close() {
+      wrapper.classList.remove("is-open");
+      if (trigger) trigger.setAttribute("aria-expanded", "false");
+    }
+
+    function choose(item) {
+      current = item;
+      trigger.replaceChildren(flag(item.code), h("span", { class: "locale-current-name" }, item.name), h("span", { class: "locale-current-code mono" }, item.code), h("span", { class: "locale-chevron", html: X.icons.icon("chevronDown", { size: 15 }) }));
+      close();
+      trigger.disabled = true;
+      X.i18n.setLocale(item.code).then(function () {
+        trigger.disabled = false;
+        X.Toast.info("Language updated.");
+      });
+    }
+
+    function option(item) {
+      var selected = item.code === X.i18n.locale;
+      var button = h("button", { type: "button", class: "locale-option" + (selected ? " is-selected" : ""), role: "option", "aria-selected": selected }, [
+        flag(item.code),
+        h("span", { class: "locale-option-copy" }, [h("strong", {}, item.name), h("small", { class: "mono" }, item.code)]),
+        selected ? { html: X.icons.icon("check", { size: 15 }) } : null
+      ]);
+      button.addEventListener("click", function () { choose(item); });
+      return button;
+    }
+
+    trigger = h("button", { type: "button", class: "locale-trigger", "aria-haspopup": "listbox", "aria-expanded": "false" }, [
+      flag(current.code), h("span", { class: "locale-current-name" }, current.name), h("span", { class: "locale-current-code mono" }, current.code),
+      { html: X.icons.icon("chevronDown", { size: 15 }) }
+    ]);
+    list = h("div", { class: "locale-list", role: "listbox", tabindex: "-1", "aria-label": "Languages" }, [h("span", { class: "hint" }, "Loading languages…")]);
+    trigger.addEventListener("click", function () {
+      var open = !wrapper.classList.contains("is-open");
+      wrapper.classList.toggle("is-open", open);
+      trigger.setAttribute("aria-expanded", String(open));
+      if (open) list.focus();
+    });
+    trigger.addEventListener("keydown", function (event) {
+      if (event.key === "ArrowDown" || event.key === "Enter" || event.key === " ") {
+        event.preventDefault();
+        trigger.click();
+      }
+      if (event.key === "Escape") close();
+    });
+    list.addEventListener("keydown", function (event) {
+      if (event.key === "Escape") { close(); trigger.focus(); }
+    });
+    document.addEventListener("click", function (event) {
+      if (!wrapper.contains(event.target)) close();
+    });
+    wrapper.append(trigger, list);
+    X.i18n.listLocales().then(function (locales) {
+      list.textContent = "";
+      if (!locales.length) {
+        list.appendChild(h("span", { class: "hint" }, "Languages unavailable offline."));
+        return;
+      }
+      locales.forEach(function (item) { list.appendChild(option(item)); });
+    });
+    return h("section", { class: "panel stack-4" }, [
+      h("div", { class: "section-head" }, [h("h3", {}, "Language and direction")]),
+      h("div", { class: "field" }, [
+        h("label", { class: "field-label" }, "Interface language"),
+        wrapper,
+        h("span", { class: "hint" }, "Arabic locales automatically enable right-to-left layout for text, controls and icons.")
+      ])
+    ]);
+  }
+
   function preferences() {
     var theme = CFG.get("theme") || "dark";
     var seg = W.segment({
@@ -204,6 +287,7 @@
           sub: "Put your own keys in, or leave them empty and play entirely on-device.",
           back: { href: "#/" }
         }),
+        localization(),
         connection(),
         preferences(),
         gameDefaults(),

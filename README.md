@@ -179,6 +179,27 @@ node --check assets/js/app.js; (Get-ChildItem assets/js -Recurse -Filter *.js) `
 node tools/scan-contract.js > contract.txt
 ```
 
+### Locales and RTL
+
+The app ships with 150 generated BCP-47 locale packs in `assets/locales/`.
+Missing values intentionally fall back to English, so the UI remains usable
+while a translation pack is being completed. The runtime translates text,
+placeholders, titles, labels and accessibility attributes, and Arabic locale
+variants automatically set `dir="rtl"` for the complete shell and controls.
+
+Regenerate the packs and source-string manifest with:
+
+```sh
+node tools/generate-locales.mjs
+```
+
+To populate the extracted strings through a LibreTranslate-compatible service,
+pass its endpoint and optional key. Translation is batched in groups of 50:
+
+```sh
+node tools/generate-locales.mjs --endpoint https://translate.example/translate --key "$TRANSLATE_API_KEY"
+```
+
 Smoke-tested flows (headless browser, zero console errors): boot & home, all 11
 routes, a full solo run (solve → unlock → dial → Shards credited), save/resume,
 hints and power-ups, the shop and live wallet updates, settings switches and
