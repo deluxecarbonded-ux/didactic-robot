@@ -57,7 +57,10 @@
       source = node.getAttribute(name);
       if (source) node.setAttribute(sourceName, source);
     }
-    if (source) node.setAttribute(name, translate(source));
+    if (source) {
+      var translated = translate(source);
+      if (node.getAttribute(name) !== translated) node.setAttribute(name, translated);
+    }
   }
 
   function translateNode(node) {
@@ -67,7 +70,8 @@
       var normalized = normalize(text);
       if (!normalized || !node.parentNode || node.parentNode.closest("[data-i18n-ignore]")) return;
       if (!node.__exoticSource) node.__exoticSource = text;
-      node.nodeValue = translate(node.__exoticSource);
+      var translated = translate(node.__exoticSource);
+      if (node.nodeValue !== translated) node.nodeValue = translated;
       return;
     }
     if (node.nodeType !== 1 || node.hasAttribute("data-i18n-ignore")) return;
