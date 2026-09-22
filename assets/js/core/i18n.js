@@ -49,6 +49,17 @@
     return result == null ? value : result;
   }
 
+  function key(value) {
+    return normalize(value).toLowerCase().replace(/[^a-z0-9]+/g, ".").replace(/^\.|\.$/g, "");
+  }
+
+  function t(messageKey, fallback) {
+    var source = pack.keys && pack.keys[messageKey];
+    if (source && pack.translations && pack.translations[source] != null) return pack.translations[source];
+    if (pack.translations && pack.translations[messageKey] != null) return pack.translations[messageKey];
+    return fallback == null ? messageKey : fallback;
+  }
+
   function translateAttribute(node, name) {
     if (!node || node.nodeType !== 1 || node.hasAttribute("data-i18n-ignore")) return;
     var sourceName = "data-i18n-source-" + name;
@@ -138,7 +149,9 @@
   }
 
   X.i18n = {
-    t: translate,
+    t: t,
+    translate: translate,
+    key: key,
     get locale() { return locale; },
     get direction() { return isArabic(locale) ? "rtl" : "ltr"; },
     setLocale: setLocale,

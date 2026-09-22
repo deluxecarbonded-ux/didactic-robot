@@ -193,12 +193,16 @@ Regenerate the packs and source-string manifest with:
 node tools/generate-locales.mjs
 ```
 
-To populate the extracted strings through a LibreTranslate-compatible service,
-pass its endpoint and optional key. Translation is batched in groups of 50:
+The repository includes a self-contained Python phrasebook. It uses no network
+service and applies local translations to every generated locale while keeping
+English fallback values for phrases not yet in the phrasebook:
 
 ```sh
-node tools/generate-locales.mjs --endpoint https://translate.example/translate --key "$TRANSLATE_API_KEY"
+python tools/translate-locales.py
 ```
+
+The locale manifest exposes stable normalized `t` keys for all extracted
+strings, while the runtime accepts the original source text as the fallback.
 
 Smoke-tested flows (headless browser, zero console errors): boot & home, all 11
 routes, a full solo run (solve → unlock → dial → Shards credited), save/resume,

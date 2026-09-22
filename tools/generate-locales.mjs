@@ -6,9 +6,6 @@ import process from "node:process";
 
 const root = path.resolve(new URL("..", import.meta.url).pathname);
 const outDir = path.join(root, "assets", "locales");
-const args = new Map(process.argv.slice(2).map((arg, index, values) => [arg.startsWith("--") ? arg : "_" + index, arg.startsWith("--") ? values[index + 1] : arg]));
-const translationEndpoint = args.get("--endpoint") || process.env.TRANSLATE_ENDPOINT || "";
-const translationKey = args.get("--key") || process.env.TRANSLATE_API_KEY || "";
 
 const locales = [
   ["en", "English"], ["es", "Spanish"], ["fr", "French"], ["de", "German"], ["it", "Italian"],
@@ -70,10 +67,19 @@ async function sourceStrings() {
   await walk(path.join(root, "assets", "js"));
   return Promise.all(files.map((file) => readFile(file, "utf8"))).then((contents) => {
     const found = new Set();
+    const seeded = ["Home", "Play", "Multi", "Shop", "Profile", "Rankings", "Settings", "How to play", "Language and direction", "Interface language", "Language updated."];
+    seeded.forEach((value) => found.add(value));
     for (const content of contents) {
       for (const match of content.matchAll(/(['"])([^\n\r\\]{2,})\1/g)) {
         const value = match[2].trim();
-        if (/[A-Za-z]{2}/.test(value) && !/[{}();=]/.test(value)) found.add(value);
+        const human = /[A-Za-z]{2}/.test(value) && /[\s!?.,]/.test(value)
+          && !/[{}();=<>$]/.test(value) && !/^(?:https?:|assets\/|#[\w-]+|\.[\w-]+|\/[\w/?#.-]+)$/.test(value)
+          && !/^(?:var|function|return|class|typeof|true|false|null|undefined)\b/.test(value);
+        if (human) found.add(value);
+      }
+      for (const match of content.matchAll(/(?:label|title|text|name|blurb|sub|hint|message|placeholder|eyebrow|confirmLabel)\s*:\s*(["'])([^\n\r\\]+?)\1/g)) {
+        const value = match[2].trim();
+        if (value.length > 1 && !/[{}();=<>$]/.test(value)) found.add(value);
       }
     }
     return [...found].sort();
@@ -83,32 +89,13 @@ async function sourceStrings() {
 const selectedLocales = locales.slice(0, 150);
 const strings = await sourceStrings();
 await mkdir(outDir, { recursive: true });
+const messages = Object.fromEntries(strings.map((source) => [source, { key: source.toLowerCase().replace(/[^a-z0-9]+/g, ".").replace(/^\.|\.$/g, ""), value: source }]));
 const index = selectedLocales.map(([code, name]) => ({ code, name, dir: isRtl(code) ? "rtl" : "ltr", file: `${code}.json` }));
-await writeFile(path.join(outDir, "index.json"), JSON.stringify({ source: "en", locales: index, sourceStrings: strings.length }, null, 2) + "\n");
-async function translateBatch(code) {
-  if (!translationEndpoint || code === "en") return {};
-  const translations = {};
-  for (let start = 0; start < strings.length; start += 50) {
-    const batch = strings.slice(start, start + 50);
-    const response = await fetch(translationEndpoint, {
-      method: "POST",
-      headers: { "content-type": "application/json", ...(translationKey ? { authorization: `Bearer ${translationKey}` } : {}) },
-      body: JSON.stringify({ q: batch, source: "en", target: code.split("-")[0], format: "text", api_key: translationKey || undefined })
-    });
-    if (!response.ok) throw new Error(`Translation request failed for ${code}: HTTP ${response.status}`);
-    const data = await response.json();
-    const values = Array.isArray(data) ? data : (data.translatedText || data.translations || []);
-    batch.forEach((source, index) => {
-      const value = typeof values[index] === "string" ? values[index] : values[index] && (values[index].translatedText || values[index].text);
-      if (value) translations[source] = value;
-    });
-  }
-  return translations;
-}
-
+await writeFile(path.join(outDir, "index.json"), JSON.stringify({ source: "en", locales: index, sourceStrings: strings.length, messages }, null, 2) + "\n");
 for (const [code, name] of selectedLocales) {
-  const translations = await translateBatch(code);
-  const pack = { locale: code, name, dir: isRtl(code) ? "rtl" : "ltr", fallback: "en", translations };
+  const translations = Object.fromEntries(strings.map((source) => [source, source]));
+  const messageKeys = Object.fromEntries(strings.map((source) => [messages[source].key, source]));
+  const pack = { locale: code, name, dir: isRtl(code) ? "rtl" : "ltr", fallback: "en", keys: messageKeys, translations };
   await writeFile(path.join(outDir, `${code}.json`), JSON.stringify(pack, null, 2) + "\n");
 }
 console.log(`Generated ${selectedLocales.length} locale packs with ${strings.length} source string candidates.`);

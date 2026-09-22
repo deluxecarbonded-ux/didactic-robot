@@ -902,5 +902,3363 @@
       "file": "ur-PK.json"
     }
   ],
-  "sourceStrings": 1083
+  "sourceStrings": 839,
+  "messages": {
+    "\" : \"ghost": {
+      "key": "ghost",
+      "value": "\" : \"ghost"
+    },
+    "\", size:": {
+      "key": "size",
+      "value": "\", size:"
+    },
+    "\", size: \"": {
+      "key": "size",
+      "value": "\", size: \""
+    },
+    "\", variant: \"\", block: false, disabled: false, type: \"button": {
+      "key": "variant.block.false.disabled.false.type.button",
+      "value": "\", variant: \"\", block: false, disabled: false, type: \"button"
+    },
+    "#ffffff\" ? \"255,255,255\" : \"0,0,0": {
+      "key": "ffffff.255.255.255.0.0.0",
+      "value": "#ffffff\" ? \"255,255,255\" : \"0,0,0"
+    },
+    "/\", icon: \"compass\", label: \"Home": {
+      "key": "icon.compass.label.home",
+      "value": "/\", icon: \"compass\", label: \"Home"
+    },
+    "/\", name: \"home\", title: \"Home": {
+      "key": "name.home.title.home",
+      "value": "/\", name: \"home\", title: \"Home"
+    },
+    "/auth\", name: \"auth\", title: \"Realm account": {
+      "key": "auth.name.auth.title.realm.account",
+      "value": "/auth\", name: \"auth\", title: \"Realm account"
+    },
+    "/auth/v1/logout\", null, \"POST": {
+      "key": "auth.v1.logout.null.post",
+      "value": "/auth/v1/logout\", null, \"POST"
+    },
+    "/auth/v1/user\", patch, \"PUT": {
+      "key": "auth.v1.user.patch.put",
+      "value": "/auth/v1/user\", patch, \"PUT"
+    },
+    "/guide\", icon: \"help\", label: \"How to play": {
+      "key": "guide.icon.help.label.how.to.play",
+      "value": "/guide\", icon: \"help\", label: \"How to play"
+    },
+    "/guide\", name: \"guide\", title: \"How to play": {
+      "key": "guide.name.guide.title.how.to.play",
+      "value": "/guide\", name: \"guide\", title: \"How to play"
+    },
+    "/leaderboard\", icon: \"trophy\", label: \"Rankings": {
+      "key": "leaderboard.icon.trophy.label.rankings",
+      "value": "/leaderboard\", icon: \"trophy\", label: \"Rankings"
+    },
+    "/leaderboard\", name: \"leaderboard\", title: \"Rankings": {
+      "key": "leaderboard.name.leaderboard.title.rankings",
+      "value": "/leaderboard\", name: \"leaderboard\", title: \"Rankings"
+    },
+    "/multi\", icon: \"swords\", label: \"Multi": {
+      "key": "multi.icon.swords.label.multi",
+      "value": "/multi\", icon: \"swords\", label: \"Multi"
+    },
+    "/multi\", name: \"multi\", title: \"Multiplayer\", view: X.views[\"multi-lobby": {
+      "key": "multi.name.multi.title.multiplayer.view.x.views.multi.lobby",
+      "value": "/multi\", name: \"multi\", title: \"Multiplayer\", view: X.views[\"multi-lobby"
+    },
+    "/notfound\", name: \"notfound\", title: \"Lost": {
+      "key": "notfound.name.notfound.title.lost",
+      "value": "/notfound\", name: \"notfound\", title: \"Lost"
+    },
+    "/play\", icon: \"lock\", label: \"Play": {
+      "key": "play.icon.lock.label.play",
+      "value": "/play\", icon: \"lock\", label: \"Play"
+    },
+    "/play\", name: \"play\", title: \"Crack a cipher\", view: X.views[\"single-play": {
+      "key": "play.name.play.title.crack.a.cipher.view.x.views.single.play",
+      "value": "/play\", name: \"play\", title: \"Crack a cipher\", view: X.views[\"single-play"
+    },
+    "/profile\", icon: \"user\", label: \"Profile": {
+      "key": "profile.icon.user.label.profile",
+      "value": "/profile\", icon: \"user\", label: \"Profile"
+    },
+    "/profile\", name: \"profile\", title: \"Profile": {
+      "key": "profile.name.profile.title.profile",
+      "value": "/profile\", name: \"profile\", title: \"Profile"
+    },
+    "/room/:code\", name: \"room\", title: \"Room\", view: X.views[\"multi-room": {
+      "key": "room.code.name.room.title.room.view.x.views.multi.room",
+      "value": "/room/:code\", name: \"room\", title: \"Room\", view: X.views[\"multi-room"
+    },
+    "/settings\", icon: \"settings\", label: \"Settings": {
+      "key": "settings.icon.settings.label.settings",
+      "value": "/settings\", icon: \"settings\", label: \"Settings"
+    },
+    "/settings\", name: \"settings\", title: \"Settings": {
+      "key": "settings.name.settings.title.settings",
+      "value": "/settings\", name: \"settings\", title: \"Settings"
+    },
+    "/shop\", icon: \"store\", label: \"Shop": {
+      "key": "shop.icon.store.label.shop",
+      "value": "/shop\", icon: \"store\", label: \"Shop"
+    },
+    "/shop\", name: \"shop\", title: \"Shop": {
+      "key": "shop.name.shop.title.shop",
+      "value": "/shop\", name: \"shop\", title: \"Shop"
+    },
+    "0\", cap: \"Binary assets": {
+      "key": "0.cap.binary.assets",
+      "value": "0\", cap: \"Binary assets"
+    },
+    "01\", title: \"Four puzzles, one code\", text: \"A vault has four slots. Each slot is a puzzle that resolves to exactly one digit, 0–9. The four digits are your password.": {
+      "key": "01.title.four.puzzles.one.code.text.a.vault.has.four.slots.each.slot.is.a.puzzle.that.resolves.to.exactly.one.digit.0.9.the.four.digits.are.your.password",
+      "value": "01\", title: \"Four puzzles, one code\", text: \"A vault has four slots. Each slot is a puzzle that resolves to exactly one digit, 0–9. The four digits are your password."
+    },
+    "02\", title: \"Narrow the candidates\", text: \"Answer puzzles, take hints, spend a Fifty-Fifty — every move strikes wrong digits from a slot's candidate set. Nothing ever changes the code.": {
+      "key": "02.title.narrow.the.candidates.text.answer.puzzles.take.hints.spend.a.fifty.fifty.every.move.strikes.wrong.digits.from.a.slot.s.candidate.set.nothing.ever.changes.the.code",
+      "value": "02\", title: \"Narrow the candidates\", text: \"Answer puzzles, take hints, spend a Fifty-Fifty — every move strikes wrong digits from a slot's candidate set. Nothing ever changes the code."
+    },
+    "03\", title: \"Unlock\", text: \"Once all four slots are cracked you know the code. Enter it to win before the clock runs out and before your attempts run dry.": {
+      "key": "03.title.unlock.text.once.all.four.slots.are.cracked.you.know.the.code.enter.it.to.win.before.the.clock.runs.out.and.before.your.attempts.run.dry",
+      "value": "03\", title: \"Unlock\", text: \"Once all four slots are cracked you know the code. Enter it to win before the clock runs out and before your attempts run dry."
+    },
+    "04\", title: \"Wrong guesses sting\", text: \"A wrong full guess costs an attempt and time. Committing a wrong digit to a slot costs time but no attempt. The clock is the referee.": {
+      "key": "04.title.wrong.guesses.sting.text.a.wrong.full.guess.costs.an.attempt.and.time.committing.a.wrong.digit.to.a.slot.costs.time.but.no.attempt.the.clock.is.the.referee",
+      "value": "04\", title: \"Wrong guesses sting\", text: \"A wrong full guess costs an attempt and time. Committing a wrong digit to a slot costs time but no attempt. The clock is the referee."
+    },
+    "1v1 race to crack the same cipher.": {
+      "key": "1v1.race.to.crack.the.same.cipher",
+      "value": "1v1 race to crack the same cipher."
+    },
+    "1–9\"], what: \"Press a puzzle digit": {
+      "key": "1.9.what.press.a.puzzle.digit",
+      "value": "1–9\"], what: \"Press a puzzle digit"
+    },
+    "2\", cap: \"Separate realms": {
+      "key": "2.cap.separate.realms",
+      "value": "2\", cap: \"Separate realms"
+    },
+    "4\", cap: \"Digit vault code": {
+      "key": "4.cap.digit.vault.code",
+      "value": "4\", cap: \"Digit vault code"
+    },
+    "500 \" + gl.size + \"px 'JetBrains Mono', monospace": {
+      "key": "500.gl.size.px.jetbrains.mono.monospace",
+      "value": "500 \" + gl.size + \"px 'JetBrains Mono', monospace"
+    },
+    "600 \" + font + \"px 'JetBrains Mono', monospace": {
+      "key": "600.font.px.jetbrains.mono.monospace",
+      "value": "600 \" + font + \"px 'JetBrains Mono', monospace"
+    },
+    "700 \" + p.size + \"px 'JetBrains Mono', monospace": {
+      "key": "700.p.size.px.jetbrains.mono.monospace",
+      "value": "700 \" + p.size + \"px 'JetBrains Mono', monospace"
+    },
+    "700 15px 'JetBrains Mono', monospace": {
+      "key": "700.15px.jetbrains.mono.monospace",
+      "value": "700 15px 'JetBrains Mono', monospace"
+    },
+    "9px\", height: \"9px": {
+      "key": "9px.height.9px",
+      "value": "9px\", height: \"9px"
+    },
+    "?????": {
+      "key": "",
+      "value": "?????"
+    },
+    "A deeper, quieter vault board with heavier shadows.": {
+      "key": "a.deeper.quieter.vault.board.with.heavier.shadows",
+      "value": "A deeper, quieter vault board with heavier shadows."
+    },
+    "A hotseat match needs at least two names.": {
+      "key": "a.hotseat.match.needs.at.least.two.names",
+      "value": "A hotseat match needs at least two names."
+    },
+    "A player just finished an Exotic run. Here is the data:": {
+      "key": "a.player.just.finished.an.exotic.run.here.is.the.data",
+      "value": "A player just finished an Exotic run. Here is the data:"
+    },
+    "A reinforced frame for a reinforced record.": {
+      "key": "a.reinforced.frame.for.a.reinforced.record",
+      "value": "A reinforced frame for a reinforced record."
+    },
+    "A sparse dark drone under the tick of the timer.": {
+      "key": "a.sparse.dark.drone.under.the.tick.of.the.timer",
+      "value": "A sparse dark drone under the tick of the timer."
+    },
+    "A vault has four slots. Each slot is a puzzle that resolves to exactly one digit, 0–9. The four digits are your password.": {
+      "key": "a.vault.has.four.slots.each.slot.is.a.puzzle.that.resolves.to.exactly.one.digit.0.9.the.four.digits.are.your.password",
+      "value": "A vault has four slots. Each slot is a puzzle that resolves to exactly one digit, 0–9. The four digits are your password."
+    },
+    "A wrong full guess costs an attempt and time. Committing a wrong digit to a slot costs time but no attempt. The clock is the referee.": {
+      "key": "a.wrong.full.guess.costs.an.attempt.and.time.committing.a.wrong.digit.to.a.slot.costs.time.but.no.attempt.the.clock.is.the.referee",
+      "value": "A wrong full guess costs an attempt and time. Committing a wrong digit to a slot costs time but no attempt. The clock is the referee."
+    },
+    "ABCDE": {
+      "key": "abcde",
+      "value": "ABCDE"
+    },
+    "Ablaze": {
+      "key": "ablaze",
+      "value": "Ablaze"
+    },
+    "Account": {
+      "key": "account",
+      "value": "Account"
+    },
+    "Account\", title: \"Realm access\", sub: \"Separate identities, separate ledgers. This screen only touches the realm you opened it from.": {
+      "key": "account.title.realm.access.sub.separate.identities.separate.ledgers.this.screen.only.touches.the.realm.you.opened.it.from",
+      "value": "Account\", title: \"Realm access\", sub: \"Separate identities, separate ledgers. This screen only touches the realm you opened it from."
+    },
+    "Adds 45 seconds to the running clock.": {
+      "key": "adds.45.seconds.to.the.running.clock",
+      "value": "Adds 45 seconds to the running clock."
+    },
+    "All": {
+      "key": "all",
+      "value": "All"
+    },
+    "All four rings aligned. The vault swings open.": {
+      "key": "all.four.rings.aligned.the.vault.swings.open",
+      "value": "All four rings aligned. The vault swings open."
+    },
+    "All four slots cracked — enter \" + code + \" to unlock the vault.\", \"The code is yours": {
+      "key": "all.four.slots.cracked.enter.code.to.unlock.the.vault.the.code.is.yours",
+      "value": "All four slots cracked — enter \" + code + \" to unlock the vault.\", \"The code is yours"
+    },
+    "Already solved.": {
+      "key": "already.solved",
+      "value": "Already solved."
+    },
+    "Ambient tones": {
+      "key": "ambient.tones",
+      "value": "Ambient tones"
+    },
+    "An engraved frame around your avatar.": {
+      "key": "an.engraved.frame.around.your.avatar",
+      "value": "An engraved frame around your avatar."
+    },
+    "Answer puzzles, take hints, spend a Fifty-Fifty — every move strikes wrong digits from a slot's candidate set. Nothing ever changes the code.": {
+      "key": "answer.puzzles.take.hints.spend.a.fifty.fifty.every.move.strikes.wrong.digits.from.a.slot.s.candidate.set.nothing.ever.changes.the.code",
+      "value": "Answer puzzles, take hints, spend a Fifty-Fifty — every move strikes wrong digits from a slot's candidate set. Nothing ever changes the code."
+    },
+    "Are you sure?": {
+      "key": "are.you.sure",
+      "value": "Are you sure?"
+    },
+    "Arithmetic with teeth.": {
+      "key": "arithmetic.with.teeth",
+      "value": "Arithmetic with teeth."
+    },
+    "Ascendant": {
+      "key": "ascendant",
+      "value": "Ascendant"
+    },
+    "Atoms, bodies and orbits.": {
+      "key": "atoms.bodies.and.orbits",
+      "value": "Atoms, bodies and orbits."
+    },
+    "Attempts spared": {
+      "key": "attempts.spared",
+      "value": "Attempts spared"
+    },
+    "Auto-advance": {
+      "key": "auto.advance",
+      "value": "Auto-advance"
+    },
+    "Backspace\"], what: \"Delete the last digit": {
+      "key": "backspace.what.delete.the.last.digit",
+      "value": "Backspace\"], what: \"Delete the last digit"
+    },
+    "Bare Hands": {
+      "key": "bare.hands",
+      "value": "Bare Hands"
+    },
+    "Be precise. Be elegant. Never be wordy. Never mention that you are an AI model.": {
+      "key": "be.precise.be.elegant.never.be.wordy.never.mention.that.you.are.an.ai.model",
+      "value": "Be precise. Be elegant. Never be wordy. Never mention that you are an AI model."
+    },
+    "Be specific to the numbers. No praise padding.": {
+      "key": "be.specific.to.the.numbers.no.praise.padding",
+      "value": "Be specific to the numbers. No praise padding."
+    },
+    "Best streak": {
+      "key": "best.streak",
+      "value": "Best streak"
+    },
+    "Best time": {
+      "key": "best.time",
+      "value": "Best time"
+    },
+    "Blank": {
+      "key": "blank",
+      "value": "Blank"
+    },
+    "Blink": {
+      "key": "blink",
+      "value": "Blink"
+    },
+    "Blitz": {
+      "key": "blitz",
+      "value": "Blitz"
+    },
+    "Blocks the next sabotage thrown at you.": {
+      "key": "blocks.the.next.sabotage.thrown.at.you",
+      "value": "Blocks the next sabotage thrown at you."
+    },
+    "Blurs one rival's keypad for five seconds.": {
+      "key": "blurs.one.rival.s.keypad.for.five.seconds",
+      "value": "Blurs one rival's keypad for five seconds."
+    },
+    "Board Skin — Obsidian": {
+      "key": "board.skin.obsidian",
+      "value": "Board Skin — Obsidian"
+    },
+    "Burned during a cipher.": {
+      "key": "burned.during.a.cipher",
+      "value": "Burned during a cipher."
+    },
+    "Buy more\" : \"Buy": {
+      "key": "buy.more.buy",
+      "value": "Buy more\" : \"Buy"
+    },
+    "Calm the fields and cuts for low-power devices.": {
+      "key": "calm.the.fields.and.cuts.for.low.power.devices",
+      "value": "Calm the fields and cuts for low-power devices."
+    },
+    "Can I pause a run?\", a: \"Pausing is a power-up, not a right. Hold The Clock freezes the countdown for twenty seconds, Extra Time simply adds forty-five. Leaving mid-run saves the snapshot so the same vault can be resumed later.": {
+      "key": "can.i.pause.a.run.a.pausing.is.a.power.up.not.a.right.hold.the.clock.freezes.the.countdown.for.twenty.seconds.extra.time.simply.adds.forty.five.leaving.mid.run.saves.the.snapshot.so.the.same.vault.can.be.resumed.later",
+      "value": "Can I pause a run?\", a: \"Pausing is a power-up, not a right. Hold The Clock freezes the countdown for twenty seconds, Extra Time simply adds forty-five. Leaving mid-run saves the snapshot so the same vault can be resumed later."
+    },
+    "Candidates: 0 1 2 3 4 5 6 7 8 9": {
+      "key": "candidates.0.1.2.3.4.5.6.7.8.9",
+      "value": "Candidates: 0 1 2 3 4 5 6 7 8 9"
+    },
+    "Category: \" + cat + \".": {
+      "key": "category.cat",
+      "value": "Category: \" + cat + \"."
+    },
+    "Check your inbox to confirm the email.\", \"Confirm your account": {
+      "key": "check.your.inbox.to.confirm.the.email.confirm.your.account",
+      "value": "Check your inbox to confirm the email.\", \"Confirm your account"
+    },
+    "Cipher": {
+      "key": "cipher",
+      "value": "Cipher"
+    },
+    "Cipher Rank": {
+      "key": "cipher.rank",
+      "value": "Cipher Rank"
+    },
+    "Ciphers": {
+      "key": "ciphers",
+      "value": "Ciphers"
+    },
+    "Cloak": {
+      "key": "cloak",
+      "value": "Cloak"
+    },
+    "Cloaked — your progress bar goes quiet for twelve seconds.": {
+      "key": "cloaked.your.progress.bar.goes.quiet.for.twelve.seconds",
+      "value": "Cloaked — your progress bar goes quiet for twelve seconds."
+    },
+    "Cloud connections saved.": {
+      "key": "cloud.connections.saved",
+      "value": "Cloud connections saved."
+    },
+    "Cloud ready · sign in": {
+      "key": "cloud.ready.sign.in",
+      "value": "Cloud ready · sign in"
+    },
+    "Co-op": {
+      "key": "co.op",
+      "value": "Co-op"
+    },
+    "Codes inside the code.": {
+      "key": "codes.inside.the.code",
+      "value": "Codes inside the code."
+    },
+    "Collector": {
+      "key": "collector",
+      "value": "Collector"
+    },
+    "Common": {
+      "key": "common",
+      "value": "Common"
+    },
+    "Confirm": {
+      "key": "confirm",
+      "value": "Confirm"
+    },
+    "Consulted the Oracle": {
+      "key": "consulted.the.oracle",
+      "value": "Consulted the Oracle"
+    },
+    "Content-Type\": \"application/json": {
+      "key": "content.type.application.json",
+      "value": "Content-Type\": \"application/json"
+    },
+    "Core Dividend": {
+      "key": "core.dividend",
+      "value": "Core Dividend"
+    },
+    "Core realm": {
+      "key": "core.realm",
+      "value": "Core realm"
+    },
+    "Core realm · hotseat": {
+      "key": "core.realm.hotseat",
+      "value": "Core realm · hotseat"
+    },
+    "Cores": {
+      "key": "cores",
+      "value": "Cores"
+    },
+    "Cores — spend them in the Core shop": {
+      "key": "cores.spend.them.in.the.core.shop",
+      "value": "Cores — spend them in the Core shop"
+    },
+    "Correct digit:": {
+      "key": "correct.digit",
+      "value": "Correct digit:"
+    },
+    "Corrupted pixels spill from every correct answer.": {
+      "key": "corrupted.pixels.spill.from.every.correct.answer",
+      "value": "Corrupted pixels spill from every correct answer."
+    },
+    "Cosmetic": {
+      "key": "cosmetic",
+      "value": "Cosmetic"
+    },
+    "Could not create the room.": {
+      "key": "could.not.create.the.room",
+      "value": "Could not create the room."
+    },
+    "Could not enter that room.": {
+      "key": "could.not.enter.that.room",
+      "value": "Could not enter that room."
+    },
+    "Could not equip that.": {
+      "key": "could.not.equip.that",
+      "value": "Could not equip that."
+    },
+    "Could not join that room.": {
+      "key": "could.not.join.that.room",
+      "value": "Could not join that room."
+    },
+    "Could not join.": {
+      "key": "could.not.join",
+      "value": "Could not join."
+    },
+    "Could not reset the room.": {
+      "key": "could.not.reset.the.room",
+      "value": "Could not reset the room."
+    },
+    "Could not start.": {
+      "key": "could.not.start",
+      "value": "Could not start."
+    },
+    "Could not toggle readiness.": {
+      "key": "could.not.toggle.readiness",
+      "value": "Could not toggle readiness."
+    },
+    "Could not use that.": {
+      "key": "could.not.use.that",
+      "value": "Could not use that."
+    },
+    "Crack a cipher": {
+      "key": "crack.a.cipher",
+      "value": "Crack a cipher"
+    },
+    "Crack a cipher and your name shows up here first.": {
+      "key": "crack.a.cipher.and.your.name.shows.up.here.first",
+      "value": "Crack a cipher and your name shows up here first."
+    },
+    "Crack the first cipher and your ledger starts.": {
+      "key": "crack.the.first.cipher.and.your.ledger.starts",
+      "value": "Crack the first cipher and your ledger starts."
+    },
+    "Dark": {
+      "key": "dark",
+      "value": "Dark"
+    },
+    "Deduction under pressure.": {
+      "key": "deduction.under.pressure",
+      "value": "Deduction under pressure."
+    },
+    "Default locale pack not found": {
+      "key": "default.locale.pack.not.found",
+      "value": "Default locale pack not found"
+    },
+    "Delete digit": {
+      "key": "delete.digit",
+      "value": "Delete digit"
+    },
+    "Difficulty: \" + diff + \" out of 5.": {
+      "key": "difficulty.diff.out.of.5",
+      "value": "Difficulty: \" + diff + \" out of 5."
+    },
+    "Dividend perk": {
+      "key": "dividend.perk",
+      "value": "Dividend perk"
+    },
+    "Do the two realms share anything?\", a: \"No. Shards never become cores, a streak in the Shard realm does not touch the Core ladder, and the shops are sealed. They share only your device.": {
+      "key": "do.the.two.realms.share.anything.a.no.shards.never.become.cores.a.streak.in.the.shard.realm.does.not.touch.the.core.ladder.and.the.shops.are.sealed.they.share.only.your.device",
+      "value": "Do the two realms share anything?\", a: \"No. Shards never become cores, a streak in the Shard realm does not touch the Core ladder, and the shops are sealed. They share only your device."
+    },
+    "Does anything work without the internet?\", a: \"Everything local does — your profiles, shops, history, badges and runs live on-device under the exotic.v1.* keys. Supabase and OpenRouter are optional upgrades you enable in Settings.": {
+      "key": "does.anything.work.without.the.internet.a.everything.local.does.your.profiles.shops.history.badges.and.runs.live.on.device.under.the.exotic.v1.keys.supabase.and.openrouter.are.optional.upgrades.you.enable.in.settings",
+      "value": "Does anything work without the internet?\", a: \"Everything local does — your profiles, shops, history, badges and runs live on-device under the exotic.v1.* keys. Supabase and OpenRouter are optional upgrades you enable in Settings."
+    },
+    "Done for today\" : \"Take the daily": {
+      "key": "done.for.today.take.the.daily",
+      "value": "Done for today\" : \"Take the daily"
+    },
+    "Double Cores": {
+      "key": "double.cores",
+      "value": "Double Cores"
+    },
+    "Double Yield": {
+      "key": "double.yield",
+      "value": "Double Yield"
+    },
+    "Double yield": {
+      "key": "double.yield",
+      "value": "Double yield"
+    },
+    "Doubles every shard you earn for the rest of the run.": {
+      "key": "doubles.every.shard.you.earn.for.the.rest.of.the.run",
+      "value": "Doubles every shard you earn for the rest of the run."
+    },
+    "Doubles the cores this match pays out.": {
+      "key": "doubles.the.cores.this.match.pays.out",
+      "value": "Doubles the cores this match pays out."
+    },
+    "Duel": {
+      "key": "duel",
+      "value": "Duel"
+    },
+    "Duel, squad, blitz or co-op — every match runs the same seeded cipher, streamed over realtime. Locally connected? The lobby becomes a hotseat.": {
+      "key": "duel.squad.blitz.or.co.op.every.match.runs.the.same.seeded.cipher.streamed.over.realtime.locally.connected.the.lobby.becomes.a.hotseat",
+      "value": "Duel, squad, blitz or co-op — every match runs the same seeded cipher, streamed over realtime. Locally connected? The lobby becomes a hotseat."
+    },
+    "Duelist": {
+      "key": "duelist",
+      "value": "Duelist"
+    },
+    "Earned, not bought": {
+      "key": "earned.not.bought",
+      "value": "Earned, not bought"
+    },
+    "Edge function \" + name + \" failed": {
+      "key": "edge.function.name.failed",
+      "value": "Edge function \" + name + \" failed"
+    },
+    "Email and password are required.": {
+      "key": "email.and.password.are.required",
+      "value": "Email and password are required."
+    },
+    "Emote Pack — Respect": {
+      "key": "emote.pack.respect",
+      "value": "Emote Pack — Respect"
+    },
+    "Empty completion": {
+      "key": "empty.completion",
+      "value": "Empty completion"
+    },
+    "Encyclopedia": {
+      "key": "encyclopedia",
+      "value": "Encyclopedia"
+    },
+    "Enter all \" + run.slots.length + \" digits.": {
+      "key": "enter.all.run.slots.length.digits",
+      "value": "Enter all \" + run.slots.length + \" digits."
+    },
+    "Enter all \" + this.session.run.slots.length + \" digits first.": {
+      "key": "enter.all.this.session.run.slots.length.digits.first",
+      "value": "Enter all \" + this.session.run.slots.length + \" digits first."
+    },
+    "Enter something": {
+      "key": "enter.something",
+      "value": "Enter something"
+    },
+    "Enter the room code first.": {
+      "key": "enter.the.room.code.first",
+      "value": "Enter the room code first."
+    },
+    "Enter\"], what: \"Submit the entry / unlock the vault": {
+      "key": "enter.what.submit.the.entry.unlock.the.vault",
+      "value": "Enter\"], what: \"Submit the entry / unlock the vault"
+    },
+    "Epic": {
+      "key": "epic",
+      "value": "Epic"
+    },
+    "Equipped \" + item.name + \".": {
+      "key": "equipped.item.name",
+      "value": "Equipped \" + item.name + \"."
+    },
+    "Equipped\" : \"Equip": {
+      "key": "equipped.equip",
+      "value": "Equipped\" : \"Equip"
+    },
+    "Erase everything": {
+      "key": "erase.everything",
+      "value": "Erase everything"
+    },
+    "Erase the local vault?": {
+      "key": "erase.the.local.vault",
+      "value": "Erase the local vault?"
+    },
+    "Error": {
+      "key": "error",
+      "value": "Error"
+    },
+    "Error\", title: \"Outside the vault": {
+      "key": "error.title.outside.the.vault",
+      "value": "Error\", title: \"Outside the vault"
+    },
+    "Every digit fights back. No safety net.": {
+      "key": "every.digit.fights.back.no.safety.net",
+      "value": "Every digit fights back. No safety net."
+    },
+    "Every free model is cooling down right now. Try again in a moment.": {
+      "key": "every.free.model.is.cooling.down.right.now.try.again.in.a.moment",
+      "value": "Every free model is cooling down right now. Try again in a moment."
+    },
+    "Every match opens with one puzzle already solved.": {
+      "key": "every.match.opens.with.one.puzzle.already.solved",
+      "value": "Every match opens with one puzzle already solved."
+    },
+    "Every run begins with 15 bonus seconds.": {
+      "key": "every.run.begins.with.15.bonus.seconds",
+      "value": "Every run begins with 15 bonus seconds."
+    },
+    "Every run starts with the first puzzle already cracked.": {
+      "key": "every.run.starts.with.the.first.puzzle.already.cracked",
+      "value": "Every run starts with the first puzzle already cracked."
+    },
+    "Every vault has a": {
+      "key": "every.vault.has.a",
+      "value": "Every vault has a"
+    },
+    "Everyone is ready. Start the clock and deal the same cipher.": {
+      "key": "everyone.is.ready.start.the.clock.and.deal.the.same.cipher",
+      "value": "Everyone is ready. Start the clock and deal the same cipher."
+    },
+    "Everything is bought with winnings, never real money. The other realm's shop is behind a sealed door.": {
+      "key": "everything.is.bought.with.winnings.never.real.money.the.other.realm.s.shop.is.behind.a.sealed.door",
+      "value": "Everything is bought with winnings, never real money. The other realm's shop is behind a sealed door."
+    },
+    "Everything the game does, in under two minutes of reading.": {
+      "key": "everything.the.game.does.in.under.two.minutes.of.reading",
+      "value": "Everything the game does, in under two minutes of reading."
+    },
+    "Everything you hear is synthesized live — zero audio files.": {
+      "key": "everything.you.hear.is.synthesized.live.zero.audio.files",
+      "value": "Everything you hear is synthesized live — zero audio files."
+    },
+    "Exotic": {
+      "key": "exotic",
+      "value": "Exotic"
+    },
+    "Exotic is a brain-teaser where a four digit vault code is assembled from four puzzles.": {
+      "key": "exotic.is.a.brain.teaser.where.a.four.digit.vault.code.is.assembled.from.four.puzzles",
+      "value": "Exotic is a brain-teaser where a four digit vault code is assembled from four puzzles."
+    },
+    "Extra Time": {
+      "key": "extra.time",
+      "value": "Extra Time"
+    },
+    "Facts must be correct — if you are unsure of a fact, pick a different one you are certain about.": {
+      "key": "facts.must.be.correct.if.you.are.unsure.of.a.fact.pick.a.different.one.you.are.certain.about",
+      "value": "Facts must be correct — if you are unsure of a fact, pick a different one you are certain about."
+    },
+    "Fair by design": {
+      "key": "fair.by.design",
+      "value": "Fair by design"
+    },
+    "Field manual": {
+      "key": "field.manual",
+      "value": "Field manual"
+    },
+    "Fifty-Fifty": {
+      "key": "fifty.fifty",
+      "value": "Fifty-Fifty"
+    },
+    "Final standings": {
+      "key": "final.standings",
+      "value": "Final standings"
+    },
+    "Find the rule, then break it.": {
+      "key": "find.the.rule.then.break.it",
+      "value": "Find the rule, then break it."
+    },
+    "First Crack": {
+      "key": "first.crack",
+      "value": "First Crack"
+    },
+    "First clear today": {
+      "key": "first.clear.today",
+      "value": "First clear today"
+    },
+    "Flawless": {
+      "key": "flawless",
+      "value": "Flawless"
+    },
+    "Fog": {
+      "key": "fog",
+      "value": "Fog"
+    },
+    "Fog thrown\", freeze: \"Freeze cast\", steal: \"Stolen": {
+      "key": "fog.thrown.freeze.freeze.cast.steal.stolen",
+      "value": "Fog thrown\", freeze: \"Freeze cast\", steal: \"Stolen"
+    },
+    "For the ones who never specialise.": {
+      "key": "for.the.ones.who.never.specialise",
+      "value": "For the ones who never specialise."
+    },
+    "Forge ONE new Exotic puzzle.": {
+      "key": "forge.one.new.exotic.puzzle",
+      "value": "Forge ONE new Exotic puzzle."
+    },
+    "Four in-match emotes that say more than words.": {
+      "key": "four.in.match.emotes.that.say.more.than.words",
+      "value": "Four in-match emotes that say more than words."
+    },
+    "Four puzzles, one code": {
+      "key": "four.puzzles.one.code",
+      "value": "Four puzzles, one code"
+    },
+    "Four rings, four puzzles, one code. Solve the riddles, crack the cipher,": {
+      "key": "four.rings.four.puzzles.one.code.solve.the.riddles.crack.the.cipher",
+      "value": "Four rings, four puzzles, one code. Solve the riddles, crack the cipher,"
+    },
+    "Frame — Cipher": {
+      "key": "frame.cipher",
+      "value": "Frame — Cipher"
+    },
+    "Frame — Vault": {
+      "key": "frame.vault",
+      "value": "Frame — Vault"
+    },
+    "Freeze": {
+      "key": "freeze",
+      "value": "Freeze"
+    },
+    "Freezes the timer for twenty seconds.": {
+      "key": "freezes.the.timer.for.twenty.seconds",
+      "value": "Freezes the timer for twenty seconds."
+    },
+    "Frugal Mind": {
+      "key": "frugal.mind",
+      "value": "Frugal Mind"
+    },
+    "GET\" ? \"GET": {
+      "key": "get.get",
+      "value": "GET\" ? \"GET"
+    },
+    "Gentle riddles. Room to breathe.": {
+      "key": "gentle.riddles.room.to.breathe",
+      "value": "Gentle riddles. Room to breathe."
+    },
+    "Give up": {
+      "key": "give.up",
+      "value": "Give up"
+    },
+    "Good Host": {
+      "key": "good.host",
+      "value": "Good Host"
+    },
+    "HTTP-Referer\": global.location.origin || \"https://exotic.game": {
+      "key": "http.referer.global.location.origin.https.exotic.game",
+      "value": "HTTP-Referer\": global.location.origin || \"https://exotic.game"
+    },
+    "Hall of records": {
+      "key": "hall.of.records",
+      "value": "Hall of records"
+    },
+    "Hand-written puzzles": {
+      "key": "hand.written.puzzles",
+      "value": "Hand-written puzzles"
+    },
+    "Haptics": {
+      "key": "haptics",
+      "value": "Haptics"
+    },
+    "Head Start": {
+      "key": "head.start",
+      "value": "Head Start"
+    },
+    "Hides your progress bar from everyone for 12 seconds.": {
+      "key": "hides.your.progress.bar.from.everyone.for.12.seconds",
+      "value": "Hides your progress bar from everyone for 12 seconds."
+    },
+    "Hints cost 40% less in every run.": {
+      "key": "hints.cost.40.less.in.every.run",
+      "value": "Hints cost 40% less in every run."
+    },
+    "Hold The Clock": {
+      "key": "hold.the.clock",
+      "value": "Hold The Clock"
+    },
+    "Home": {
+      "key": "home",
+      "value": "Home"
+    },
+    "Home\", href: \"#/": {
+      "key": "home.href",
+      "value": "Home\", href: \"#/"
+    },
+    "How to play": {
+      "key": "how.to.play",
+      "value": "How to play"
+    },
+    "Immaculate": {
+      "key": "immaculate",
+      "value": "Immaculate"
+    },
+    "Inferno": {
+      "key": "inferno",
+      "value": "Inferno"
+    },
+    "Instant Solve": {
+      "key": "instant.solve",
+      "value": "Instant Solve"
+    },
+    "Interface language": {
+      "key": "interface.language",
+      "value": "Interface language"
+    },
+    "It sits on the very edge of the number line.\" : \"": {
+      "key": "it.sits.on.the.very.edge.of.the.number.line",
+      "value": "It sits on the very edge of the number line.\" : \""
+    },
+    "Jump to the next unsolved slot after a correct answer.": {
+      "key": "jump.to.the.next.unsolved.slot.after.a.correct.answer",
+      "value": "Jump to the next unsolved slot after a correct answer."
+    },
+    "Keep playing": {
+      "key": "keep.playing",
+      "value": "Keep playing"
+    },
+    "Keep racing": {
+      "key": "keep.racing",
+      "value": "Keep racing"
+    },
+    "Know your vault": {
+      "key": "know.your.vault",
+      "value": "Know your vault"
+    },
+    "Language and direction": {
+      "key": "language.and.direction",
+      "value": "Language and direction"
+    },
+    "Language updated.": {
+      "key": "language.updated",
+      "value": "Language updated."
+    },
+    "Lateral, layered, unforgiving.": {
+      "key": "lateral.layered.unforgiving",
+      "value": "Lateral, layered, unforgiving."
+    },
+    "Leave mid-match?": {
+      "key": "leave.mid.match",
+      "value": "Leave mid-match?"
+    },
+    "Leave the match": {
+      "key": "leave.the.match",
+      "value": "Leave the match"
+    },
+    "Leave this vault?": {
+      "key": "leave.this.vault",
+      "value": "Leave this vault?"
+    },
+    "Let digits, backspace and enter drive the keypad while the board is focused.": {
+      "key": "let.digits.backspace.and.enter.drive.the.keypad.while.the.board.is.focused",
+      "value": "Let digits, backspace and enter drive the keypad while the board is focused."
+    },
+    "Letters doing gymnastics.": {
+      "key": "letters.doing.gymnastics",
+      "value": "Letters doing gymnastics."
+    },
+    "Light": {
+      "key": "light",
+      "value": "Light"
+    },
+    "Local only — hotseat": {
+      "key": "local.only.hotseat",
+      "value": "Local only — hotseat"
+    },
+    "Local vault": {
+      "key": "local.vault",
+      "value": "Local vault"
+    },
+    "Locale manifest unavailable": {
+      "key": "locale.manifest.unavailable",
+      "value": "Locale manifest unavailable"
+    },
+    "Locale pack not found:": {
+      "key": "locale.pack.not.found",
+      "value": "Locale pack not found:"
+    },
+    "Locksmith": {
+      "key": "locksmith",
+      "value": "Locksmith"
+    },
+    "Logic": {
+      "key": "logic",
+      "value": "Logic"
+    },
+    "Look the part.": {
+      "key": "look.the.part",
+      "value": "Look the part."
+    },
+    "Lost": {
+      "key": "lost",
+      "value": "Lost"
+    },
+    "Matches": {
+      "key": "matches",
+      "value": "Matches"
+    },
+    "Mathematics": {
+      "key": "mathematics",
+      "value": "Mathematics"
+    },
+    "Model error": {
+      "key": "model.error",
+      "value": "Model error"
+    },
+    "Model returned an error": {
+      "key": "model.returned.an.error",
+      "value": "Model returned an error"
+    },
+    "Model timed out": {
+      "key": "model.timed.out",
+      "value": "Model timed out"
+    },
+    "Multi": {
+      "key": "multi",
+      "value": "Multi"
+    },
+    "Multiplayer": {
+      "key": "multiplayer",
+      "value": "Multiplayer"
+    },
+    "Multiplayer rooms need Supabase.": {
+      "key": "multiplayer.rooms.need.supabase",
+      "value": "Multiplayer rooms need Supabase."
+    },
+    "Multiplayer rooms need Supabase. Connect it in Settings, or play a local hotseat.": {
+      "key": "multiplayer.rooms.need.supabase.connect.it.in.settings.or.play.a.local.hotseat",
+      "value": "Multiplayer rooms need Supabase. Connect it in Settings, or play a local hotseat."
+    },
+    "Multiplayer rooms run on Supabase. Connect it in Settings.": {
+      "key": "multiplayer.rooms.run.on.supabase.connect.it.in.settings",
+      "value": "Multiplayer rooms run on Supabase. Connect it in Settings."
+    },
+    "Mythic": {
+      "key": "mythic",
+      "value": "Mythic"
+    },
+    "Narrow the candidates": {
+      "key": "narrow.the.candidates",
+      "value": "Narrow the candidates"
+    },
+    "No coaching returned": {
+      "key": "no.coaching.returned",
+      "value": "No coaching returned"
+    },
+    "No greeting, no bullet points, no mention of models or AI.": {
+      "key": "no.greeting.no.bullet.points.no.mention.of.models.or.ai",
+      "value": "No greeting, no bullet points, no mention of models or AI."
+    },
+    "No hotseat match is running on this device.": {
+      "key": "no.hotseat.match.is.running.on.this.device",
+      "value": "No hotseat match is running on this device."
+    },
+    "No hotseat match running.": {
+      "key": "no.hotseat.match.running",
+      "value": "No hotseat match running."
+    },
+    "No open room with that code.": {
+      "key": "no.open.room.with.that.code",
+      "value": "No open room with that code."
+    },
+    "No open rooms": {
+      "key": "no.open.rooms",
+      "value": "No open rooms"
+    },
+    "No profile yet": {
+      "key": "no.profile.yet",
+      "value": "No profile yet"
+    },
+    "No rows returned": {
+      "key": "no.rows.returned",
+      "value": "No rows returned"
+    },
+    "No saved vault to resume.": {
+      "key": "no.saved.vault.to.resume",
+      "value": "No saved vault to resume."
+    },
+    "No server? The vault runs on your own device, identical rules.": {
+      "key": "no.server.the.vault.runs.on.your.own.device.identical.rules",
+      "value": "No server? The vault runs on your own device, identical rules."
+    },
+    "No such chamber": {
+      "key": "no.such.chamber",
+      "value": "No such chamber"
+    },
+    "No such seat.": {
+      "key": "no.such.seat",
+      "value": "No such seat."
+    },
+    "No such slot.": {
+      "key": "no.such.slot",
+      "value": "No such slot."
+    },
+    "No vaults yet": {
+      "key": "no.vaults.yet",
+      "value": "No vaults yet"
+    },
+    "Node": {
+      "key": "node",
+      "value": "Node"
+    },
+    "Not a single record yet": {
+      "key": "not.a.single.record.yet",
+      "value": "Not a single record yet"
+    },
+    "Not enough currency.": {
+      "key": "not.enough.currency",
+      "value": "Not enough currency."
+    },
+    "Nothing on this shelf": {
+      "key": "nothing.on.this.shelf",
+      "value": "Nothing on this shelf"
+    },
+    "Nudge": {
+      "key": "nudge",
+      "value": "Nudge"
+    },
+    "Once all four slots are cracked you know the code. Enter it to win before the clock runs out and before your attempts run dry.": {
+      "key": "once.all.four.slots.are.cracked.you.know.the.code.enter.it.to.win.before.the.clock.runs.out.and.before.your.attempts.run.dry",
+      "value": "Once all four slots are cracked you know the code. Enter it to win before the clock runs out and before your attempts run dry."
+    },
+    "One more guess against the vault.": {
+      "key": "one.more.guess.against.the.vault",
+      "value": "One more guess against the vault."
+    },
+    "Only the host can start.": {
+      "key": "only.the.host.can.start",
+      "value": "Only the host can start."
+    },
+    "Open one yourself or join a friend's code.": {
+      "key": "open.one.yourself.or.join.a.friend.s.code",
+      "value": "Open one yourself or join a friend's code."
+    },
+    "OpenRouter key": {
+      "key": "openrouter.key",
+      "value": "OpenRouter key"
+    },
+    "OpenRouter key\", control: orInput, hint: \"Used by the Oracle to forge custom puzzles. Leave empty to disable AI.": {
+      "key": "openrouter.key.control.orinput.hint.used.by.the.oracle.to.forge.custom.puzzles.leave.empty.to.disable.ai",
+      "value": "OpenRouter key\", control: orInput, hint: \"Used by the Oracle to forge custom puzzles. Leave empty to disable AI."
+    },
+    "Opener": {
+      "key": "opener",
+      "value": "Opener"
+    },
+    "Oracle": {
+      "key": "oracle",
+      "value": "Oracle"
+    },
+    "Oracle Rank": {
+      "key": "oracle.rank",
+      "value": "Oracle Rank"
+    },
+    "Oracle Solve": {
+      "key": "oracle.solve",
+      "value": "Oracle Solve"
+    },
+    "Outside the vault": {
+      "key": "outside.the.vault",
+      "value": "Outside the vault"
+    },
+    "PLAYING NOW\" : \"ready": {
+      "key": "playing.now.ready",
+      "value": "PLAYING NOW\" : \"ready"
+    },
+    "Password needs at least 6 characters.": {
+      "key": "password.needs.at.least.6.characters",
+      "value": "Password needs at least 6 characters."
+    },
+    "Patron": {
+      "key": "patron",
+      "value": "Patron"
+    },
+    "Patterns": {
+      "key": "patterns",
+      "value": "Patterns"
+    },
+    "Perk": {
+      "key": "perk",
+      "value": "Perk"
+    },
+    "Permanent, always on.": {
+      "key": "permanent.always.on",
+      "value": "Permanent, always on."
+    },
+    "Permanently earn 15% more experience.": {
+      "key": "permanently.earn.15.more.experience",
+      "value": "Permanently earn 15% more experience."
+    },
+    "Permanently earn 20% more multiplayer experience.": {
+      "key": "permanently.earn.20.more.multiplayer.experience",
+      "value": "Permanently earn 20% more multiplayer experience."
+    },
+    "Permanently earn 20% more shards.": {
+      "key": "permanently.earn.20.more.shards",
+      "value": "Permanently earn 20% more shards."
+    },
+    "Permanently earn 25% more cores.": {
+      "key": "permanently.earn.25.more.cores",
+      "value": "Permanently earn 25% more cores."
+    },
+    "Physical keyboard entry": {
+      "key": "physical.keyboard.entry",
+      "value": "Physical keyboard entry"
+    },
+    "Pick a target first.": {
+      "key": "pick.a.target.first",
+      "value": "Pick a target first."
+    },
+    "Pixel dust follows every correct answer.": {
+      "key": "pixel.dust.follows.every.correct.answer",
+      "value": "Pixel dust follows every correct answer."
+    },
+    "Play": {
+      "key": "play",
+      "value": "Play"
+    },
+    "Playable offline · Live online": {
+      "key": "playable.offline.live.online",
+      "value": "Playable offline · Live online"
+    },
+    "Playing offline? You already have a local vault.": {
+      "key": "playing.offline.you.already.have.a.local.vault",
+      "value": "Playing offline? You already have a local vault."
+    },
+    "Polymath": {
+      "key": "polymath",
+      "value": "Polymath"
+    },
+    "Power-up": {
+      "key": "power.up",
+      "value": "Power-up"
+    },
+    "Precision Instinct": {
+      "key": "precision.instinct",
+      "value": "Precision Instinct"
+    },
+    "Profile": {
+      "key": "profile",
+      "value": "Profile"
+    },
+    "Progress to level": {
+      "key": "progress.to.level",
+      "value": "Progress to level"
+    },
+    "Project settings → API → Project URL.": {
+      "key": "project.settings.api.project.url",
+      "value": "Project settings → API → Project URL."
+    },
+    "Project settings → API → anon public key.": {
+      "key": "project.settings.api.anon.public.key",
+      "value": "Project settings → API → anon public key."
+    },
+    "Purchase failed.": {
+      "key": "purchase.failed",
+      "value": "Purchase failed."
+    },
+    "Put your own keys in, or leave them empty and play entirely on-device.": {
+      "key": "put.your.own.keys.in.or.leave.them.empty.and.play.entirely.on.device",
+      "value": "Put your own keys in, or leave them empty and play entirely on-device."
+    },
+    "Puzzles cracked": {
+      "key": "puzzles.cracked",
+      "value": "Puzzles cracked"
+    },
+    "Quick Wrist": {
+      "key": "quick.wrist",
+      "value": "Quick Wrist"
+    },
+    "RPC failed": {
+      "key": "rpc.failed",
+      "value": "RPC failed"
+    },
+    "RULE: every puzzle you write must resolve to exactly ONE digit from 0 to 9.": {
+      "key": "rule.every.puzzle.you.write.must.resolve.to.exactly.one.digit.from.0.to.9",
+      "value": "RULE: every puzzle you write must resolve to exactly ONE digit from 0 to 9."
+    },
+    "Rank Shield": {
+      "key": "rank.shield",
+      "value": "Rank Shield"
+    },
+    "Ranked": {
+      "key": "ranked",
+      "value": "Ranked"
+    },
+    "Rankings": {
+      "key": "rankings",
+      "value": "Rankings"
+    },
+    "Rare": {
+      "key": "rare",
+      "value": "Rare"
+    },
+    "Rating": {
+      "key": "rating",
+      "value": "Rating"
+    },
+    "Real brain-teasers": {
+      "key": "real.brain.teasers",
+      "value": "Real brain-teasers"
+    },
+    "Realm access": {
+      "key": "realm.access",
+      "value": "Realm access"
+    },
+    "Realm account": {
+      "key": "realm.account",
+      "value": "Realm account"
+    },
+    "Realtime online": {
+      "key": "realtime.online",
+      "value": "Realtime online"
+    },
+    "Recommended for public builds — keeps the OpenRouter key on the server.": {
+      "key": "recommended.for.public.builds.keeps.the.openrouter.key.on.the.server",
+      "value": "Recommended for public builds — keeps the OpenRouter key on the server."
+    },
+    "Recon Suite": {
+      "key": "recon.suite",
+      "value": "Recon Suite"
+    },
+    "Reduce effects": {
+      "key": "reduce.effects",
+      "value": "Reduce effects"
+    },
+    "Reply with JSON only:": {
+      "key": "reply.with.json.only",
+      "value": "Reply with JSON only:"
+    },
+    "Reserved for those who see the answer early.": {
+      "key": "reserved.for.those.who.see.the.answer.early",
+      "value": "Reserved for those who see the answer early."
+    },
+    "Reset local vault": {
+      "key": "reset.local.vault",
+      "value": "Reset local vault"
+    },
+    "Retires the current puzzle and deals a fresh one from the same shelf.": {
+      "key": "retires.the.current.puzzle.and.deals.a.fresh.one.from.the.same.shelf",
+      "value": "Retires the current puzzle and deals a fresh one from the same shelf."
+    },
+    "Reveal A Digit": {
+      "key": "reveal.a.digit",
+      "value": "Reveal A Digit"
+    },
+    "Reveal why a puzzle resolved the way it did after solving.": {
+      "key": "reveal.why.a.puzzle.resolved.the.way.it.did.after.solving",
+      "value": "Reveal why a puzzle resolved the way it did after solving."
+    },
+    "Reveals a guiding nudge for the puzzle you are staring at.": {
+      "key": "reveals.a.guiding.nudge.for.the.puzzle.you.are.staring.at",
+      "value": "Reveals a guiding nudge for the puzzle you are staring at."
+    },
+    "Reveals how many puzzles each rival has cracked.": {
+      "key": "reveals.how.many.puzzles.each.rival.has.cracked",
+      "value": "Reveals how many puzzles each rival has cracked."
+    },
+    "Riddles": {
+      "key": "riddles",
+      "value": "Riddles"
+    },
+    "Riddles, math, wordplay, ciphers — every one resolves to a single digit.": {
+      "key": "riddles.math.wordplay.ciphers.every.one.resolves.to.a.single.digit",
+      "value": "Riddles, math, wordplay, ciphers — every one resolves to a single digit."
+    },
+    "Ritual": {
+      "key": "ritual",
+      "value": "Ritual"
+    },
+    "Rival progress is always visible to you — cloaks do not work.": {
+      "key": "rival.progress.is.always.visible.to.you.cloaks.do.not.work",
+      "value": "Rival progress is always visible to you — cloaks do not work."
+    },
+    "Rival's Study": {
+      "key": "rival.s.study",
+      "value": "Rival's Study"
+    },
+    "Room": {
+      "key": "room",
+      "value": "Room"
+    },
+    "Route AI through the edge function": {
+      "key": "route.ai.through.the.edge.function",
+      "value": "Route AI through the edge function"
+    },
+    "Run cleared": {
+      "key": "run.cleared",
+      "value": "Run cleared"
+    },
+    "Same seed, same vault. Nobody sees your code, nobody cheats the clock.": {
+      "key": "same.seed.same.vault.nobody.sees.your.code.nobody.cheats.the.clock",
+      "value": "Same seed, same vault. Nobody sees your code, nobody cheats the clock."
+    },
+    "Savant": {
+      "key": "savant",
+      "value": "Savant"
+    },
+    "Save": {
+      "key": "save",
+      "value": "Save"
+    },
+    "Save & leave": {
+      "key": "save.leave",
+      "value": "Save & leave"
+    },
+    "Save connections": {
+      "key": "save.connections",
+      "value": "Save connections"
+    },
+    "Saved vault discarded.": {
+      "key": "saved.vault.discarded",
+      "value": "Saved vault discarded."
+    },
+    "Say something…": {
+      "key": "say.something",
+      "value": "Say something…"
+    },
+    "Scan": {
+      "key": "scan",
+      "value": "Scan"
+    },
+    "Scholar": {
+      "key": "scholar",
+      "value": "Scholar"
+    },
+    "Scholar's Path": {
+      "key": "scholar.s.path",
+      "value": "Scholar's Path"
+    },
+    "Science": {
+      "key": "science",
+      "value": "Science"
+    },
+    "Score": {
+      "key": "score",
+      "value": "Score"
+    },
+    "Seasoned": {
+      "key": "seasoned",
+      "value": "Seasoned"
+    },
+    "Seat name": {
+      "key": "seat.name",
+      "value": "Seat name"
+    },
+    "Second Wind": {
+      "key": "second.wind",
+      "value": "Second Wind"
+    },
+    "Separate identities, separate ledgers. This screen only touches the realm you opened it from.": {
+      "key": "separate.identities.separate.ledgers.this.screen.only.touches.the.realm.you.opened.it.from",
+      "value": "Separate identities, separate ledgers. This screen only touches the realm you opened it from."
+    },
+    "Settings": {
+      "key": "settings",
+      "value": "Settings"
+    },
+    "Settings saved.": {
+      "key": "settings.saved",
+      "value": "Settings saved."
+    },
+    "Shard": {
+      "key": "shard",
+      "value": "Shard"
+    },
+    "Shard Dividend": {
+      "key": "shard.dividend",
+      "value": "Shard Dividend"
+    },
+    "Shard realm": {
+      "key": "shard.realm",
+      "value": "Shard realm"
+    },
+    "Shards": {
+      "key": "shards",
+      "value": "Shards"
+    },
+    "Shards and cores are won at the board. Badges are never for sale.": {
+      "key": "shards.and.cores.are.won.at.the.board.badges.are.never.for.sale",
+      "value": "Shards and cores are won at the board. Badges are never for sale."
+    },
+    "Shards — spend them in the Shard shop": {
+      "key": "shards.spend.them.in.the.shard.shop",
+      "value": "Shards — spend them in the Shard shop"
+    },
+    "Share one vault. Split the puzzles between you.": {
+      "key": "share.one.vault.split.the.puzzles.between.you",
+      "value": "Share one vault. Split the puzzles between you."
+    },
+    "Sharp": {
+      "key": "sharp",
+      "value": "Sharp"
+    },
+    "Sharp Eye": {
+      "key": "sharp.eye",
+      "value": "Sharp Eye"
+    },
+    "Shop": {
+      "key": "shop",
+      "value": "Shop"
+    },
+    "Show explanations": {
+      "key": "show.explanations",
+      "value": "Show explanations"
+    },
+    "Sign in": {
+      "key": "sign.in",
+      "value": "Sign in"
+    },
+    "Sign in to the Core realm first.": {
+      "key": "sign.in.to.the.core.realm.first",
+      "value": "Sign in to the Core realm first."
+    },
+    "Sign out": {
+      "key": "sign.out",
+      "value": "Sign out"
+    },
+    "Sign-in failed. Try again.": {
+      "key": "sign.in.failed.try.again",
+      "value": "Sign-in failed. Try again."
+    },
+    "Sixty seconds. Every second counts.": {
+      "key": "sixty.seconds.every.second.counts",
+      "value": "Sixty seconds. Every second counts."
+    },
+    "Solo vaults": {
+      "key": "solo.vaults",
+      "value": "Solo vaults"
+    },
+    "Solved": {
+      "key": "solved",
+      "value": "Solved"
+    },
+    "Solved\", result.solved + \"/": {
+      "key": "solved.result.solved",
+      "value": "Solved\", result.solved + \"/"
+    },
+    "Solved\", value: result.solved + \"/": {
+      "key": "solved.value.result.solved",
+      "value": "Solved\", value: result.solved + \"/"
+    },
+    "Solved\", value: solved + \" /": {
+      "key": "solved.value.solved",
+      "value": "Solved\", value: solved + \" /"
+    },
+    "Solved.": {
+      "key": "solved",
+      "value": "Solved."
+    },
+    "Something shook the vault — try again.": {
+      "key": "something.shook.the.vault.try.again",
+      "value": "Something shook the vault — try again."
+    },
+    "Sound effects": {
+      "key": "sound.effects",
+      "value": "Sound effects"
+    },
+    "Spare Attempt": {
+      "key": "spare.attempt",
+      "value": "Spare Attempt"
+    },
+    "Squad": {
+      "key": "squad",
+      "value": "Squad"
+    },
+    "Standard": {
+      "key": "standard",
+      "value": "Standard"
+    },
+    "Stops a rival's clock dead for three seconds.": {
+      "key": "stops.a.rival.s.clock.dead.for.three.seconds",
+      "value": "Stops a rival's clock dead for three seconds."
+    },
+    "Straight-up hands you one digit of the cipher.": {
+      "key": "straight.up.hands.you.one.digit.of.the.cipher",
+      "value": "Straight-up hands you one digit of the cipher."
+    },
+    "Streak": {
+      "key": "streak",
+      "value": "Streak"
+    },
+    "Streak Shield": {
+      "key": "streak.shield",
+      "value": "Streak Shield"
+    },
+    "Strikes out half the wrong digits on one slot.": {
+      "key": "strikes.out.half.the.wrong.digits.on.one.slot",
+      "value": "Strikes out half the wrong digits on one slot."
+    },
+    "Submit": {
+      "key": "submit",
+      "value": "Submit"
+    },
+    "Supabase URL": {
+      "key": "supabase.url",
+      "value": "Supabase URL"
+    },
+    "Supabase URL\", control: urlInput, hint: \"Project settings → API → Project URL.": {
+      "key": "supabase.url.control.urlinput.hint.project.settings.api.project.url",
+      "value": "Supabase URL\", control: urlInput, hint: \"Project settings → API → Project URL."
+    },
+    "Supabase anon key": {
+      "key": "supabase.anon.key",
+      "value": "Supabase anon key"
+    },
+    "Supabase anon key\", control: keyInput, hint: \"Project settings → API → anon public key.": {
+      "key": "supabase.anon.key.control.keyinput.hint.project.settings.api.anon.public.key",
+      "value": "Supabase anon key\", control: keyInput, hint: \"Project settings → API → anon public key."
+    },
+    "Supabase is not configured": {
+      "key": "supabase.is.not.configured",
+      "value": "Supabase is not configured"
+    },
+    "Surgical": {
+      "key": "surgical",
+      "value": "Surgical"
+    },
+    "Survives one loss without breaking your win streak.": {
+      "key": "survives.one.loss.without.breaking.your.win.streak",
+      "value": "Survives one loss without breaking your win streak."
+    },
+    "Swap Puzzle": {
+      "key": "swap.puzzle",
+      "value": "Swap Puzzle"
+    },
+    "System": {
+      "key": "system",
+      "value": "System"
+    },
+    "Tab\"], what: \"Move between puzzle slots": {
+      "key": "tab.what.move.between.puzzle.slots",
+      "value": "Tab\"], what: \"Move between puzzle slots"
+    },
+    "Takes 10 seconds for you and 5 from a rival.": {
+      "key": "takes.10.seconds.for.you.and.5.from.a.rival",
+      "value": "Takes 10 seconds for you and 5 from a rival."
+    },
+    "Test connection": {
+      "key": "test.connection",
+      "value": "Test connection"
+    },
+    "That did not work.": {
+      "key": "that.did.not.work",
+      "value": "That did not work."
+    },
+    "That item belongs to the other realm.": {
+      "key": "that.item.belongs.to.the.other.realm",
+      "value": "That item belongs to the other realm."
+    },
+    "That room has closed.": {
+      "key": "that.room.has.closed",
+      "value": "That room has closed."
+    },
+    "That room is full.": {
+      "key": "that.room.is.full",
+      "value": "That room is full."
+    },
+    "The Oracle cracks one of your puzzles mid-match.": {
+      "key": "the.oracle.cracks.one.of.your.puzzles.mid.match",
+      "value": "The Oracle cracks one of your puzzles mid-match."
+    },
+    "The Oracle declines to explain.": {
+      "key": "the.oracle.declines.to.explain",
+      "value": "The Oracle declines to explain."
+    },
+    "The Oracle forgot the digit.": {
+      "key": "the.oracle.forgot.the.digit",
+      "value": "The Oracle forgot the digit."
+    },
+    "The Oracle is offline. Add an OpenRouter key or connect Supabase in Settings.": {
+      "key": "the.oracle.is.offline.add.an.openrouter.key.or.connect.supabase.in.settings",
+      "value": "The Oracle is offline. Add an OpenRouter key or connect Supabase in Settings."
+    },
+    "The Oracle reads the puzzle and answers it outright.": {
+      "key": "the.oracle.reads.the.puzzle.and.answers.it.outright",
+      "value": "The Oracle reads the puzzle and answers it outright."
+    },
+    "The Oracle spoke in riddles we could not parse.": {
+      "key": "the.oracle.spoke.in.riddles.we.could.not.parse",
+      "value": "The Oracle spoke in riddles we could not parse."
+    },
+    "The Shard ledger — best scores, fastest cracks, longest streaks.": {
+      "key": "the.shard.ledger.best.scores.fastest.cracks.longest.streaks",
+      "value": "The Shard ledger — best scores, fastest cracks, longest streaks."
+    },
+    "The answer hides in the wording.": {
+      "key": "the.answer.hides.in.the.wording",
+      "value": "The answer hides in the wording."
+    },
+    "The digit here is \" + parity + \" and lives in \" + half + \".": {
+      "key": "the.digit.here.is.parity.and.lives.in.half",
+      "value": "The digit here is \" + parity + \" and lives in \" + half + \"."
+    },
+    "The digit is \" + d + \".": {
+      "key": "the.digit.is.d",
+      "value": "The digit is \" + d + \"."
+    },
+    "The digit must be a single character 0-9. The prompt must end by making clear which single digit is wanted.": {
+      "key": "the.digit.must.be.a.single.character.0.9.the.prompt.must.end.by.making.clear.which.single.digit.is.wanted",
+      "value": "The digit must be a single character 0-9. The prompt must end by making clear which single digit is wanted."
+    },
+    "The intended Exotic experience.": {
+      "key": "the.intended.exotic.experience",
+      "value": "The intended Exotic experience."
+    },
+    "The other realm keeps its own identity, balance and history — on purpose.": {
+      "key": "the.other.realm.keeps.its.own.identity.balance.and.history.on.purpose",
+      "value": "The other realm keeps its own identity, balance and history — on purpose."
+    },
+    "The ranked Core ladder, live as matches land.": {
+      "key": "the.ranked.core.ladder.live.as.matches.land",
+      "value": "The ranked Core ladder, live as matches land."
+    },
+    "The route '": {
+      "key": "the.route",
+      "value": "The route '"
+    },
+    "The same seeded vault is passed around. Honest seats, no accounts.": {
+      "key": "the.same.seeded.vault.is.passed.around.honest.seats.no.accounts",
+      "value": "The same seeded vault is passed around. Honest seats, no accounts."
+    },
+    "The vault exchange": {
+      "key": "the.vault.exchange",
+      "value": "The vault exchange"
+    },
+    "Theme applied.": {
+      "key": "theme.applied",
+      "value": "Theme applied."
+    },
+    "Theme or flavour to weave in: \" + r.seedText + \".\" : \"": {
+      "key": "theme.or.flavour.to.weave.in.r.seedtext",
+      "value": "Theme or flavour to weave in: \" + r.seedText + \".\" : \""
+    },
+    "This room was closed by its host.": {
+      "key": "this.room.was.closed.by.its.host",
+      "value": "This room was closed by its host."
+    },
+    "This run is over.": {
+      "key": "this.run.is.over",
+      "value": "This run is over."
+    },
+    "This tier allows no hints.": {
+      "key": "this.tier.allows.no.hints",
+      "value": "This tier allows no hints."
+    },
+    "This tier is silent: no hints, no oracles.": {
+      "key": "this.tier.is.silent.no.hints.no.oracles",
+      "value": "This tier is silent: no hints, no oracles."
+    },
+    "Time": {
+      "key": "time",
+      "value": "Time"
+    },
+    "Time Thief": {
+      "key": "time.thief",
+      "value": "Time Thief"
+    },
+    "Time left": {
+      "key": "time.left",
+      "value": "Time left"
+    },
+    "Title — Cipherbreaker": {
+      "key": "title.cipherbreaker",
+      "value": "Title — Cipherbreaker"
+    },
+    "Title — Locksmith": {
+      "key": "title.locksmith",
+      "value": "Title — Locksmith"
+    },
+    "Title — Oracle": {
+      "key": "title.oracle",
+      "value": "Title — Oracle"
+    },
+    "Title — Polymath": {
+      "key": "title.polymath",
+      "value": "Title — Polymath"
+    },
+    "Trail — Comet": {
+      "key": "trail.comet",
+      "value": "Trail — Comet"
+    },
+    "Trail — Glitch": {
+      "key": "trail.glitch",
+      "value": "Trail — Glitch"
+    },
+    "Trickier trivia, tighter clock.": {
+      "key": "trickier.trivia.tighter.clock",
+      "value": "Trickier trivia, tighter clock."
+    },
+    "Trivia": {
+      "key": "trivia",
+      "value": "Trivia"
+    },
+    "Try another section.": {
+      "key": "try.another.section",
+      "value": "Try another section."
+    },
+    "US\", es: \"ES\", fr: \"FR\", de: \"DE\", it: \"IT\", pt: \"BR\", ru: \"RU\", uk: \"UA\", pl: \"PL\", nl: \"NL\", sv: \"SE\", no: \"NO\", da: \"DK\", fi: \"FI\", ar: \"SA\", he: \"IL\", fa: \"IR\", ur: \"PK\", hi: \"IN\", bn: \"BD\", ja: \"JP\", ko: \"KR\", zh: \"CN\", tr: \"TR\", el: \"GR\", th: \"TH\", vi: \"VN\", id: \"ID\", ms: \"MY\", sw: \"KE\", af: \"ZA": {
+      "key": "us.es.es.fr.fr.de.de.it.it.pt.br.ru.ru.uk.ua.pl.pl.nl.nl.sv.se.no.no.da.dk.fi.fi.ar.sa.he.il.fa.ir.ur.pk.hi.in.bn.bd.ja.jp.ko.kr.zh.cn.tr.tr.el.gr.th.th.vi.vn.id.id.ms.my.sw.ke.af.za",
+      "value": "US\", es: \"ES\", fr: \"FR\", de: \"DE\", it: \"IT\", pt: \"BR\", ru: \"RU\", uk: \"UA\", pl: \"PL\", nl: \"NL\", sv: \"SE\", no: \"NO\", da: \"DK\", fi: \"FI\", ar: \"SA\", he: \"IL\", fa: \"IR\", ur: \"PK\", hi: \"IN\", bn: \"BD\", ja: \"JP\", ko: \"KR\", zh: \"CN\", tr: \"TR\", el: \"GR\", th: \"TH\", vi: \"VN\", id: \"ID\", ms: \"MY\", sw: \"KE\", af: \"ZA"
+    },
+    "Unknown item.": {
+      "key": "unknown.item",
+      "value": "Unknown item."
+    },
+    "Unlock": {
+      "key": "unlock",
+      "value": "Unlock"
+    },
+    "Unlock the vault": {
+      "key": "unlock.the.vault",
+      "value": "Unlock the vault"
+    },
+    "Up to four. First to break it takes the cores.": {
+      "key": "up.to.four.first.to.break.it.takes.the.cores",
+      "value": "Up to four. First to break it takes the cores."
+    },
+    "Used by the Oracle to forge custom puzzles. Leave empty to disable AI.": {
+      "key": "used.by.the.oracle.to.forge.custom.puzzles.leave.empty.to.disable.ai",
+      "value": "Used by the Oracle to forge custom puzzles. Leave empty to disable AI."
+    },
+    "Vault": {
+      "key": "vault",
+      "value": "Vault"
+    },
+    "Vault snapshotted — you can resume it any time.": {
+      "key": "vault.snapshotted.you.can.resume.it.any.time",
+      "value": "Vault snapshotted — you can resume it any time."
+    },
+    "Vaultbreaker": {
+      "key": "vaultbreaker",
+      "value": "Vaultbreaker"
+    },
+    "Veteran": {
+      "key": "veteran",
+      "value": "Veteran"
+    },
+    "Ward": {
+      "key": "ward",
+      "value": "Ward"
+    },
+    "Ward up — the next twenty seconds shrug off sabotage.": {
+      "key": "ward.up.the.next.twenty.seconds.shrug.off.sabotage",
+      "value": "Ward up — the next twenty seconds shrug off sabotage."
+    },
+    "Warm": {
+      "key": "warm",
+      "value": "Warm"
+    },
+    "Warm Up": {
+      "key": "warm.up",
+      "value": "Warm Up"
+    },
+    "Wear it in the lobby. Earn the fear.": {
+      "key": "wear.it.in.the.lobby.earn.the.fear",
+      "value": "Wear it in the lobby. Earn the fear."
+    },
+    "Wear the word above your name.": {
+      "key": "wear.the.word.above.your.name",
+      "value": "Wear the word above your name."
+    },
+    "What is a perfect run?\", a: \"Win without a single wrong full guess. You may still commit wrong digits. A perfect run pays the Flawless bonus and checks the Immaculate badge progression.": {
+      "key": "what.is.a.perfect.run.a.win.without.a.single.wrong.full.guess.you.may.still.commit.wrong.digits.a.perfect.run.pays.the.flawless.bonus.and.checks.the.immaculate.badge.progression",
+      "value": "What is a perfect run?\", a: \"Win without a single wrong full guess. You may still commit wrong digits. A perfect run pays the Flawless bonus and checks the Immaculate badge progression."
+    },
+    "What makes the Exotic tier different?\", a: \"Difficulty five puzzles, three attempts, ninety-five seconds, and a hard rule: no hints, no oracles, no mercy.": {
+      "key": "what.makes.the.exotic.tier.different.a.difficulty.five.puzzles.three.attempts.ninety.five.seconds.and.a.hard.rule.no.hints.no.oracles.no.mercy",
+      "value": "What makes the Exotic tier different?\", a: \"Difficulty five puzzles, three attempts, ninety-five seconds, and a hard rule: no hints, no oracles, no mercy."
+    },
+    "Wide world, small answers.": {
+      "key": "wide.world.small.answers",
+      "value": "Wide world, small answers."
+    },
+    "Wins": {
+      "key": "wins",
+      "value": "Wins"
+    },
+    "Wordplay": {
+      "key": "wordplay",
+      "value": "Wordplay"
+    },
+    "Works offline": {
+      "key": "works.offline",
+      "value": "Works offline"
+    },
+    "Wrong guesses": {
+      "key": "wrong.guesses",
+      "value": "Wrong guesses"
+    },
+    "Wrong guesses sting": {
+      "key": "wrong.guesses.sting",
+      "value": "Wrong guesses sting"
+    },
+    "X-Title\": \"Exotic": {
+      "key": "x.title.exotic",
+      "value": "X-Title\": \"Exotic"
+    },
+    "XP": {
+      "key": "xp",
+      "value": "XP"
+    },
+    "XP\", \"+": {
+      "key": "xp",
+      "value": "XP\", \"+"
+    },
+    "XP\", value: \"+": {
+      "key": "xp.value",
+      "value": "XP\", value: \"+"
+    },
+    "You already own that.": {
+      "key": "you.already.own.that",
+      "value": "You already own that."
+    },
+    "You are the Oracle, the puzzle master inside a game called Exotic.": {
+      "key": "you.are.the.oracle.the.puzzle.master.inside.a.game.called.exotic",
+      "value": "You are the Oracle, the puzzle master inside a game called Exotic."
+    },
+    "You do not own that.": {
+      "key": "you.do.not.own.that",
+      "value": "You do not own that."
+    },
+    "Your ledger": {
+      "key": "your.ledger",
+      "value": "Your ledger"
+    },
+    "Your next ranked defeat costs no rating.": {
+      "key": "your.next.ranked.defeat.costs.no.rating",
+      "value": "Your next ranked defeat costs no rating."
+    },
+    "Your on-device profiles, balances, history and settings will be gone. This cannot be undone.": {
+      "key": "your.on.device.profiles.balances.history.and.settings.will.be.gone.this.cannot.be.undone",
+      "value": "Your on-device profiles, balances, history and settings will be gone. This cannot be undone."
+    },
+    "Your progress is snapshotted and can be resumed from the vault list.": {
+      "key": "your.progress.is.snapshotted.and.can.be.resumed.from.the.vault.list",
+      "value": "Your progress is snapshotted and can be resumed from the vault list."
+    },
+    "Your realm profile appears the first time you run a cipher.": {
+      "key": "your.realm.profile.appears.the.first.time.you.run.a.cipher",
+      "value": "Your realm profile appears the first time you run a cipher."
+    },
+    "Your seat goes quiet and your rivals keep racing without you.": {
+      "key": "your.seat.goes.quiet.and.your.rivals.keep.racing.without.you",
+      "value": "Your seat goes quiet and your rivals keep racing without you."
+    },
+    "[exotic] cloud init fell back to local:": {
+      "key": "exotic.cloud.init.fell.back.to.local",
+      "value": "[exotic] cloud init fell back to local:"
+    },
+    "[exotic] shell boot failed:": {
+      "key": "exotic.shell.boot.failed",
+      "value": "[exotic] shell boot failed:"
+    },
+    "[exotic] view error:": {
+      "key": "exotic.view.error",
+      "value": "[exotic] view error:"
+    },
+    "[router] view failed:": {
+      "key": "router.view.failed",
+      "value": "[router] view failed:"
+    },
+    "a freeze\", fog: \"fog\", steal: \"a theft\", cloak: \"a cloak\", scan: \"a scan": {
+      "key": "a.freeze.fog.fog.steal.a.theft.cloak.a.cloak.scan.a.scan",
+      "value": "a freeze\", fog: \"fog\", steal: \"a theft\", cloak: \"a cloak\", scan: \"a scan"
+    },
+    "added to your vault.": {
+      "key": "added.to.your.vault",
+      "value": "added to your vault."
+    },
+    "ai.cache": {
+      "key": "ai.cache",
+      "value": "ai.cache"
+    },
+    "ai.cooldowns": {
+      "key": "ai.cooldowns",
+      "value": "ai.cooldowns"
+    },
+    "all\", \"consume\", \"perk\", \"cosmetic": {
+      "key": "all.consume.perk.cosmetic",
+      "value": "all\", \"consume\", \"perk\", \"cosmetic"
+    },
+    "aria-expanded\", \"false": {
+      "key": "aria.expanded.false",
+      "value": "aria-expanded\", \"false"
+    },
+    "aria-label\", \"title\", \"placeholder\", \"alt": {
+      "key": "aria.label.title.placeholder.alt",
+      "value": "aria-label\", \"title\", \"placeholder\", \"alt"
+    },
+    "aria-label\": \"Close": {
+      "key": "aria.label.close",
+      "value": "aria-label\": \"Close"
+    },
+    "aria-label\": \"Open menu": {
+      "key": "aria.label.open.menu",
+      "value": "aria-label\": \"Open menu"
+    },
+    "aria-label\": \"Switch theme": {
+      "key": "aria.label.switch.theme",
+      "value": "aria-label\": \"Switch theme"
+    },
+    "aria-modal\": \"true": {
+      "key": "aria.modal.true",
+      "value": "aria-modal\": \"true"
+    },
+    "arming the vault…": {
+      "key": "arming.the.vault",
+      "value": "arming the vault…"
+    },
+    "assets/locales/index.json": {
+      "key": "assets.locales.index.json",
+      "value": "assets/locales/index.json"
+    },
+    "audio.enabled": {
+      "key": "audio.enabled",
+      "value": "audio.enabled"
+    },
+    "audio.volume": {
+      "key": "audio.volume",
+      "value": "audio.volume"
+    },
+    "auth": {
+      "key": "auth",
+      "value": "auth"
+    },
+    "best_time_ms\", label: \"Best time": {
+      "key": "best.time.ms.label.best.time",
+      "value": "best_time_ms\", label: \"Best time"
+    },
+    "boardSkin\", value: \"obsidian": {
+      "key": "boardskin.value.obsidian",
+      "value": "boardSkin\", value: \"obsidian"
+    },
+    "brain\", title: \"Real brain-teasers\", text: \"Riddles, math, wordplay, ciphers — every one resolves to a single digit.": {
+      "key": "brain.title.real.brain.teasers.text.riddles.math.wordplay.ciphers.every.one.resolves.to.a.single.digit",
+      "value": "brain\", title: \"Real brain-teasers\", text: \"Riddles, math, wordplay, ciphers — every one resolves to a single digit."
+    },
+    "btn btn-icon": {
+      "key": "btn.btn.icon",
+      "value": "btn btn-icon"
+    },
+    "btn btn-icon btn-sm": {
+      "key": "btn.btn.icon.btn.sm",
+      "value": "btn btn-icon btn-sm"
+    },
+    "btn btn-icon nav-burger": {
+      "key": "btn.btn.icon.nav.burger",
+      "value": "btn btn-icon nav-burger"
+    },
+    "btn btn-sm": {
+      "key": "btn.btn.sm",
+      "value": "btn btn-sm"
+    },
+    "cipher\", 2, \"digit\", \"In a Caesar cipher shifting letters by 3, D becomes which alphabet position?\", 7, \"D → G, and G is the 7th letter.": {
+      "key": "cipher.2.digit.in.a.caesar.cipher.shifting.letters.by.3.d.becomes.which.alphabet.position.7.d.g.and.g.is.the.7th.letter",
+      "value": "cipher\", 2, \"digit\", \"In a Caesar cipher shifting letters by 3, D becomes which alphabet position?\", 7, \"D → G, and G is the 7th letter."
+    },
+    "cipher\", 3, \"digit\", \"How many bits are in a nibble?\", 4, \"A nibble is four bits.": {
+      "key": "cipher.3.digit.how.many.bits.are.in.a.nibble.4.a.nibble.is.four.bits",
+      "value": "cipher\", 3, \"digit\", \"How many bits are in a nibble?\", 4, \"A nibble is four bits."
+    },
+    "cipher\", 4, \"digit\", \"How many hexadecimal digits represent one byte?\", 2, \"Two hex digits per byte.": {
+      "key": "cipher.4.digit.how.many.hexadecimal.digits.represent.one.byte.2.two.hex.digits.per.byte",
+      "value": "cipher\", 4, \"digit\", \"How many hexadecimal digits represent one byte?\", 2, \"Two hex digits per byte."
+    },
+    "cipher\", 4, \"digit\", \"In Morse code, how many dashes are in the letter O?\", 3, \"O is − − −.": {
+      "key": "cipher.4.digit.in.morse.code.how.many.dashes.are.in.the.letter.o.3.o.is",
+      "value": "cipher\", 4, \"digit\", \"In Morse code, how many dashes are in the letter O?\", 3, \"O is − − −."
+    },
+    "cipher\", 5, \"digit\", \"In ASCII, 'A' is 65. What is the last digit of 'Z'?\", 0, \"'Z' is 90.": {
+      "key": "cipher.5.digit.in.ascii.a.is.65.what.is.the.last.digit.of.z.0.z.is.90",
+      "value": "cipher\", 5, \"digit\", \"In ASCII, 'A' is 65. What is the last digit of 'Z'?\", 0, \"'Z' is 90."
+    },
+    "cipher\", 5, \"digit\", \"What is the last digit of the decimal value of binary 11111111?\", 5, \"255.": {
+      "key": "cipher.5.digit.what.is.the.last.digit.of.the.decimal.value.of.binary.11111111.5.255",
+      "value": "cipher\", 5, \"digit\", \"What is the last digit of the decimal value of binary 11111111?\", 5, \"255."
+    },
+    "cipher\", label: \"Ciphers\", icon: \"hash\", blurb: \"Codes inside the code.": {
+      "key": "cipher.label.ciphers.icon.hash.blurb.codes.inside.the.code",
+      "value": "cipher\", label: \"Ciphers\", icon: \"hash\", blurb: \"Codes inside the code."
+    },
+    "cipher\", name: \"Cipher\", min: 1100, icon: \"hash": {
+      "key": "cipher.name.cipher.min.1100.icon.hash",
+      "value": "cipher\", name: \"Cipher\", min: 1100, icon: \"hash"
+    },
+    "cipher-rank\", name: \"Cipher Rank\", desc: \"Reach the Cipher rank.\", icon: \"hash\", tier: \"silver": {
+      "key": "cipher.rank.name.cipher.rank.desc.reach.the.cipher.rank.icon.hash.tier.silver",
+      "value": "cipher-rank\", name: \"Cipher Rank\", desc: \"Reach the Cipher rank.\", icon: \"hash\", tier: \"silver"
+    },
+    "clear\", 0, \"submit": {
+      "key": "clear.0.submit",
+      "value": "clear\", 0, \"submit"
+    },
+    "collector\", name: \"Collector\", desc: \"Own 10 items from the shop.\", icon: \"package\", tier: \"silver": {
+      "key": "collector.name.collector.desc.own.10.items.from.the.shop.icon.package.tier.silver",
+      "value": "collector\", name: \"Collector\", desc: \"Own 10 items from the shop.\", icon: \"package\", tier: \"silver"
+    },
+    "common\", name: \"Common": {
+      "key": "common.name.common",
+      "value": "common\", name: \"Common"
+    },
+    "cosmetic\", name: \"Cosmetic\", blurb: \"Look the part.": {
+      "key": "cosmetic.name.cosmetic.blurb.look.the.part",
+      "value": "cosmetic\", name: \"Cosmetic\", blurb: \"Look the part."
+    },
+    "cs.": {
+      "key": "cs",
+      "value": "cs."
+    },
+    "d ago": {
+      "key": "d.ago",
+      "value": "d ago"
+    },
+    "daily\", name: \"Ritual\", desc: \"Complete 7 daily ciphers.\", icon: \"calendar\", tier: \"silver": {
+      "key": "daily.name.ritual.desc.complete.7.daily.ciphers.icon.calendar.tier.silver",
+      "value": "daily\", name: \"Ritual\", desc: \"Complete 7 daily ciphers.\", icon: \"calendar\", tier: \"silver"
+    },
+    "dark\" ? \"moon\" : \"sun": {
+      "key": "dark.moon.sun",
+      "value": "dark\" ? \"moon\" : \"sun"
+    },
+    "data-role\": \"burger": {
+      "key": "data.role.burger",
+      "value": "data-role\": \"burger"
+    },
+    "data-role\": \"slot-timer": {
+      "key": "data.role.slot.timer",
+      "value": "data-role\": \"slot-timer"
+    },
+    "data-role\": \"theme-toggle": {
+      "key": "data.role.theme.toggle",
+      "value": "data-role\": \"theme-toggle"
+    },
+    "data-role\": \"wallet-mp": {
+      "key": "data.role.wallet.mp",
+      "value": "data-role\": \"wallet-mp"
+    },
+    "data-role\": \"wallet-sp": {
+      "key": "data.role.wallet.sp",
+      "value": "data-role\": \"wallet-sp"
+    },
+    "data-view\", def.name || \"": {
+      "key": "data.view.def.name",
+      "value": "data-view\", def.name || \""
+    },
+    "digit\", source: \"oracle": {
+      "key": "digit.source.oracle",
+      "value": "digit\", source: \"oracle"
+    },
+    "dir\", rtl ? \"rtl\" : \"ltr": {
+      "key": "dir.rtl.rtl.ltr",
+      "value": "dir\", rtl ? \"rtl\" : \"ltr"
+    },
+    "dot\" : \"line": {
+      "key": "dot.line",
+      "value": "dot\" : \"line"
+    },
+    "duel\", \"squad\", \"blitz\", \"coop": {
+      "key": "duel.squad.blitz.coop",
+      "value": "duel\", \"squad\", \"blitz\", \"coop"
+    },
+    "duelist\", name: \"Duelist\", desc: \"Win 10 ranked duels.\", icon: \"swords\", tier: \"silver": {
+      "key": "duelist.name.duelist.desc.win.10.ranked.duels.icon.swords.tier.silver",
+      "value": "duelist\", name: \"Duelist\", desc: \"Win 10 ranked duels.\", icon: \"swords\", tier: \"silver"
+    },
+    "elo\", label: \"Rating": {
+      "key": "elo.label.rating",
+      "value": "elo\", label: \"Rating"
+    },
+    "email\", placeholder: \"you@example.com\", autocomplete: \"email": {
+      "key": "email.placeholder.you.example.com.autocomplete.email",
+      "value": "email\", placeholder: \"you@example.com\", autocomplete: \"email"
+    },
+    "emotes\", value: \"respect": {
+      "key": "emotes.value.respect",
+      "value": "emotes\", value: \"respect"
+    },
+    "encyclopedia\", name: \"Encyclopedia\", desc: \"Solve 1000 puzzles.\", icon: \"layers\", tier: \"platinum": {
+      "key": "encyclopedia.name.encyclopedia.desc.solve.1000.puzzles.icon.layers.tier.platinum",
+      "value": "encyclopedia\", name: \"Encyclopedia\", desc: \"Solve 1000 puzzles.\", icon: \"layers\", tier: \"platinum"
+    },
+    "epic\", name: \"Epic": {
+      "key": "epic.name.epic",
+      "value": "epic\", name: \"Epic"
+    },
+    "eq.": {
+      "key": "eq",
+      "value": "eq."
+    },
+    "error\" ? \"xCircle": {
+      "key": "error.xcircle",
+      "value": "error\" ? \"xCircle"
+    },
+    "even\" : \"odd": {
+      "key": "even.odd",
+      "value": "even\" : \"odd"
+    },
+    "exotic\", name: \"Exotic\", min: 1900, icon: \"crown": {
+      "key": "exotic.name.exotic.min.1900.icon.crown",
+      "value": "exotic\", name: \"Exotic\", min: 1900, icon: \"crown"
+    },
+    "exotic-tier\", name: \"Exotic\", desc: \"Clear an Exotic-tier run. No hints allowed in there.\", icon: \"crown\", tier: \"platinum": {
+      "key": "exotic.tier.name.exotic.desc.clear.an.exotic.tier.run.no.hints.allowed.in.there.icon.crown.tier.platinum",
+      "value": "exotic-tier\", name: \"Exotic\", desc: \"Clear an Exotic-tier run. No hints allowed in there.\", icon: \"crown\", tier: \"platinum"
+    },
+    "exotic.v1.": {
+      "key": "exotic.v1",
+      "value": "exotic.v1."
+    },
+    "exotic.v1.\", \"": {
+      "key": "exotic.v1",
+      "value": "exotic.v1.\", \""
+    },
+    "exotic.v1.locale": {
+      "key": "exotic.v1.locale",
+      "value": "exotic.v1.locale"
+    },
+    "first-blood\", name: \"First Crack\", desc: \"Win your very first cipher.\", icon: \"key\", tier: \"bronze": {
+      "key": "first.blood.name.first.crack.desc.win.your.very.first.cipher.icon.key.tier.bronze",
+      "value": "first-blood\", name: \"First Crack\", desc: \"Win your very first cipher.\", icon: \"key\", tier: \"bronze"
+    },
+    "flawless\", name: \"Flawless\", desc: \"Win without a single wrong guess.\", icon: \"target\", tier: \"gold": {
+      "key": "flawless.name.flawless.desc.win.without.a.single.wrong.guess.icon.target.tier.gold",
+      "value": "flawless\", name: \"Flawless\", desc: \"Win without a single wrong guess.\", icon: \"target\", tier: \"gold"
+    },
+    "flawless-five\", name: \"Immaculate\", desc: \"Five flawless wins.\", icon: \"sparkles\", tier: \"gold": {
+      "key": "flawless.five.name.immaculate.desc.five.flawless.wins.icon.sparkles.tier.gold",
+      "value": "flawless-five\", name: \"Immaculate\", desc: \"Five flawless wins.\", icon: \"sparkles\", tier: \"gold"
+    },
+    "frame\", value: \"cipher": {
+      "key": "frame.value.cipher",
+      "value": "frame\", value: \"cipher"
+    },
+    "frame\", value: \"vault": {
+      "key": "frame.value.vault",
+      "value": "frame\", value: \"vault"
+    },
+    "gem\", title: \"Earned, not bought\", text: \"Shards and cores are won at the board. Badges are never for sale.": {
+      "key": "gem.title.earned.not.bought.text.shards.and.cores.are.won.at.the.board.badges.are.never.for.sale",
+      "value": "gem\", title: \"Earned, not bought\", text: \"Shards and cores are won at the board. Badges are never for sale."
+    },
+    "ghost\", title: \"Nothing on this shelf\", message: \"Try another section.": {
+      "key": "ghost.title.nothing.on.this.shelf.message.try.another.section",
+      "value": "ghost\", title: \"Nothing on this shelf\", message: \"Try another section."
+    },
+    "glare\", \"slow\", \"wp": {
+      "key": "glare.slow.wp",
+      "value": "glare\", \"slow\", \"wp"
+    },
+    "glyph\" : \"rect": {
+      "key": "glyph.rect",
+      "value": "glyph\" : \"rect"
+    },
+    "google/gemini-2.0-flash-exp:free": {
+      "key": "google.gemini.2.0.flash.exp.free",
+      "value": "google/gemini-2.0-flash-exp:free"
+    },
+    "gt.": {
+      "key": "gt",
+      "value": "gt."
+    },
+    "gte.": {
+      "key": "gte",
+      "value": "gte."
+    },
+    "guide": {
+      "key": "guide",
+      "value": "guide"
+    },
+    "h ago": {
+      "key": "h.ago",
+      "value": "h ago"
+    },
+    "history.multi": {
+      "key": "history.multi",
+      "value": "history.multi"
+    },
+    "history.single": {
+      "key": "history.single",
+      "value": "history.single"
+    },
+    "home": {
+      "key": "home",
+      "value": "home"
+    },
+    "host\", name: \"Good Host\", desc: \"Win a match you created.\", icon: \"crown\", tier: \"bronze": {
+      "key": "host.name.good.host.desc.win.a.match.you.created.icon.crown.tier.bronze",
+      "value": "host\", name: \"Good Host\", desc: \"Win a match you created.\", icon: \"crown\", tier: \"bronze"
+    },
+    "hotseat-play\" : \"hotseat-lobby": {
+      "key": "hotseat.play.hotseat.lobby",
+      "value": "hotseat-play\" : \"hotseat-lobby"
+    },
+    "http://www.w3.org/2000/svg": {
+      "key": "http.www.w3.org.2000.svg",
+      "value": "http://www.w3.org/2000/svg"
+    },
+    "https://openrouter.ai/api/v1/chat/completions": {
+      "key": "https.openrouter.ai.api.v1.chat.completions",
+      "value": "https://openrouter.ai/api/v1/chat/completions"
+    },
+    "https://xxxx.supabase.co": {
+      "key": "https.xxxx.supabase.co",
+      "value": "https://xxxx.supabase.co"
+    },
+    "id,code,host_id,host_name,mode,tier,ranked,status,player_count,max_players,created_at": {
+      "key": "id.code.host.id.host.name.mode.tier.ranked.status.player.count.max.players.created.at",
+      "value": "id,code,host_id,host_name,mode,tier,ranked,status,player_count,max_players,created_at"
+    },
+    "id,username,display_name,level,avatar_seed,": {
+      "key": "id.username.display.name.level.avatar.seed",
+      "value": "id,username,display_name,level,avatar_seed,"
+    },
+    "ilike.": {
+      "key": "ilike",
+      "value": "ilike."
+    },
+    "inv-\" + realm + \"-": {
+      "key": "inv.realm",
+      "value": "inv-\" + realm + \"-"
+    },
+    "inventory.multi": {
+      "key": "inventory.multi",
+      "value": "inventory.multi"
+    },
+    "inventory.single": {
+      "key": "inventory.single",
+      "value": "inventory.single"
+    },
+    "iron\", name: \"Blank\", min: 0, icon: \"circle": {
+      "key": "iron.name.blank.min.0.icon.circle",
+      "value": "iron\", name: \"Blank\", min: 0, icon: \"circle"
+    },
+    "is.": {
+      "key": "is",
+      "value": "is."
+    },
+    "just now": {
+      "key": "just.now",
+      "value": "just now"
+    },
+    "leaderboard": {
+      "key": "leaderboard",
+      "value": "leaderboard"
+    },
+    "level-10\", name: \"Seasoned\", desc: \"Reach level 10.\", icon: \"trending\", tier: \"bronze": {
+      "key": "level.10.name.seasoned.desc.reach.level.10.icon.trending.tier.bronze",
+      "value": "level-10\", name: \"Seasoned\", desc: \"Reach level 10.\", icon: \"trending\", tier: \"bronze"
+    },
+    "level-30\", name: \"Veteran\", desc: \"Reach level 30.\", icon: \"medal\", tier: \"silver": {
+      "key": "level.30.name.veteran.desc.reach.level.30.icon.medal.tier.silver",
+      "value": "level-30\", name: \"Veteran\", desc: \"Reach level 30.\", icon: \"medal\", tier: \"silver"
+    },
+    "level-60\", name: \"Ascendant\", desc: \"Reach level 60.\", icon: \"award\", tier: \"platinum": {
+      "key": "level.60.name.ascendant.desc.reach.level.60.icon.award.tier.platinum",
+      "value": "level-60\", name: \"Ascendant\", desc: \"Reach level 60.\", icon: \"award\", tier: \"platinum"
+    },
+    "light\" ? \"light\" : \"dark": {
+      "key": "light.light.dark",
+      "value": "light\" ? \"light\" : \"dark"
+    },
+    "like.": {
+      "key": "like",
+      "value": "like."
+    },
+    "live\" : \"degraded": {
+      "key": "live.degraded",
+      "value": "live\" : \"degraded"
+    },
+    "local\", ok: true, note: \"Playing against the local vault.": {
+      "key": "local.ok.true.note.playing.against.the.local.vault",
+      "value": "local\", ok: true, note: \"Playing against the local vault."
+    },
+    "locksmith\", name: \"Locksmith\", desc: \"Crack 25 ciphers.\", icon: \"lock\", tier: \"silver": {
+      "key": "locksmith.name.locksmith.desc.crack.25.ciphers.icon.lock.tier.silver",
+      "value": "locksmith\", name: \"Locksmith\", desc: \"Crack 25 ciphers.\", icon: \"lock\", tier: \"silver"
+    },
+    "logic\", 1, \"choice\", \"One of these is odd. Which digit is it?\", 9, \"9 is the only non-prime here.": {
+      "key": "logic.1.choice.one.of.these.is.odd.which.digit.is.it.9.9.is.the.only.non.prime.here",
+      "value": "logic\", 1, \"choice\", \"One of these is odd. Which digit is it?\", 9, \"9 is the only non-prime here."
+    },
+    "logic\", 1, \"digit\", \"You overtake the runner in second place. What position are you in now?\", 2, \"You take their place — you are second.": {
+      "key": "logic.1.digit.you.overtake.the.runner.in.second.place.what.position.are.you.in.now.2.you.take.their.place.you.are.second",
+      "value": "logic\", 1, \"digit\", \"You overtake the runner in second place. What position are you in now?\", 2, \"You take their place — you are second."
+    },
+    "logic\", 2, \"choice\", \"Which digit is the only one that is neither prime nor composite?\", 1, \"1 has exactly one divisor, so it is neither.": {
+      "key": "logic.2.choice.which.digit.is.the.only.one.that.is.neither.prime.nor.composite.1.1.has.exactly.one.divisor.so.it.is.neither",
+      "value": "logic\", 2, \"choice\", \"Which digit is the only one that is neither prime nor composite?\", 1, \"1 has exactly one divisor, so it is neither."
+    },
+    "logic\", 2, \"digit\", \"All Bloops are Razzies. All Razzies are Lazzies. Are all Bloops Lazzies? Answer 1 for yes, 0 for no.\", 1, \"Yes — the chain of inclusion is transitive.": {
+      "key": "logic.2.digit.all.bloops.are.razzies.all.razzies.are.lazzies.are.all.bloops.lazzies.answer.1.for.yes.0.for.no.1.yes.the.chain.of.inclusion.is.transitive",
+      "value": "logic\", 2, \"digit\", \"All Bloops are Razzies. All Razzies are Lazzies. Are all Bloops Lazzies? Answer 1 for yes, 0 for no.\", 1, \"Yes — the chain of inclusion is transitive."
+    },
+    "logic\", 3, \"digit\", \"How many people must be in a room to guarantee two share a birth month?\", 3, \"Thirteen people force a repeat — the last digit is 3.": {
+      "key": "logic.3.digit.how.many.people.must.be.in.a.room.to.guarantee.two.share.a.birth.month.3.thirteen.people.force.a.repeat.the.last.digit.is.3",
+      "value": "logic\", 3, \"digit\", \"How many people must be in a room to guarantee two share a birth month?\", 3, \"Thirteen people force a repeat — the last digit is 3."
+    },
+    "logic\", 3, \"digit\", \"Minimum weighings on a balance scale to find the single heavier ball among 9?\", 2, \"Split into threes twice.": {
+      "key": "logic.3.digit.minimum.weighings.on.a.balance.scale.to.find.the.single.heavier.ball.among.9.2.split.into.threes.twice",
+      "value": "logic\", 3, \"digit\", \"Minimum weighings on a balance scale to find the single heavier ball among 9?\", 2, \"Split into threes twice."
+    },
+    "logic\", 3, \"digit\", \"Three boxes are labelled Apples, Oranges and Mixed. Every label is wrong. How many pieces must you draw to fix every label?\", 1, \"One draw from the Mixed box settles all three.": {
+      "key": "logic.3.digit.three.boxes.are.labelled.apples.oranges.and.mixed.every.label.is.wrong.how.many.pieces.must.you.draw.to.fix.every.label.1.one.draw.from.the.mixed.box.settles.all.three",
+      "value": "logic\", 3, \"digit\", \"Three boxes are labelled Apples, Oranges and Mixed. Every label is wrong. How many pieces must you draw to fix every label?\", 1, \"One draw from the Mixed box settles all three."
+    },
+    "logic\", 3, \"digit\", \"Two speakers: A says 'B lies', B says 'A lies'. How many of them can be truthful at once?\", 1, \"Exactly one — never both, never neither.": {
+      "key": "logic.3.digit.two.speakers.a.says.b.lies.b.says.a.lies.how.many.of.them.can.be.truthful.at.once.1.exactly.one.never.both.never.neither",
+      "value": "logic\", 3, \"digit\", \"Two speakers: A says 'B lies', B says 'A lies'. How many of them can be truthful at once?\", 1, \"Exactly one — never both, never neither."
+    },
+    "logic\", 4, \"digit\", \"How many weighings are needed to order 4 balls by weight, worst case, with a balance?\", 5, \"Five comparisons always suffice.": {
+      "key": "logic.4.digit.how.many.weighings.are.needed.to.order.4.balls.by.weight.worst.case.with.a.balance.5.five.comparisons.always.suffice",
+      "value": "logic\", 4, \"digit\", \"How many weighings are needed to order 4 balls by weight, worst case, with a balance?\", 5, \"Five comparisons always suffice."
+    },
+    "logic\", 4, \"digit\", \"In a 3×3 magic square using 1–9, what is the last digit of the magic sum?\", 5, \"The magic sum is 15.": {
+      "key": "logic.4.digit.in.a.3.3.magic.square.using.1.9.what.is.the.last.digit.of.the.magic.sum.5.the.magic.sum.is.15",
+      "value": "logic\", 4, \"digit\", \"In a 3×3 magic square using 1–9, what is the last digit of the magic sum?\", 5, \"The magic sum is 15."
+    },
+    "logic\", label: \"Logic\", icon: \"brain\", blurb: \"Deduction under pressure.": {
+      "key": "logic.label.logic.icon.brain.blurb.deduction.under.pressure",
+      "value": "logic\", label: \"Logic\", icon: \"brain\", blurb: \"Deduction under pressure."
+    },
+    "lt.": {
+      "key": "lt",
+      "value": "lt."
+    },
+    "lte.": {
+      "key": "lte",
+      "value": "lte."
+    },
+    "m ago": {
+      "key": "m.ago",
+      "value": "m ago"
+    },
+    "math\", \"science\", \"logic\", \"riddle\", \"pattern\", \"trivia\", \"wordplay\", \"cipher": {
+      "key": "math.science.logic.riddle.pattern.trivia.wordplay.cipher",
+      "value": "math\", \"science\", \"logic\", \"riddle\", \"pattern\", \"trivia\", \"wordplay\", \"cipher"
+    },
+    "math\", 1, \"choice\", \"Which of these is a perfect square?\", 4, \"4 is 2². The rest are not square numbers.": {
+      "key": "math.1.choice.which.of.these.is.a.perfect.square.4.4.is.2.the.rest.are.not.square.numbers",
+      "value": "math\", 1, \"choice\", \"Which of these is a perfect square?\", 4, \"4 is 2². The rest are not square numbers."
+    },
+    "math\", 1, \"digit\", \"How many prime numbers are there below 10?\", 4, \"2, 3, 5 and 7 — four primes.": {
+      "key": "math.1.digit.how.many.prime.numbers.are.there.below.10.4.2.3.5.and.7.four.primes",
+      "value": "math\", 1, \"digit\", \"How many prime numbers are there below 10?\", 4, \"2, 3, 5 and 7 — four primes."
+    },
+    "math\", 2, \"choice\", \"Which digit is the only even prime number?\", 2, \"2 is the only even prime.": {
+      "key": "math.2.choice.which.digit.is.the.only.even.prime.number.2.2.is.the.only.even.prime",
+      "value": "math\", 2, \"choice\", \"Which digit is the only even prime number?\", 2, \"2 is the only even prime."
+    },
+    "math\", 2, \"digit\", \"What is the units digit of 6 × 6 × 6?\", 6, \"216 → 6. Six is self-replicating in its units place.": {
+      "key": "math.2.digit.what.is.the.units.digit.of.6.6.6.6.216.6.six.is.self.replicating.in.its.units.place",
+      "value": "math\", 2, \"digit\", \"What is the units digit of 6 × 6 × 6?\", 6, \"216 → 6. Six is self-replicating in its units place."
+    },
+    "math\", 3, \"digit\", \"What is the units digit of 3¹⁰⁰?\", 1, \"Powers of 3 cycle 3, 9, 7, 1. 100 is a multiple of 4, so it lands on 1.": {
+      "key": "math.3.digit.what.is.the.units.digit.of.3.1.powers.of.3.cycle.3.9.7.1.100.is.a.multiple.of.4.so.it.lands.on.1",
+      "value": "math\", 3, \"digit\", \"What is the units digit of 3¹⁰⁰?\", 1, \"Powers of 3 cycle 3, 9, 7, 1. 100 is a multiple of 4, so it lands on 1."
+    },
+    "math\", 4, \"digit\", \"How many positive divisors does 36 have?\", 9, \"1, 2, 3, 4, 6, 9, 12, 18, 36 — nine of them.": {
+      "key": "math.4.digit.how.many.positive.divisors.does.36.have.9.1.2.3.4.6.9.12.18.36.nine.of.them",
+      "value": "math\", 4, \"digit\", \"How many positive divisors does 36 have?\", 9, \"1, 2, 3, 4, 6, 9, 12, 18, 36 — nine of them."
+    },
+    "math\", 4, \"digit\", \"What is the tens digit of the smallest integer whose digits multiply to 24 and add to 10?\", 4, \"That number is 46. Its tens digit is 4.": {
+      "key": "math.4.digit.what.is.the.tens.digit.of.the.smallest.integer.whose.digits.multiply.to.24.and.add.to.10.4.that.number.is.46.its.tens.digit.is.4",
+      "value": "math\", 4, \"digit\", \"What is the tens digit of the smallest integer whose digits multiply to 24 and add to 10?\", 4, \"That number is 46. Its tens digit is 4."
+    },
+    "math\", label: \"Mathematics\", icon: \"calculator\", blurb: \"Arithmetic with teeth.": {
+      "key": "math.label.mathematics.icon.calculator.blurb.arithmetic.with.teeth",
+      "value": "math\", label: \"Mathematics\", icon: \"calculator\", blurb: \"Arithmetic with teeth."
+    },
+    "meta-llama/llama-3.2-3b-instruct:free": {
+      "key": "meta.llama.llama.3.2.3b.instruct.free",
+      "value": "meta-llama/llama-3.2-3b-instruct:free"
+    },
+    "meta-llama/llama-3.3-70b-instruct:free": {
+      "key": "meta.llama.llama.3.3.70b.instruct.free",
+      "value": "meta-llama/llama-3.3-70b-instruct:free"
+    },
+    "mistralai/mistral-small-3.1-24b-instruct:free": {
+      "key": "mistralai.mistral.small.3.1.24b.instruct.free",
+      "value": "mistralai/mistral-small-3.1-24b-instruct:free"
+    },
+    "mp\", name: \"Cores\", short: \"CO\", glyph: \"◈\", icon: \"orbit\", realm: \"multi": {
+      "key": "mp.name.cores.short.co.glyph.icon.orbit.realm.multi",
+      "value": "mp\", name: \"Cores\", short: \"CO\", glyph: \"◈\", icon: \"orbit\", realm: \"multi"
+    },
+    "mp-cloak\", type: \"power\", rarity: \"rare\", name: \"Cloak\", icon: \"ghost": {
+      "key": "mp.cloak.type.power.rarity.rare.name.cloak.icon.ghost",
+      "value": "mp-cloak\", type: \"power\", rarity: \"rare\", name: \"Cloak\", icon: \"ghost"
+    },
+    "mp-double\", type: \"power\", rarity: \"mythic\", name: \"Double Cores\", icon: \"orbit": {
+      "key": "mp.double.type.power.rarity.mythic.name.double.cores.icon.orbit",
+      "value": "mp-double\", type: \"power\", rarity: \"mythic\", name: \"Double Cores\", icon: \"orbit"
+    },
+    "mp-emote-respect\", type: \"cosmetic\", rarity: \"common\", name: \"Emote Pack — Respect\", icon: \"heart": {
+      "key": "mp.emote.respect.type.cosmetic.rarity.common.name.emote.pack.respect.icon.heart",
+      "value": "mp-emote-respect\", type: \"cosmetic\", rarity: \"common\", name: \"Emote Pack — Respect\", icon: \"heart"
+    },
+    "mp-fog\", type: \"power\", rarity: \"rare\", name: \"Fog\", icon: \"cloudOff": {
+      "key": "mp.fog.type.power.rarity.rare.name.fog.icon.cloudoff",
+      "value": "mp-fog\", type: \"power\", rarity: \"rare\", name: \"Fog\", icon: \"cloudOff"
+    },
+    "mp-fog\": true, \"mp-freeze\": true, \"mp-thief": {
+      "key": "mp.fog.true.mp.freeze.true.mp.thief",
+      "value": "mp-fog\": true, \"mp-freeze\": true, \"mp-thief"
+    },
+    "mp-frame-vault\", type: \"cosmetic\", rarity: \"epic\", name: \"Frame — Vault\", icon: \"lock": {
+      "key": "mp.frame.vault.type.cosmetic.rarity.epic.name.frame.vault.icon.lock",
+      "value": "mp-frame-vault\", type: \"cosmetic\", rarity: \"epic\", name: \"Frame — Vault\", icon: \"lock"
+    },
+    "mp-freeze\", type: \"power\", rarity: \"epic\", name: \"Freeze\", icon: \"snowflake": {
+      "key": "mp.freeze.type.power.rarity.epic.name.freeze.icon.snowflake",
+      "value": "mp-freeze\", type: \"power\", rarity: \"epic\", name: \"Freeze\", icon: \"snowflake"
+    },
+    "mp-perk-dividend\", type: \"perk\", rarity: \"epic\", name: \"Core Dividend\", icon: \"coins": {
+      "key": "mp.perk.dividend.type.perk.rarity.epic.name.core.dividend.icon.coins",
+      "value": "mp-perk-dividend\", type: \"perk\", rarity: \"epic\", name: \"Core Dividend\", icon: \"coins"
+    },
+    "mp-perk-headstart\", type: \"perk\", rarity: \"mythic\", name: \"Head Start\", icon: \"rocket": {
+      "key": "mp.perk.headstart.type.perk.rarity.mythic.name.head.start.icon.rocket",
+      "value": "mp-perk-headstart\", type: \"perk\", rarity: \"mythic\", name: \"Head Start\", icon: \"rocket"
+    },
+    "mp-perk-rankshield\", type: \"perk\", rarity: \"rare\", name: \"Rank Shield\", icon: \"shieldCheck": {
+      "key": "mp.perk.rankshield.type.perk.rarity.rare.name.rank.shield.icon.shieldcheck",
+      "value": "mp-perk-rankshield\", type: \"perk\", rarity: \"rare\", name: \"Rank Shield\", icon: \"shieldCheck"
+    },
+    "mp-perk-recon\", type: \"perk\", rarity: \"mythic\", name: \"Recon Suite\", icon: \"satellite": {
+      "key": "mp.perk.recon.type.perk.rarity.mythic.name.recon.suite.icon.satellite",
+      "value": "mp-perk-recon\", type: \"perk\", rarity: \"mythic\", name: \"Recon Suite\", icon: \"satellite"
+    },
+    "mp-perk-study\", type: \"perk\", rarity: \"rare\", name: \"Rival's Study\", icon: \"brain": {
+      "key": "mp.perk.study.type.perk.rarity.rare.name.rival.s.study.icon.brain",
+      "value": "mp-perk-study\", type: \"perk\", rarity: \"rare\", name: \"Rival's Study\", icon: \"brain"
+    },
+    "mp-scan\", \"mp-ward\", \"mp-cloak\", \"mp-fog\", \"mp-freeze\", \"mp-thief": {
+      "key": "mp.scan.mp.ward.mp.cloak.mp.fog.mp.freeze.mp.thief",
+      "value": "mp-scan\", \"mp-ward\", \"mp-cloak\", \"mp-fog\", \"mp-freeze\", \"mp-thief"
+    },
+    "mp-scan\", type: \"power\", rarity: \"common\", name: \"Scan\", icon: \"radar": {
+      "key": "mp.scan.type.power.rarity.common.name.scan.icon.radar",
+      "value": "mp-scan\", type: \"power\", rarity: \"common\", name: \"Scan\", icon: \"radar"
+    },
+    "mp-solve\", type: \"power\", rarity: \"epic\", name: \"Instant Solve\", icon: \"wand": {
+      "key": "mp.solve.type.power.rarity.epic.name.instant.solve.icon.wand",
+      "value": "mp-solve\", type: \"power\", rarity: \"epic\", name: \"Instant Solve\", icon: \"wand"
+    },
+    "mp-thief\", type: \"power\", rarity: \"epic\", name: \"Time Thief\", icon: \"hourglass": {
+      "key": "mp.thief.type.power.rarity.epic.name.time.thief.icon.hourglass",
+      "value": "mp-thief\", type: \"power\", rarity: \"epic\", name: \"Time Thief\", icon: \"hourglass"
+    },
+    "mp-title-cipherbreaker\", type: \"cosmetic\", rarity: \"epic\", name: \"Title — Cipherbreaker\", icon: \"crown": {
+      "key": "mp.title.cipherbreaker.type.cosmetic.rarity.epic.name.title.cipherbreaker.icon.crown",
+      "value": "mp-title-cipherbreaker\", type: \"cosmetic\", rarity: \"epic\", name: \"Title — Cipherbreaker\", icon: \"crown"
+    },
+    "mp-title-oracle\", type: \"cosmetic\", rarity: \"mythic\", name: \"Title — Oracle\", icon: \"telescope": {
+      "key": "mp.title.oracle.type.cosmetic.rarity.mythic.name.title.oracle.icon.telescope",
+      "value": "mp-title-oracle\", type: \"cosmetic\", rarity: \"mythic\", name: \"Title — Oracle\", icon: \"telescope"
+    },
+    "mp-trail-glitch\", type: \"cosmetic\", rarity: \"rare\", name: \"Trail — Glitch\", icon: \"zap": {
+      "key": "mp.trail.glitch.type.cosmetic.rarity.rare.name.trail.glitch.icon.zap",
+      "value": "mp-trail-glitch\", type: \"cosmetic\", rarity: \"rare\", name: \"Trail — Glitch\", icon: \"zap"
+    },
+    "mp-ward\", type: \"power\", rarity: \"common\", name: \"Ward\", icon: \"shield": {
+      "key": "mp.ward.type.power.rarity.common.name.ward.icon.shield",
+      "value": "mp-ward\", type: \"power\", rarity: \"common\", name: \"Ward\", icon: \"shield"
+    },
+    "mp-ward\": true, \"mp-cloak\": true, \"mp-scan": {
+      "key": "mp.ward.true.mp.cloak.true.mp.scan",
+      "value": "mp-ward\": true, \"mp-cloak\": true, \"mp-scan"
+    },
+    "multi": {
+      "key": "multi",
+      "value": "multi"
+    },
+    "multi\" ? \"Core realm market\" : \"Shard realm market": {
+      "key": "multi.core.realm.market.shard.realm.market",
+      "value": "multi\" ? \"Core realm market\" : \"Shard realm market"
+    },
+    "multi\" ? \"Core realm\" : \"Shard realm": {
+      "key": "multi.core.realm.shard.realm",
+      "value": "multi\" ? \"Core realm\" : \"Shard realm"
+    },
+    "multi\" ? \"cores ◈\" : \"shards ⬡": {
+      "key": "multi.cores.shards",
+      "value": "multi\" ? \"cores ◈\" : \"shards ⬡"
+    },
+    "multi\" ? \"cores\" : \"shards": {
+      "key": "multi.cores.shards",
+      "value": "multi\" ? \"cores\" : \"shards"
+    },
+    "multi\" ? \"elo\" : \"total_score": {
+      "key": "multi.elo.total.score",
+      "value": "multi\" ? \"elo\" : \"total_score"
+    },
+    "multi\" ? \"mp\" : \"sp": {
+      "key": "multi.mp.sp",
+      "value": "multi\" ? \"mp\" : \"sp"
+    },
+    "multi\" ? \"mp-perk-dividend\" : \"sp-perk-dividend": {
+      "key": "multi.mp.perk.dividend.sp.perk.dividend",
+      "value": "multi\" ? \"mp-perk-dividend\" : \"sp-perk-dividend"
+    },
+    "multi\" ? \"mp_\" : \"sp_": {
+      "key": "multi.mp.sp",
+      "value": "multi\" ? \"mp_\" : \"sp_"
+    },
+    "multi\" ? \"mp_inventory\" : \"sp_inventory": {
+      "key": "multi.mp.inventory.sp.inventory",
+      "value": "multi\" ? \"mp_inventory\" : \"sp_inventory"
+    },
+    "multi\" ? \"mp_profiles\" : \"sp_profiles": {
+      "key": "multi.mp.profiles.sp.profiles",
+      "value": "multi\" ? \"mp_profiles\" : \"sp_profiles"
+    },
+    "multi\" ? \"mp_purchases\" : \"sp_purchases": {
+      "key": "multi.mp.purchases.sp.purchases",
+      "value": "multi\" ? \"mp_purchases\" : \"sp_purchases"
+    },
+    "multi\" ? \"mp_runs\" : \"sp_runs": {
+      "key": "multi.mp.runs.sp.runs",
+      "value": "multi\" ? \"mp_runs\" : \"sp_runs"
+    },
+    "multi\" ? \"mp_shop_items\" : \"sp_shop_items": {
+      "key": "multi.mp.shop.items.sp.shop.items",
+      "value": "multi\" ? \"mp_shop_items\" : \"sp_shop_items"
+    },
+    "multi\" ? \"multi\" : \"single": {
+      "key": "multi.multi.single",
+      "value": "multi\" ? \"multi\" : \"single"
+    },
+    "multi\" ? \"orbit\" : \"gem": {
+      "key": "multi.orbit.gem",
+      "value": "multi\" ? \"orbit\" : \"gem"
+    },
+    "multi\" ? \"◈\" : \"⬡": {
+      "key": "multi",
+      "value": "multi\" ? \"◈\" : \"⬡"
+    },
+    "mythic\", name: \"Mythic": {
+      "key": "mythic.name.mythic",
+      "value": "mythic\", name: \"Mythic"
+    },
+    "neq.": {
+      "key": "neq",
+      "value": "neq."
+    },
+    "no-hints\", name: \"Bare Hands\", desc: \"Win a run without spending a single hint.\", icon: \"feather\", tier: \"silver": {
+      "key": "no.hints.name.bare.hands.desc.win.a.run.without.spending.a.single.hint.icon.feather.tier.silver",
+      "value": "no-hints\", name: \"Bare Hands\", desc: \"Win a run without spending a single hint.\", icon: \"feather\", tier: \"silver"
+    },
+    "node\", name: \"Node\", min: 1300, icon: \"orbit": {
+      "key": "node.name.node.min.1300.icon.orbit",
+      "value": "node\", name: \"Node\", min: 1300, icon: \"orbit"
+    },
+    "notfound": {
+      "key": "notfound",
+      "value": "notfound"
+    },
+    "nousresearch/hermes-3-llama-3.1-405b:free": {
+      "key": "nousresearch.hermes.3.llama.3.1.405b.free",
+      "value": "nousresearch/hermes-3-llama-3.1-405b:free"
+    },
+    "opener\", name: \"Opener\", desc: \"Crack 5 ciphers.\", icon: \"unlock\", tier: \"bronze": {
+      "key": "opener.name.opener.desc.crack.5.ciphers.icon.unlock.tier.bronze",
+      "value": "opener\", name: \"Opener\", desc: \"Crack 5 ciphers.\", icon: \"unlock\", tier: \"bronze"
+    },
+    "oracle\", name: \"Oracle\", min: 1700, icon: \"telescope": {
+      "key": "oracle.name.oracle.min.1700.icon.telescope",
+      "value": "oracle\", name: \"Oracle\", min: 1700, icon: \"telescope"
+    },
+    "oracle-ai\", name: \"Consulted the Oracle\", desc: \"Ask the Oracle to forge a custom puzzle.\", icon: \"bot\", tier: \"bronze": {
+      "key": "oracle.ai.name.consulted.the.oracle.desc.ask.the.oracle.to.forge.a.custom.puzzle.icon.bot.tier.bronze",
+      "value": "oracle-ai\", name: \"Consulted the Oracle\", desc: \"Ask the Oracle to forge a custom puzzle.\", icon: \"bot\", tier: \"bronze"
+    },
+    "oracle-rank\", name: \"Oracle Rank\", desc: \"Reach the Oracle rank.\", icon: \"telescope\", tier: \"platinum": {
+      "key": "oracle.rank.name.oracle.rank.desc.reach.the.oracle.rank.icon.telescope.tier.platinum",
+      "value": "oracle-rank\", name: \"Oracle Rank\", desc: \"Reach the Oracle rank.\", icon: \"telescope\", tier: \"platinum"
+    },
+    "password": {
+      "key": "password",
+      "value": "password"
+    },
+    "patron\", name: \"Patron\", desc: \"Spend 5,000 across the shop.\", icon: \"coins\", tier: \"gold": {
+      "key": "patron.name.patron.desc.spend.5.000.across.the.shop.icon.coins.tier.gold",
+      "value": "patron\", name: \"Patron\", desc: \"Spend 5,000 across the shop.\", icon: \"coins\", tier: \"gold"
+    },
+    "pattern\", 2, \"digit\", \"Next in 1, 1, 2, 3, 5, 8, ? — give the last digit.\", 3, \"13, so the last digit is 3.": {
+      "key": "pattern.2.digit.next.in.1.1.2.3.5.8.give.the.last.digit.3.13.so.the.last.digit.is.3",
+      "value": "pattern\", 2, \"digit\", \"Next in 1, 1, 2, 3, 5, 8, ? — give the last digit.\", 3, \"13, so the last digit is 3."
+    },
+    "pattern\", 2, \"digit\", \"Next in 2, 4, 8, 16, ? — give the last digit.\", 2, \"32, so the last digit is 2.": {
+      "key": "pattern.2.digit.next.in.2.4.8.16.give.the.last.digit.2.32.so.the.last.digit.is.2",
+      "value": "pattern\", 2, \"digit\", \"Next in 2, 4, 8, 16, ? — give the last digit.\", 2, \"32, so the last digit is 2."
+    },
+    "pattern\", 2, \"digit\", \"The sequence 10, 9, 7, 4, 0 subtracts 1, 2, 3, 4. What is the absolute value of the next term?\", 5, \"Next is −5, absolute value 5.": {
+      "key": "pattern.2.digit.the.sequence.10.9.7.4.0.subtracts.1.2.3.4.what.is.the.absolute.value.of.the.next.term.5.next.is.5.absolute.value.5",
+      "value": "pattern\", 2, \"digit\", \"The sequence 10, 9, 7, 4, 0 subtracts 1, 2, 3, 4. What is the absolute value of the next term?\", 5, \"Next is −5, absolute value 5."
+    },
+    "pattern\", 3, \"digit\", \"Next in 1, 3, 6, 10, ? — give the last digit.\", 5, \"Triangular numbers: 15.": {
+      "key": "pattern.3.digit.next.in.1.3.6.10.give.the.last.digit.5.triangular.numbers.15",
+      "value": "pattern\", 3, \"digit\", \"Next in 1, 3, 6, 10, ? — give the last digit.\", 5, \"Triangular numbers: 15."
+    },
+    "pattern\", 3, \"digit\", \"Next in 1, 4, 9, 16, ? — give the last digit.\", 5, \"25, so the last digit is 5.": {
+      "key": "pattern.3.digit.next.in.1.4.9.16.give.the.last.digit.5.25.so.the.last.digit.is.5",
+      "value": "pattern\", 3, \"digit\", \"Next in 1, 4, 9, 16, ? — give the last digit.\", 5, \"25, so the last digit is 5."
+    },
+    "pattern\", 3, \"digit\", \"Next in 1, 8, 27, 64, ? — give the last digit.\", 5, \"125, so the last digit is 5.": {
+      "key": "pattern.3.digit.next.in.1.8.27.64.give.the.last.digit.5.125.so.the.last.digit.is.5",
+      "value": "pattern\", 3, \"digit\", \"Next in 1, 8, 27, 64, ? — give the last digit.\", 5, \"125, so the last digit is 5."
+    },
+    "pattern\", 3, \"digit\", \"Next in 2, 3, 5, 7, 11, ? — give the last digit.\", 3, \"13, so the last digit is 3.": {
+      "key": "pattern.3.digit.next.in.2.3.5.7.11.give.the.last.digit.3.13.so.the.last.digit.is.3",
+      "value": "pattern\", 3, \"digit\", \"Next in 2, 3, 5, 7, 11, ? — give the last digit.\", 3, \"13, so the last digit is 3."
+    },
+    "pattern\", 4, \"digit\", \"Next in 1, 2, 6, 24, 120, ? — give the last digit.\", 0, \"720, so the last digit is 0.": {
+      "key": "pattern.4.digit.next.in.1.2.6.24.120.give.the.last.digit.0.720.so.the.last.digit.is.0",
+      "value": "pattern\", 4, \"digit\", \"Next in 1, 2, 6, 24, 120, ? — give the last digit.\", 0, \"720, so the last digit is 0."
+    },
+    "pattern\", 4, \"digit\", \"Next in 3, 7, 15, 31, ? — give the last digit.\", 3, \"63, so the last digit is 3.": {
+      "key": "pattern.4.digit.next.in.3.7.15.31.give.the.last.digit.3.63.so.the.last.digit.is.3",
+      "value": "pattern\", 4, \"digit\", \"Next in 3, 7, 15, 31, ? — give the last digit.\", 3, \"63, so the last digit is 3."
+    },
+    "pattern\", 4, \"digit\", \"Read aloud and continue: 1, 11, 21, 1211, 111221, ? — how many digits are in the next term?\", 6, \"312211 has six digits.": {
+      "key": "pattern.4.digit.read.aloud.and.continue.1.11.21.1211.111221.how.many.digits.are.in.the.next.term.6.312211.has.six.digits",
+      "value": "pattern\", 4, \"digit\", \"Read aloud and continue: 1, 11, 21, 1211, 111221, ? — how many digits are in the next term?\", 6, \"312211 has six digits."
+    },
+    "pattern\", 5, \"digit\", \"Next in 0, 1, 1, 2, 3, 5, 8, ? — give the last digit.\", 3, \"13, so the last digit is 3.": {
+      "key": "pattern.5.digit.next.in.0.1.1.2.3.5.8.give.the.last.digit.3.13.so.the.last.digit.is.3",
+      "value": "pattern\", 5, \"digit\", \"Next in 0, 1, 1, 2, 3, 5, 8, ? — give the last digit.\", 3, \"13, so the last digit is 3."
+    },
+    "pattern\", 5, \"digit\", \"Next in 2, 12, 1112, 3112, 211213, ? — how many digits are in the next term?\", 6, \"312213 has six digits.": {
+      "key": "pattern.5.digit.next.in.2.12.1112.3112.211213.how.many.digits.are.in.the.next.term.6.312213.has.six.digits",
+      "value": "pattern\", 5, \"digit\", \"Next in 2, 12, 1112, 3112, 211213, ? — how many digits are in the next term?\", 6, \"312213 has six digits."
+    },
+    "pattern\", label: \"Patterns\", icon: \"activity\", blurb: \"Find the rule, then break it.": {
+      "key": "pattern.label.patterns.icon.activity.blurb.find.the.rule.then.break.it",
+      "value": "pattern\", label: \"Patterns\", icon: \"activity\", blurb: \"Find the rule, then break it."
+    },
+    "perk\", name: \"Perk\", blurb: \"Permanent, always on.": {
+      "key": "perk.name.perk.blurb.permanent.always.on",
+      "value": "perk\", name: \"Perk\", blurb: \"Permanent, always on."
+    },
+    "phoenix\", event: \"heartbeat": {
+      "key": "phoenix.event.heartbeat",
+      "value": "phoenix\", event: \"heartbeat"
+    },
+    "play": {
+      "key": "play",
+      "value": "play"
+    },
+    "polymath\", name: \"Polymath\", desc: \"Solve puzzles in all eight categories.\", icon: \"graduationCap\", tier: \"gold": {
+      "key": "polymath.name.polymath.desc.solve.puzzles.in.all.eight.categories.icon.graduationcap.tier.gold",
+      "value": "polymath\", name: \"Polymath\", desc: \"Solve puzzles in all eight categories.\", icon: \"graduationCap\", tier: \"gold"
+    },
+    "power\", name: \"Power-up\", blurb: \"Burned during a cipher.": {
+      "key": "power.name.power.up.blurb.burned.during.a.cipher",
+      "value": "power\", name: \"Power-up\", blurb: \"Burned during a cipher."
+    },
+    "presence\", event: \"track": {
+      "key": "presence.event.track",
+      "value": "presence\", event: \"track"
+    },
+    "presence\", event: \"untrack": {
+      "key": "presence.event.untrack",
+      "value": "presence\", event: \"untrack"
+    },
+    "profile": {
+      "key": "profile",
+      "value": "profile"
+    },
+    "profile-\" + realm + \"-": {
+      "key": "profile.realm",
+      "value": "profile-\" + realm + \"-"
+    },
+    "profile.multi": {
+      "key": "profile.multi",
+      "value": "profile.multi"
+    },
+    "profile.single": {
+      "key": "profile.single",
+      "value": "profile.single"
+    },
+    "profile_id,item_id": {
+      "key": "profile.id.item.id",
+      "value": "profile_id,item_id"
+    },
+    "puzzles_solved\", label: \"Solved": {
+      "key": "puzzles.solved.label.solved",
+      "value": "puzzles_solved\", label: \"Solved"
+    },
+    "qwen/qwen-2.5-72b-instruct:free": {
+      "key": "qwen.qwen.2.5.72b.instruct.free",
+      "value": "qwen/qwen-2.5-72b-instruct:free"
+    },
+    "radar\", title: \"No open rooms\", message: \"Open one yourself or join a friend's code.": {
+      "key": "radar.title.no.open.rooms.message.open.one.yourself.or.join.a.friend.s.code",
+      "value": "radar\", title: \"No open rooms\", message: \"Open one yourself or join a friend's code."
+    },
+    "rare\", name: \"Rare": {
+      "key": "rare.name.rare",
+      "value": "rare\", name: \"Rare"
+    },
+    "readonly\", \"": {
+      "key": "readonly",
+      "value": "readonly\", \""
+    },
+    "riddle\", 1, \"digit\", \"A farmer has 17 sheep. All but 9 run away. How many are left?\", 9, \"'All but 9' means 9 remain.": {
+      "key": "riddle.1.digit.a.farmer.has.17.sheep.all.but.9.run.away.how.many.are.left.9.all.but.9.means.9.remain",
+      "value": "riddle\", 1, \"digit\", \"A farmer has 17 sheep. All but 9 run away. How many are left?\", 9, \"'All but 9' means 9 remain."
+    },
+    "riddle\", 1, \"digit\", \"Two mothers and two daughters share three eggs, and each person eats one. How many people are there?\", 3, \"A grandmother, a mother and a daughter — three people.": {
+      "key": "riddle.1.digit.two.mothers.and.two.daughters.share.three.eggs.and.each.person.eats.one.how.many.people.are.there.3.a.grandmother.a.mother.and.a.daughter.three.people",
+      "value": "riddle\", 1, \"digit\", \"Two mothers and two daughters share three eggs, and each person eats one. How many people are there?\", 3, \"A grandmother, a mother and a daughter — three people."
+    },
+    "riddle\", 2, \"digit\", \"A brother and sister are 4 and 8. When she is twice his age, how old is he?\", 4, \"The gap stays 4, so he is 4 when she is 8... they are 4 and 8 now. He stays 4 only at that instant — answer 4.": {
+      "key": "riddle.2.digit.a.brother.and.sister.are.4.and.8.when.she.is.twice.his.age.how.old.is.he.4.the.gap.stays.4.so.he.is.4.when.she.is.8.they.are.4.and.8.now.he.stays.4.only.at.that.instant.answer.4",
+      "value": "riddle\", 2, \"digit\", \"A brother and sister are 4 and 8. When she is twice his age, how old is he?\", 4, \"The gap stays 4, so he is 4 when she is 8... they are 4 and 8 now. He stays 4 only at that instant — answer 4."
+    },
+    "riddle\", 2, \"digit\", \"How many months of the year contain the number 28 days?\", 2, \"Every month contains a 28th day — twelve months, last digit 2.": {
+      "key": "riddle.2.digit.how.many.months.of.the.year.contain.the.number.28.days.2.every.month.contains.a.28th.day.twelve.months.last.digit.2",
+      "value": "riddle\", 2, \"digit\", \"How many months of the year contain the number 28 days?\", 2, \"Every month contains a 28th day — twelve months, last digit 2."
+    },
+    "riddle\", 2, \"digit\", \"What is the smallest number of colours needed to paint a map so no neighbours match on a simple 4-region ring?\", 2, \"A ring of regions needs only two alternating colours.": {
+      "key": "riddle.2.digit.what.is.the.smallest.number.of.colours.needed.to.paint.a.map.so.no.neighbours.match.on.a.simple.4.region.ring.2.a.ring.of.regions.needs.only.two.alternating.colours",
+      "value": "riddle\", 2, \"digit\", \"What is the smallest number of colours needed to paint a map so no neighbours match on a simple 4-region ring?\", 2, \"A ring of regions needs only two alternating colours."
+    },
+    "riddle\", 2, \"digit\", \"You enter a dark room holding one match. There is a candle, an oil lamp and a fireplace. What do you light first — count the letters in the answer.\", 5, \"You light the MATCH first. Five letters.": {
+      "key": "riddle.2.digit.you.enter.a.dark.room.holding.one.match.there.is.a.candle.an.oil.lamp.and.a.fireplace.what.do.you.light.first.count.the.letters.in.the.answer.5.you.light.the.match.first.five.letters",
+      "value": "riddle\", 2, \"digit\", \"You enter a dark room holding one match. There is a candle, an oil lamp and a fireplace. What do you light first — count the letters in the answer.\", 5, \"You light the MATCH first. Five letters."
+    },
+    "riddle\", 3, \"digit\", \"A rope ladder hangs from a boat with 5 rungs above the water. The tide rises 60 cm and rungs are 30 cm apart. How many rungs are still above water?\", 5, \"The boat floats up with the tide. Still five.": {
+      "key": "riddle.3.digit.a.rope.ladder.hangs.from.a.boat.with.5.rungs.above.the.water.the.tide.rises.60.cm.and.rungs.are.30.cm.apart.how.many.rungs.are.still.above.water.5.the.boat.floats.up.with.the.tide.still.five",
+      "value": "riddle\", 3, \"digit\", \"A rope ladder hangs from a boat with 5 rungs above the water. The tide rises 60 cm and rungs are 30 cm apart. How many rungs are still above water?\", 5, \"The boat floats up with the tide. Still five."
+    },
+    "riddle\", 3, \"digit\", \"How many animals of each kind did Moses take on the ark?\", 0, \"Moses did not build the ark — Noah did. Zero.": {
+      "key": "riddle.3.digit.how.many.animals.of.each.kind.did.moses.take.on.the.ark.0.moses.did.not.build.the.ark.noah.did.zero",
+      "value": "riddle\", 3, \"digit\", \"How many animals of each kind did Moses take on the ark?\", 0, \"Moses did not build the ark — Noah did. Zero."
+    },
+    "riddle\", 3, \"digit\", \"How many times can you subtract 5 from 25?\", 1, \"Only once — after that it is 20, not 25.": {
+      "key": "riddle.3.digit.how.many.times.can.you.subtract.5.from.25.1.only.once.after.that.it.is.20.not.25",
+      "value": "riddle\", 3, \"digit\", \"How many times can you subtract 5 from 25?\", 1, \"Only once — after that it is 20, not 25."
+    },
+    "riddle\", 3, \"digit\", \"If 5 machines take 5 minutes to make 5 widgets, how many minutes for 100 machines to make 100 widgets?\", 5, \"Each machine makes one widget in five minutes.": {
+      "key": "riddle.3.digit.if.5.machines.take.5.minutes.to.make.5.widgets.how.many.minutes.for.100.machines.to.make.100.widgets.5.each.machine.makes.one.widget.in.five.minutes",
+      "value": "riddle\", 3, \"digit\", \"If 5 machines take 5 minutes to make 5 widgets, how many minutes for 100 machines to make 100 widgets?\", 5, \"Each machine makes one widget in five minutes."
+    },
+    "riddle\", 4, \"digit\", \"A snail climbs 3 m by day and slips 2 m by night up a 10 m well. On which day does it escape?\", 8, \"It nets 1 m per day, reaching 7 m after day 7, then climbs out on day 8.": {
+      "key": "riddle.4.digit.a.snail.climbs.3.m.by.day.and.slips.2.m.by.night.up.a.10.m.well.on.which.day.does.it.escape.8.it.nets.1.m.per.day.reaching.7.m.after.day.7.then.climbs.out.on.day.8",
+      "value": "riddle\", 4, \"digit\", \"A snail climbs 3 m by day and slips 2 m by night up a 10 m well. On which day does it escape?\", 8, \"It nets 1 m per day, reaching 7 m after day 7, then climbs out on day 8."
+    },
+    "riddle\", 4, \"digit\", \"How many times does a clock's hour and minute hands overlap in 24 hours?\", 2, \"Twenty-two times, so the last digit is 2.": {
+      "key": "riddle.4.digit.how.many.times.does.a.clock.s.hour.and.minute.hands.overlap.in.24.hours.2.twenty.two.times.so.the.last.digit.is.2",
+      "value": "riddle\", 4, \"digit\", \"How many times does a clock's hour and minute hands overlap in 24 hours?\", 2, \"Twenty-two times, so the last digit is 2."
+    },
+    "riddle\", 4, \"digit\", \"Three light switches sit downstairs, one bulb upstairs. You may enter the room once. Minimum number of trips upstairs?\", 1, \"One trip — use warmth as the second signal.": {
+      "key": "riddle.4.digit.three.light.switches.sit.downstairs.one.bulb.upstairs.you.may.enter.the.room.once.minimum.number.of.trips.upstairs.1.one.trip.use.warmth.as.the.second.signal",
+      "value": "riddle\", 4, \"digit\", \"Three light switches sit downstairs, one bulb upstairs. You may enter the room once. Minimum number of trips upstairs?\", 1, \"One trip — use warmth as the second signal."
+    },
+    "riddle\", 5, \"digit\", \"A drawer holds 10 black and 10 white socks. How many must you pull blind to guarantee a matching pair?\", 3, \"Three socks always contain a pair.": {
+      "key": "riddle.5.digit.a.drawer.holds.10.black.and.10.white.socks.how.many.must.you.pull.blind.to.guarantee.a.matching.pair.3.three.socks.always.contain.a.pair",
+      "value": "riddle\", 5, \"digit\", \"A drawer holds 10 black and 10 white socks. How many must you pull blind to guarantee a matching pair?\", 3, \"Three socks always contain a pair."
+    },
+    "riddle\", 5, \"digit\", \"A plane crashes exactly on the border of two countries. Where do you bury the survivors?\", 0, \"You do not bury survivors — zero.": {
+      "key": "riddle.5.digit.a.plane.crashes.exactly.on.the.border.of.two.countries.where.do.you.bury.the.survivors.0.you.do.not.bury.survivors.zero",
+      "value": "riddle\", 5, \"digit\", \"A plane crashes exactly on the border of two countries. Where do you bury the survivors?\", 0, \"You do not bury survivors — zero."
+    },
+    "riddle\", label: \"Riddles\", icon: \"lightbulb\", blurb: \"The answer hides in the wording.": {
+      "key": "riddle.label.riddles.icon.lightbulb.blurb.the.answer.hides.in.the.wording",
+      "value": "riddle\", label: \"Riddles\", icon: \"lightbulb\", blurb: \"The answer hides in the wording."
+    },
+    "room": {
+      "key": "room",
+      "value": "room"
+    },
+    "room\", \"UPDATE": {
+      "key": "room.update",
+      "value": "room\", \"UPDATE"
+    },
+    "rtl\" : \"ltr": {
+      "key": "rtl.ltr",
+      "value": "rtl\" : \"ltr"
+    },
+    "run-\" + realm + \"-": {
+      "key": "run.realm",
+      "value": "run-\" + realm + \"-"
+    },
+    "run-won\" : \"run-played": {
+      "key": "run.won.run.played",
+      "value": "run-won\" : \"run-played"
+    },
+    "run.multi": {
+      "key": "run.multi",
+      "value": "run.multi"
+    },
+    "run.single": {
+      "key": "run.single",
+      "value": "run.single"
+    },
+    "s temperament. mood: 'calm' | 'play' | 'tense' | 'triumph": {
+      "key": "s.temperament.mood.calm.play.tense.triumph",
+      "value": "s temperament. mood: 'calm' | 'play' | 'tense' | 'triumph"
+    },
+    "savant\", name: \"Savant\", desc: \"Clear a Savant-tier run.\", icon: \"brain\", tier: \"gold": {
+      "key": "savant.name.savant.desc.clear.a.savant.tier.run.icon.brain.tier.gold",
+      "value": "savant\", name: \"Savant\", desc: \"Clear a Savant-tier run.\", icon: \"brain\", tier: \"gold"
+    },
+    "sawtooth\", filter: \"lowpass": {
+      "key": "sawtooth.filter.lowpass",
+      "value": "sawtooth\", filter: \"lowpass"
+    },
+    "sb.session.multi": {
+      "key": "sb.session.multi",
+      "value": "sb.session.multi"
+    },
+    "sb.session.single": {
+      "key": "sb.session.single",
+      "value": "sb.session.single"
+    },
+    "scholar\", name: \"Scholar\", desc: \"Solve 250 puzzles.\", icon: \"bookOpen\", tier: \"silver": {
+      "key": "scholar.name.scholar.desc.solve.250.puzzles.icon.bookopen.tier.silver",
+      "value": "scholar\", name: \"Scholar\", desc: \"Solve 250 puzzles.\", icon: \"bookOpen\", tier: \"silver"
+    },
+    "science\", 1, \"digit\", \"At how many degrees Celsius does pure water freeze?\", 0, \"Zero degrees Celsius.": {
+      "key": "science.1.digit.at.how.many.degrees.celsius.does.pure.water.freeze.0.zero.degrees.celsius",
+      "value": "science\", 1, \"digit\", \"At how many degrees Celsius does pure water freeze?\", 0, \"Zero degrees Celsius."
+    },
+    "science\", 1, \"digit\", \"How many legs does a spider have?\", 8, \"Arachnids carry eight legs.": {
+      "key": "science.1.digit.how.many.legs.does.a.spider.have.8.arachnids.carry.eight.legs",
+      "value": "science\", 1, \"digit\", \"How many legs does a spider have?\", 8, \"Arachnids carry eight legs."
+    },
+    "science\", 1, \"digit\", \"How many planets orbit our Sun?\", 8, \"Mercury through Neptune — eight.": {
+      "key": "science.1.digit.how.many.planets.orbit.our.sun.8.mercury.through.neptune.eight",
+      "value": "science\", 1, \"digit\", \"How many planets orbit our Sun?\", 8, \"Mercury through Neptune — eight."
+    },
+    "science\", 2, \"choice\", \"Which digit is lithium's atomic number?\", 3, \"Lithium is element 3.": {
+      "key": "science.2.choice.which.digit.is.lithium.s.atomic.number.3.lithium.is.element.3",
+      "value": "science\", 2, \"choice\", \"Which digit is lithium's atomic number?\", 3, \"Lithium is element 3."
+    },
+    "science\", 2, \"digit\", \"How many chambers does the human heart have?\", 4, \"Two atria, two ventricles.": {
+      "key": "science.2.digit.how.many.chambers.does.the.human.heart.have.4.two.atria.two.ventricles",
+      "value": "science\", 2, \"digit\", \"How many chambers does the human heart have?\", 4, \"Two atria, two ventricles."
+    },
+    "science\", 2, \"digit\", \"The adult human skeleton has 206 bones. What is its last digit?\", 6, \"206 ends in 6.": {
+      "key": "science.2.digit.the.adult.human.skeleton.has.206.bones.what.is.its.last.digit.6.206.ends.in.6",
+      "value": "science\", 2, \"digit\", \"The adult human skeleton has 206 bones. What is its last digit?\", 6, \"206 ends in 6."
+    },
+    "science\", 2, \"digit\", \"What is the atomic number of carbon?\", 6, \"Carbon sits at position 6 on the periodic table.": {
+      "key": "science.2.digit.what.is.the.atomic.number.of.carbon.6.carbon.sits.at.position.6.on.the.periodic.table",
+      "value": "science\", 2, \"digit\", \"What is the atomic number of carbon?\", 6, \"Carbon sits at position 6 on the periodic table."
+    },
+    "science\", 3, \"digit\", \"How many moons does Mars have?\", 2, \"Phobos and Deimos.": {
+      "key": "science.3.digit.how.many.moons.does.mars.have.2.phobos.and.deimos",
+      "value": "science\", 3, \"digit\", \"How many moons does Mars have?\", 2, \"Phobos and Deimos."
+    },
+    "science\", 3, \"digit\", \"How many planets in the solar system have rings?\", 4, \"Jupiter, Saturn, Uranus and Neptune.": {
+      "key": "science.3.digit.how.many.planets.in.the.solar.system.have.rings.4.jupiter.saturn.uranus.and.neptune",
+      "value": "science\", 3, \"digit\", \"How many planets in the solar system have rings?\", 4, \"Jupiter, Saturn, Uranus and Neptune."
+    },
+    "science\", 3, \"digit\", \"What is the atomic number of oxygen?\", 8, \"Oxygen is element 8.": {
+      "key": "science.3.digit.what.is.the.atomic.number.of.oxygen.8.oxygen.is.element.8",
+      "value": "science\", 3, \"digit\", \"What is the atomic number of oxygen?\", 8, \"Oxygen is element 8."
+    },
+    "science\", 3, \"digit\", \"What is the pH of a neutral solution at 25 °C?\", 7, \"Neutrality sits exactly at pH 7.": {
+      "key": "science.3.digit.what.is.the.ph.of.a.neutral.solution.at.25.c.7.neutrality.sits.exactly.at.ph.7",
+      "value": "science\", 3, \"digit\", \"What is the pH of a neutral solution at 25 °C?\", 7, \"Neutrality sits exactly at pH 7."
+    },
+    "science\", 4, \"digit\", \"Avogadro's number starts 6.022×10²³. What is its leading digit?\", 6, \"It begins with 6.": {
+      "key": "science.4.digit.avogadro.s.number.starts.6.022.10.what.is.its.leading.digit.6.it.begins.with.6",
+      "value": "science\", 4, \"digit\", \"Avogadro's number starts 6.022×10²³. What is its leading digit?\", 6, \"It begins with 6."
+    },
+    "science\", 4, \"digit\", \"How many noble gases occur naturally on Earth?\", 6, \"He, Ne, Ar, Kr, Xe, Rn. Oganesson is synthetic.": {
+      "key": "science.4.digit.how.many.noble.gases.occur.naturally.on.earth.6.he.ne.ar.kr.xe.rn.oganesson.is.synthetic",
+      "value": "science\", 4, \"digit\", \"How many noble gases occur naturally on Earth?\", 6, \"He, Ne, Ar, Kr, Xe, Rn. Oganesson is synthetic."
+    },
+    "science\", 5, \"choice\", \"Which digit is the number of legs on an insect?\", 6, \"All insects have six legs.": {
+      "key": "science.5.choice.which.digit.is.the.number.of.legs.on.an.insect.6.all.insects.have.six.legs",
+      "value": "science\", 5, \"choice\", \"Which digit is the number of legs on an insect?\", 6, \"All insects have six legs."
+    },
+    "science\", 5, \"digit\", \"Sunlight takes about how many minutes to reach Earth, rounded down?\", 8, \"Around 8 minutes 20 seconds.": {
+      "key": "science.5.digit.sunlight.takes.about.how.many.minutes.to.reach.earth.rounded.down.8.around.8.minutes.20.seconds",
+      "value": "science\", 5, \"digit\", \"Sunlight takes about how many minutes to reach Earth, rounded down?\", 8, \"Around 8 minutes 20 seconds."
+    },
+    "science\", label: \"Science\", icon: \"flask\", blurb: \"Atoms, bodies and orbits.": {
+      "key": "science.label.science.icon.flask.blurb.atoms.bodies.and.orbits",
+      "value": "science\", label: \"Science\", icon: \"flask\", blurb: \"Atoms, bodies and orbits."
+    },
+    "second\", \"first\", \"third": {
+      "key": "second.first.third",
+      "value": "second\", \"first\", \"third"
+    },
+    "seen.intro": {
+      "key": "seen.intro",
+      "value": "seen.intro"
+    },
+    "select\", columns || \"*": {
+      "key": "select.columns",
+      "value": "select\", columns || \"*"
+    },
+    "session.multi": {
+      "key": "session.multi",
+      "value": "session.multi"
+    },
+    "session.single": {
+      "key": "session.single",
+      "value": "session.single"
+    },
+    "settings": {
+      "key": "settings",
+      "value": "settings"
+    },
+    "shard\", name: \"Shard\", min: 900, icon: \"gem": {
+      "key": "shard.name.shard.min.900.icon.gem",
+      "value": "shard\", name: \"Shard\", min: 900, icon: \"gem"
+    },
+    "sharp-eye\", name: \"Sharp Eye\", desc: \"Hold 80% answer accuracy over 50+ puzzles.\", icon: \"eye\", tier: \"silver": {
+      "key": "sharp.eye.name.sharp.eye.desc.hold.80.answer.accuracy.over.50.puzzles.icon.eye.tier.silver",
+      "value": "sharp-eye\", name: \"Sharp Eye\", desc: \"Hold 80% answer accuracy over 50+ puzzles.\", icon: \"eye\", tier: \"silver"
+    },
+    "shield\", title: \"Fair by design\", text: \"Same seed, same vault. Nobody sees your code, nobody cheats the clock.": {
+      "key": "shield.title.fair.by.design.text.same.seed.same.vault.nobody.sees.your.code.nobody.cheats.the.clock",
+      "value": "shield\", title: \"Fair by design\", text: \"Same seed, same vault. Nobody sees your code, nobody cheats the clock."
+    },
+    "shop": {
+      "key": "shop",
+      "value": "shop"
+    },
+    "short\", day: \"numeric\", year: \"numeric": {
+      "key": "short.day.numeric.year.numeric",
+      "value": "short\", day: \"numeric\", year: \"numeric"
+    },
+    "sine\", filter: \"lowpass": {
+      "key": "sine.filter.lowpass",
+      "value": "sine\", filter: \"lowpass"
+    },
+    "sk-or-v1-…": {
+      "key": "sk.or.v1",
+      "value": "sk-or-v1-…"
+    },
+    "sm\", variant: \"ghost": {
+      "key": "sm.variant.ghost",
+      "value": "sm\", variant: \"ghost"
+    },
+    "smooth\", block: \"nearest": {
+      "key": "smooth.block.nearest",
+      "value": "smooth\", block: \"nearest"
+    },
+    "sp\", name: \"Shards\", short: \"SH\", glyph: \"⬡\", icon: \"gem\", realm: \"single": {
+      "key": "sp.name.shards.short.sh.glyph.icon.gem.realm.single",
+      "value": "sp\", name: \"Shards\", short: \"SH\", glyph: \"⬡\", icon: \"gem\", realm: \"single"
+    },
+    "sp-attempt\", type: \"power\", rarity: \"rare\", name: \"Spare Attempt\", icon: \"plus": {
+      "key": "sp.attempt.type.power.rarity.rare.name.spare.attempt.icon.plus",
+      "value": "sp-attempt\", type: \"power\", rarity: \"rare\", name: \"Spare Attempt\", icon: \"plus"
+    },
+    "sp-double\", type: \"power\", rarity: \"epic\", name: \"Double Yield\", icon: \"trending": {
+      "key": "sp.double.type.power.rarity.epic.name.double.yield.icon.trending",
+      "value": "sp-double\", type: \"power\", rarity: \"epic\", name: \"Double Yield\", icon: \"trending"
+    },
+    "sp-fifty\", type: \"power\", rarity: \"common\", name: \"Fifty-Fifty\", icon: \"split": {
+      "key": "sp.fifty.type.power.rarity.common.name.fifty.fifty.icon.split",
+      "value": "sp-fifty\", type: \"power\", rarity: \"common\", name: \"Fifty-Fifty\", icon: \"split"
+    },
+    "sp-frame-cipher\", type: \"cosmetic\", rarity: \"common\", name: \"Frame — Cipher\", icon: \"hash": {
+      "key": "sp.frame.cipher.type.cosmetic.rarity.common.name.frame.cipher.icon.hash",
+      "value": "sp-frame-cipher\", type: \"cosmetic\", rarity: \"common\", name: \"Frame — Cipher\", icon: \"hash"
+    },
+    "sp-nudge\", \"sp-time\"], mp: [\"mp-scan": {
+      "key": "sp.nudge.sp.time.mp.mp.scan",
+      "value": "sp-nudge\", \"sp-time\"], mp: [\"mp-scan"
+    },
+    "sp-nudge\", type: \"power\", rarity: \"common\", name: \"Nudge\", icon: \"lightbulb": {
+      "key": "sp.nudge.type.power.rarity.common.name.nudge.icon.lightbulb",
+      "value": "sp-nudge\", type: \"power\", rarity: \"common\", name: \"Nudge\", icon: \"lightbulb"
+    },
+    "sp-oracle\", type: \"power\", rarity: \"mythic\", name: \"Oracle Solve\", icon: \"bot": {
+      "key": "sp.oracle.type.power.rarity.mythic.name.oracle.solve.icon.bot",
+      "value": "sp-oracle\", type: \"power\", rarity: \"mythic\", name: \"Oracle Solve\", icon: \"bot"
+    },
+    "sp-pause\", type: \"power\", rarity: \"rare\", name: \"Hold The Clock\", icon: \"snowflake": {
+      "key": "sp.pause.type.power.rarity.rare.name.hold.the.clock.icon.snowflake",
+      "value": "sp-pause\", type: \"power\", rarity: \"rare\", name: \"Hold The Clock\", icon: \"snowflake"
+    },
+    "sp-perk-cheaphints\", type: \"perk\", rarity: \"rare\", name: \"Frugal Mind\", icon: \"coins": {
+      "key": "sp.perk.cheaphints.type.perk.rarity.rare.name.frugal.mind.icon.coins",
+      "value": "sp-perk-cheaphints\", type: \"perk\", rarity: \"rare\", name: \"Frugal Mind\", icon: \"coins"
+    },
+    "sp-perk-dividend\", type: \"perk\", rarity: \"epic\", name: \"Shard Dividend\", icon: \"gem": {
+      "key": "sp.perk.dividend.type.perk.rarity.epic.name.shard.dividend.icon.gem",
+      "value": "sp-perk-dividend\", type: \"perk\", rarity: \"epic\", name: \"Shard Dividend\", icon: \"gem"
+    },
+    "sp-perk-precision\", type: \"perk\", rarity: \"mythic\", name: \"Precision Instinct\", icon: \"crosshair": {
+      "key": "sp.perk.precision.type.perk.rarity.mythic.name.precision.instinct.icon.crosshair",
+      "value": "sp-perk-precision\", type: \"perk\", rarity: \"mythic\", name: \"Precision Instinct\", icon: \"crosshair"
+    },
+    "sp-perk-scholar\", type: \"perk\", rarity: \"epic\", name: \"Scholar's Path\", icon: \"graduationCap": {
+      "key": "sp.perk.scholar.type.perk.rarity.epic.name.scholar.s.path.icon.graduationcap",
+      "value": "sp-perk-scholar\", type: \"perk\", rarity: \"epic\", name: \"Scholar's Path\", icon: \"graduationCap"
+    },
+    "sp-perk-secondwind\", type: \"perk\", rarity: \"rare\", name: \"Second Wind\", icon: \"hourglass": {
+      "key": "sp.perk.secondwind.type.perk.rarity.rare.name.second.wind.icon.hourglass",
+      "value": "sp-perk-secondwind\", type: \"perk\", rarity: \"rare\", name: \"Second Wind\", icon: \"hourglass"
+    },
+    "sp-reveal\", type: \"power\", rarity: \"epic\", name: \"Reveal A Digit\", icon: \"eye": {
+      "key": "sp.reveal.type.power.rarity.epic.name.reveal.a.digit.icon.eye",
+      "value": "sp-reveal\", type: \"power\", rarity: \"epic\", name: \"Reveal A Digit\", icon: \"eye"
+    },
+    "sp-shield\", type: \"power\", rarity: \"epic\", name: \"Streak Shield\", icon: \"shield": {
+      "key": "sp.shield.type.power.rarity.epic.name.streak.shield.icon.shield",
+      "value": "sp-shield\", type: \"power\", rarity: \"epic\", name: \"Streak Shield\", icon: \"shield"
+    },
+    "sp-skin-obsidian\", type: \"cosmetic\", rarity: \"rare\", name: \"Board Skin — Obsidian\", icon: \"layers": {
+      "key": "sp.skin.obsidian.type.cosmetic.rarity.rare.name.board.skin.obsidian.icon.layers",
+      "value": "sp-skin-obsidian\", type: \"cosmetic\", rarity: \"rare\", name: \"Board Skin — Obsidian\", icon: \"layers"
+    },
+    "sp-skip\", type: \"power\", rarity: \"rare\", name: \"Swap Puzzle\", icon: \"refresh": {
+      "key": "sp.skip.type.power.rarity.rare.name.swap.puzzle.icon.refresh",
+      "value": "sp-skip\", type: \"power\", rarity: \"rare\", name: \"Swap Puzzle\", icon: \"refresh"
+    },
+    "sp-time\", type: \"power\", rarity: \"common\", name: \"Extra Time\", icon: \"timer": {
+      "key": "sp.time.type.power.rarity.common.name.extra.time.icon.timer",
+      "value": "sp-time\", type: \"power\", rarity: \"common\", name: \"Extra Time\", icon: \"timer"
+    },
+    "sp-title-locksmith\", type: \"cosmetic\", rarity: \"epic\", name: \"Title — Locksmith\", icon: \"award": {
+      "key": "sp.title.locksmith.type.cosmetic.rarity.epic.name.title.locksmith.icon.award",
+      "value": "sp-title-locksmith\", type: \"cosmetic\", rarity: \"epic\", name: \"Title — Locksmith\", icon: \"award"
+    },
+    "sp-title-polymath\", type: \"cosmetic\", rarity: \"mythic\", name: \"Title — Polymath\", icon: \"crown": {
+      "key": "sp.title.polymath.type.cosmetic.rarity.mythic.name.title.polymath.icon.crown",
+      "value": "sp-title-polymath\", type: \"cosmetic\", rarity: \"mythic\", name: \"Title — Polymath\", icon: \"crown"
+    },
+    "sp-trail-comet\", type: \"cosmetic\", rarity: \"rare\", name: \"Trail — Comet\", icon: \"orbit": {
+      "key": "sp.trail.comet.type.cosmetic.rarity.rare.name.trail.comet.icon.orbit",
+      "value": "sp-trail-comet\", type: \"cosmetic\", rarity: \"rare\", name: \"Trail — Comet\", icon: \"orbit"
+    },
+    "speed-30\", name: \"Blink\", desc: \"Crack a cipher in under 30 seconds.\", icon: \"zap\", tier: \"gold": {
+      "key": "speed.30.name.blink.desc.crack.a.cipher.in.under.30.seconds.icon.zap.tier.gold",
+      "value": "speed-30\", name: \"Blink\", desc: \"Crack a cipher in under 30 seconds.\", icon: \"zap\", tier: \"gold"
+    },
+    "speed-60\", name: \"Quick Wrist\", desc: \"Crack a cipher in under 60 seconds.\", icon: \"zap\", tier: \"silver": {
+      "key": "speed.60.name.quick.wrist.desc.crack.a.cipher.in.under.60.seconds.icon.zap.tier.silver",
+      "value": "speed-60\", name: \"Quick Wrist\", desc: \"Crack a cipher in under 60 seconds.\", icon: \"zap\", tier: \"silver"
+    },
+    "square\", filter: \"lowpass": {
+      "key": "square.filter.lowpass",
+      "value": "square\", filter: \"lowpass"
+    },
+    "start\", \"progress\", \"finish\", \"emote\", \"action\", \"sabotage": {
+      "key": "start.progress.finish.emote.action.sabotage",
+      "value": "start\", \"progress\", \"finish\", \"emote\", \"action\", \"sabotage"
+    },
+    "status\", \"open": {
+      "key": "status.open",
+      "value": "status\", \"open"
+    },
+    "store": {
+      "key": "store",
+      "value": "store"
+    },
+    "streak\", label: \"Streak": {
+      "key": "streak.label.streak",
+      "value": "streak\", label: \"Streak"
+    },
+    "streak-15\", name: \"Inferno\", desc: \"Fifteen wins in a row.\", icon: \"flame\", tier: \"gold": {
+      "key": "streak.15.name.inferno.desc.fifteen.wins.in.a.row.icon.flame.tier.gold",
+      "value": "streak-15\", name: \"Inferno\", desc: \"Fifteen wins in a row.\", icon: \"flame\", tier: \"gold"
+    },
+    "streak-3\", name: \"Warm\", desc: \"Three wins in a row.\", icon: \"flame\", tier: \"bronze": {
+      "key": "streak.3.name.warm.desc.three.wins.in.a.row.icon.flame.tier.bronze",
+      "value": "streak-3\", name: \"Warm\", desc: \"Three wins in a row.\", icon: \"flame\", tier: \"bronze"
+    },
+    "streak-7\", name: \"Ablaze\", desc: \"Seven wins in a row.\", icon: \"flame\", tier: \"silver": {
+      "key": "streak.7.name.ablaze.desc.seven.wins.in.a.row.icon.flame.tier.silver",
+      "value": "streak-7\", name: \"Ablaze\", desc: \"Seven wins in a row.\", icon: \"flame\", tier: \"silver"
+    },
+    "success\" ? \"checkCircle": {
+      "key": "success.checkcircle",
+      "value": "success\" ? \"checkCircle"
+    },
+    "surgical\", name: \"Surgical\", desc: \"Hold 95% answer accuracy over 100+ puzzles.\", icon: \"crosshair\", tier: \"platinum": {
+      "key": "surgical.name.surgical.desc.hold.95.answer.accuracy.over.100.puzzles.icon.crosshair.tier.platinum",
+      "value": "surgical\", name: \"Surgical\", desc: \"Hold 95% answer accuracy over 100+ puzzles.\", icon: \"crosshair\", tier: \"platinum"
+    },
+    "syncing shards & cores…": {
+      "key": "syncing.shards.cores",
+      "value": "syncing shards & cores…"
+    },
+    "th\", \"st\", \"nd\", \"rd": {
+      "key": "th.st.nd.rd",
+      "value": "th\", \"st\", \"nd\", \"rd"
+    },
+    "the lower half\" : \"the upper half": {
+      "key": "the.lower.half.the.upper.half",
+      "value": "the lower half\" : \"the upper half"
+    },
+    "the vault is open": {
+      "key": "the.vault.is.open",
+      "value": "the vault is open"
+    },
+    "title\", value: \"Cipherbreaker": {
+      "key": "title.value.cipherbreaker",
+      "value": "title\", value: \"Cipherbreaker"
+    },
+    "title\", value: \"Locksmith": {
+      "key": "title.value.locksmith",
+      "value": "title\", value: \"Locksmith"
+    },
+    "title\", value: \"Oracle": {
+      "key": "title.value.oracle",
+      "value": "title\", value: \"Oracle"
+    },
+    "title\", value: \"Polymath": {
+      "key": "title.value.polymath",
+      "value": "title\", value: \"Polymath"
+    },
+    "total_score\", label: \"Score": {
+      "key": "total.score.label.score",
+      "value": "total_score\", label: \"Score"
+    },
+    "trail\", value: \"comet": {
+      "key": "trail.value.comet",
+      "value": "trail\", value: \"comet"
+    },
+    "trail\", value: \"glitch": {
+      "key": "trail.value.glitch",
+      "value": "trail\", value: \"glitch"
+    },
+    "trivia\", 1, \"digit\", \"How many colours are traditionally listed in a rainbow?\", 7, \"Seven.": {
+      "key": "trivia.1.digit.how.many.colours.are.traditionally.listed.in.a.rainbow.7.seven",
+      "value": "trivia\", 1, \"digit\", \"How many colours are traditionally listed in a rainbow?\", 7, \"Seven."
+    },
+    "trivia\", 1, \"digit\", \"How many continents are there on Earth?\", 7, \"Seven continents.": {
+      "key": "trivia.1.digit.how.many.continents.are.there.on.earth.7.seven.continents",
+      "value": "trivia\", 1, \"digit\", \"How many continents are there on Earth?\", 7, \"Seven continents."
+    },
+    "trivia\", 1, \"digit\", \"How many strings does a standard guitar have?\", 6, \"Six strings.": {
+      "key": "trivia.1.digit.how.many.strings.does.a.standard.guitar.have.6.six.strings",
+      "value": "trivia\", 1, \"digit\", \"How many strings does a standard guitar have?\", 6, \"Six strings."
+    },
+    "trivia\", 2, \"digit\", \"A chessboard has 64 squares. What is the last digit?\", 4, \"64 ends in 4.": {
+      "key": "trivia.2.digit.a.chessboard.has.64.squares.what.is.the.last.digit.4.64.ends.in.4",
+      "value": "trivia\", 2, \"digit\", \"A chessboard has 64 squares. What is the last digit?\", 4, \"64 ends in 4."
+    },
+    "trivia\", 2, \"digit\", \"How many Great Lakes are there?\", 5, \"Superior, Michigan, Huron, Erie, Ontario.": {
+      "key": "trivia.2.digit.how.many.great.lakes.are.there.5.superior.michigan.huron.erie.ontario",
+      "value": "trivia\", 2, \"digit\", \"How many Great Lakes are there?\", 5, \"Superior, Michigan, Huron, Erie, Ontario."
+    },
+    "trivia\", 2, \"digit\", \"How many pawns does each player start with in chess?\", 8, \"Eight pawns.": {
+      "key": "trivia.2.digit.how.many.pawns.does.each.player.start.with.in.chess.8.eight.pawns",
+      "value": "trivia\", 2, \"digit\", \"How many pawns does each player start with in chess?\", 8, \"Eight pawns."
+    },
+    "trivia\", 2, \"digit\", \"How many rings appear on the Olympic flag?\", 5, \"Five interlocking rings.": {
+      "key": "trivia.2.digit.how.many.rings.appear.on.the.olympic.flag.5.five.interlocking.rings",
+      "value": "trivia\", 2, \"digit\", \"How many rings appear on the Olympic flag?\", 5, \"Five interlocking rings."
+    },
+    "trivia\", 3, \"digit\", \"How many sides does a heptagon have?\", 7, \"Seven sides.": {
+      "key": "trivia.3.digit.how.many.sides.does.a.heptagon.have.7.seven.sides",
+      "value": "trivia\", 3, \"digit\", \"How many sides does a heptagon have?\", 7, \"Seven sides."
+    },
+    "trivia\", 3, \"digit\", \"How many symphonies did Beethoven complete?\", 9, \"Nine.": {
+      "key": "trivia.3.digit.how.many.symphonies.did.beethoven.complete.9.nine",
+      "value": "trivia\", 3, \"digit\", \"How many symphonies did Beethoven complete?\", 9, \"Nine."
+    },
+    "trivia\", 3, \"digit\", \"What is the last digit of the alphabet position of the letter K?\", 1, \"K is the eleventh letter.": {
+      "key": "trivia.3.digit.what.is.the.last.digit.of.the.alphabet.position.of.the.letter.k.1.k.is.the.eleventh.letter",
+      "value": "trivia\", 3, \"digit\", \"What is the last digit of the alphabet position of the letter K?\", 1, \"K is the eleventh letter."
+    },
+    "trivia\", 4, \"digit\", \"How many colours appear on the flag of South Africa?\", 6, \"Black, gold, green, white, red and blue.": {
+      "key": "trivia.4.digit.how.many.colours.appear.on.the.flag.of.south.africa.6.black.gold.green.white.red.and.blue",
+      "value": "trivia\", 4, \"digit\", \"How many colours appear on the flag of South Africa?\", 6, \"Black, gold, green, white, red and blue."
+    },
+    "trivia\", 4, \"digit\", \"How many emirates make up the United Arab Emirates?\", 7, \"Seven.": {
+      "key": "trivia.4.digit.how.many.emirates.make.up.the.united.arab.emirates.7.seven",
+      "value": "trivia\", 4, \"digit\", \"How many emirates make up the United Arab Emirates?\", 7, \"Seven."
+    },
+    "trivia\", 4, \"digit\", \"How many sovereign countries are in South America?\", 2, \"Twelve, so the last digit is 2.": {
+      "key": "trivia.4.digit.how.many.sovereign.countries.are.in.south.america.2.twelve.so.the.last.digit.is.2",
+      "value": "trivia\", 4, \"digit\", \"How many sovereign countries are in South America?\", 2, \"Twelve, so the last digit is 2."
+    },
+    "trivia\", 4, \"digit\", \"How many stars are on the flag of Australia?\", 6, \"Five Southern Cross stars plus the Commonwealth Star.": {
+      "key": "trivia.4.digit.how.many.stars.are.on.the.flag.of.australia.6.five.southern.cross.stars.plus.the.commonwealth.star",
+      "value": "trivia\", 4, \"digit\", \"How many stars are on the flag of Australia?\", 6, \"Five Southern Cross stars plus the Commonwealth Star."
+    },
+    "trivia\", label: \"Trivia\", icon: \"globe\", blurb: \"Wide world, small answers.": {
+      "key": "trivia.label.trivia.icon.globe.blurb.wide.world.small.answers",
+      "value": "trivia\", label: \"Trivia\", icon: \"globe\", blurb: \"Wide world, small answers."
+    },
+    "unlock the vault — solo for Shards or head-to-head for Cores.": {
+      "key": "unlock.the.vault.solo.for.shards.or.head.to.head.for.cores",
+      "value": "unlock the vault — solo for Shards or head-to-head for Cores."
+    },
+    "unready\" : \"ready": {
+      "key": "unready.ready",
+      "value": "unready\" : \"ready"
+    },
+    "up\" ? \"\" : \"none": {
+      "key": "up.none",
+      "value": "up\" ? \"\" : \"none"
+    },
+    "up\" ? \"Create account\" : \"Sign in": {
+      "key": "up.create.account.sign.in",
+      "value": "up\" ? \"Create account\" : \"Sign in"
+    },
+    "use strict": {
+      "key": "use.strict",
+      "value": "use strict"
+    },
+    "username": {
+      "key": "username",
+      "value": "username"
+    },
+    "username\", autocomplete: \"username": {
+      "key": "username.autocomplete.username",
+      "value": "username\", autocomplete: \"username"
+    },
+    "vault\", name: \"Vault\", min: 1500, icon: \"lock": {
+      "key": "vault.name.vault.min.1500.icon.lock",
+      "value": "vault\", name: \"Vault\", min: 1500, icon: \"lock"
+    },
+    "vault\", title: \"No vaults yet\", message: \"Crack the first cipher and your ledger starts.": {
+      "key": "vault.title.no.vaults.yet.message.crack.the.first.cipher.and.your.ledger.starts",
+      "value": "vault\", title: \"No vaults yet\", message: \"Crack the first cipher and your ledger starts."
+    },
+    "vaultbreaker\", name: \"Vaultbreaker\", desc: \"Crack 100 ciphers.\", icon: \"database\", tier: \"gold": {
+      "key": "vaultbreaker.name.vaultbreaker.desc.crack.100.ciphers.icon.database.tier.gold",
+      "value": "vaultbreaker\", name: \"Vaultbreaker\", desc: \"Crack 100 ciphers.\", icon: \"database\", tier: \"gold"
+    },
+    "wallet wallet-mp": {
+      "key": "wallet.wallet.mp",
+      "value": "wallet wallet-mp"
+    },
+    "wallet wallet-sp": {
+      "key": "wallet.wallet.sp",
+      "value": "wallet wallet-sp"
+    },
+    "warn\" ? \"alert\" : \"info": {
+      "key": "warn.alert.info",
+      "value": "warn\" ? \"alert\" : \"info"
+    },
+    "wifiOff\", title: \"Works offline\", text: \"No server? The vault runs on your own device, identical rules.": {
+      "key": "wifioff.title.works.offline.text.no.server.the.vault.runs.on.your.own.device.identical.rules",
+      "value": "wifiOff\", title: \"Works offline\", text: \"No server? The vault runs on your own device, identical rules."
+    },
+    "wins\", label: \"Wins": {
+      "key": "wins.label.wins",
+      "value": "wins\", label: \"Wins"
+    },
+    "won\" ? \"VAULT": {
+      "key": "won.vault",
+      "value": "won\" ? \"VAULT"
+    },
+    "won\" | \"lost\" | \"expired\" | \"abandoned": {
+      "key": "won.lost.expired.abandoned",
+      "value": "won\" | \"lost\" | \"expired\" | \"abandoned"
+    },
+    "wordplay\", 1, \"digit\", \"How many letters are in the answer to: 'I have hands but cannot clap'?\", 5, \"CLOCK — five letters.": {
+      "key": "wordplay.1.digit.how.many.letters.are.in.the.answer.to.i.have.hands.but.cannot.clap.5.clock.five.letters",
+      "value": "wordplay\", 1, \"digit\", \"How many letters are in the answer to: 'I have hands but cannot clap'?\", 5, \"CLOCK — five letters."
+    },
+    "wordplay\", 1, \"digit\", \"How many letters are in the antonym of 'hot'?\", 4, \"COLD — four letters.": {
+      "key": "wordplay.1.digit.how.many.letters.are.in.the.antonym.of.hot.4.cold.four.letters",
+      "value": "wordplay\", 1, \"digit\", \"How many letters are in the antonym of 'hot'?\", 4, \"COLD — four letters."
+    },
+    "wordplay\", 2, \"digit\", \"How many letter r's appear in the word strawberry?\", 3, \"S-T-R-A-W-B-E-R-R-Y — three of them.": {
+      "key": "wordplay.2.digit.how.many.letter.r.s.appear.in.the.word.strawberry.3.s.t.r.a.w.b.e.r.r.y.three.of.them",
+      "value": "wordplay\", 2, \"digit\", \"How many letter r's appear in the word strawberry?\", 3, \"S-T-R-A-W-B-E-R-R-Y — three of them."
+    },
+    "wordplay\", 2, \"digit\", \"How many letters are in the word formed by shifting the letter C forward by two places?\", 1, \"C → E, a single letter.": {
+      "key": "wordplay.2.digit.how.many.letters.are.in.the.word.formed.by.shifting.the.letter.c.forward.by.two.places.1.c.e.a.single.letter",
+      "value": "wordplay\", 2, \"digit\", \"How many letters are in the word formed by shifting the letter C forward by two places?\", 1, \"C → E, a single letter."
+    },
+    "wordplay\", 2, \"digit\", \"How many syllables does the word 'unbelievable' have?\", 5, \"un-be-liev-a-ble — five.": {
+      "key": "wordplay.2.digit.how.many.syllables.does.the.word.unbelievable.have.5.un.be.liev.a.ble.five",
+      "value": "wordplay\", 2, \"digit\", \"How many syllables does the word 'unbelievable' have?\", 5, \"un-be-liev-a-ble — five."
+    },
+    "wordplay\", 2, \"digit\", \"How many vowels appear in the word EXOTIC?\", 3, \"E, O and I.": {
+      "key": "wordplay.2.digit.how.many.vowels.appear.in.the.word.exotic.3.e.o.and.i",
+      "value": "wordplay\", 2, \"digit\", \"How many vowels appear in the word EXOTIC?\", 3, \"E, O and I."
+    },
+    "wordplay\", 3, \"digit\", \"How many letters are in the longest English word with no repeated letter if you remove it from 'uncopyrightable'? Count only the letter O.\", 1, \"'Uncopyrightable' contains exactly one O.": {
+      "key": "wordplay.3.digit.how.many.letters.are.in.the.longest.english.word.with.no.repeated.letter.if.you.remove.it.from.uncopyrightable.count.only.the.letter.o.1.uncopyrightable.contains.exactly.one.o",
+      "value": "wordplay\", 3, \"digit\", \"How many letters are in the longest English word with no repeated letter if you remove it from 'uncopyrightable'? Count only the letter O.\", 1, \"'Uncopyrightable' contains exactly one O."
+    },
+    "wordplay\", 3, \"digit\", \"In 'the quick brown fox jumps over the lazy dog', how many words remain once both articles are removed?\", 7, \"Nine words minus two 'the's leaves seven.": {
+      "key": "wordplay.3.digit.in.the.quick.brown.fox.jumps.over.the.lazy.dog.how.many.words.remain.once.both.articles.are.removed.7.nine.words.minus.two.the.s.leaves.seven",
+      "value": "wordplay\", 3, \"digit\", \"In 'the quick brown fox jumps over the lazy dog', how many words remain once both articles are removed?\", 7, \"Nine words minus two 'the's leaves seven."
+    },
+    "wordplay\", 3, \"digit\", \"What is the last digit of the number of letters in 'antidisestablishmentarianism'?\", 8, \"It has 28 letters.": {
+      "key": "wordplay.3.digit.what.is.the.last.digit.of.the.number.of.letters.in.antidisestablishmentarianism.8.it.has.28.letters",
+      "value": "wordplay\", 3, \"digit\", \"What is the last digit of the number of letters in 'antidisestablishmentarianism'?\", 8, \"It has 28 letters."
+    },
+    "wordplay\", 4, \"digit\", \"How many Greek letter names are exactly three letters long?\", 6, \"Eta, Rho, Phi, Chi, Psi, Tau.": {
+      "key": "wordplay.4.digit.how.many.greek.letter.names.are.exactly.three.letters.long.6.eta.rho.phi.chi.psi.tau",
+      "value": "wordplay\", 4, \"digit\", \"How many Greek letter names are exactly three letters long?\", 6, \"Eta, Rho, Phi, Chi, Psi, Tau."
+    },
+    "wordplay\", 4, \"digit\", \"How many letters are in the NATO alphabet word for the fourth letter?\", 5, \"Delta — five letters.": {
+      "key": "wordplay.4.digit.how.many.letters.are.in.the.nato.alphabet.word.for.the.fourth.letter.5.delta.five.letters",
+      "value": "wordplay\", 4, \"digit\", \"How many letters are in the NATO alphabet word for the fourth letter?\", 5, \"Delta — five letters."
+    },
+    "wordplay\", 4, \"digit\", \"How many palindromic numbers sit strictly between 10 and 100?\", 9, \"11 through 99 — nine of them.": {
+      "key": "wordplay.4.digit.how.many.palindromic.numbers.sit.strictly.between.10.and.100.9.11.through.99.nine.of.them",
+      "value": "wordplay\", 4, \"digit\", \"How many palindromic numbers sit strictly between 10 and 100?\", 9, \"11 through 99 — nine of them."
+    },
+    "wordplay\", 5, \"digit\", \"How many letters appear twice in the word 'bookkeeper'?\", 3, \"O, K and E all appear twice.": {
+      "key": "wordplay.5.digit.how.many.letters.appear.twice.in.the.word.bookkeeper.3.o.k.and.e.all.appear.twice",
+      "value": "wordplay\", 5, \"digit\", \"How many letters appear twice in the word 'bookkeeper'?\", 3, \"O, K and E all appear twice."
+    },
+    "wordplay\", label: \"Wordplay\", icon: \"feather\", blurb: \"Letters doing gymnastics.": {
+      "key": "wordplay.label.wordplay.icon.feather.blurb.letters.doing.gymnastics",
+      "value": "wordplay\", label: \"Wordplay\", icon: \"feather\", blurb: \"Letters doing gymnastics."
+    },
+    "xp\", label: \"XP": {
+      "key": "xp.label.xp",
+      "value": "xp\", label: \"XP"
+    },
+    "you@example.com": {
+      "key": "you.example.com",
+      "value": "you@example.com"
+    },
+    "z-ai/glm-4.5-air:free": {
+      "key": "z.ai.glm.4.5.air.free",
+      "value": "z-ai/glm-4.5-air:free"
+    },
+    "·  ×\" + qty : \"": {
+      "key": "qty",
+      "value": "·  ×\" + qty : \""
+    },
+    "— \" + b.desc : \"Locked:": {
+      "key": "b.desc.locked",
+      "value": "— \" + b.desc : \"Locked:"
+    },
+    "— one device": {
+      "key": "one.device",
+      "value": "— one device"
+    }
+  }
 }
