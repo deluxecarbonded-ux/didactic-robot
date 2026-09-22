@@ -102,9 +102,16 @@
       records.forEach(function (record) {
         if (record.type === "characterData") translateNode(record.target);
         Array.prototype.forEach.call(record.addedNodes, translateNode);
+        if (record.type === "attributes") translateAttribute(record.target, record.attributeName);
       });
     });
-    observer.observe(document.documentElement, { childList: true, subtree: true, characterData: true });
+    observer.observe(document.documentElement, {
+      childList: true,
+      subtree: true,
+      characterData: true,
+      attributes: true,
+      attributeFilter: ["aria-label", "title", "placeholder", "alt"]
+    });
   }
 
   function load(value) {
