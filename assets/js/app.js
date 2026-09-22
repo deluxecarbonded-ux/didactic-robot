@@ -264,10 +264,16 @@
   }
 
   function boot() {
-    setTheme(CFG.get("theme"));
-    applyAudioPrefs();
-    initFx();
-    buildChrome();
+    var status = document.getElementById("boot-status");
+    try {
+      setTheme(CFG.get("theme"));
+      applyAudioPrefs();
+      initFx();
+      buildChrome();
+    } catch (err) {
+      if (global.console) global.console.error("[exotic] shell boot failed:", err);
+      /* Canvas effects and chrome are optional; the router must still mount. */
+    }
 
     // first gesture unlocks the audio context (mobile policy)
     var unlock = function () {
@@ -278,7 +284,6 @@
     global.addEventListener("pointerdown", unlock);
     global.addEventListener("keydown", unlock);
 
-    var status = document.getElementById("boot-status");
     if (status) status.textContent = "arming the vault…";
 
     var R = X.Cloud.realm("single");
@@ -286,7 +291,11 @@
     R.on("profile", refreshWallets);
     R2.on("profile", refreshWallets);
 
-    X.Cloud.init()
+    var cloudInit = X.Cloud.init();
+    var cloudTimeout = new Promise(function (resolve) {
+      setTimeout(function () { resolve(null); }, 5000);
+    });
+    Promise.race([cloudInit, cloudTimeout])
       .then(function () {
         if (status) status.textContent = "syncing shards & cores…";
         refreshWallets();
